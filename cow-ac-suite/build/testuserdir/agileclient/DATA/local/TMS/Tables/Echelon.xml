@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE body SYSTEM "Echelon.dtd">
+<body>
+<entry>
+<echelonAbbr>ABC</echelonAbbr>
+<echelonType>AIR FORCE BASE COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ADD</echelonAbbr>
+<echelonType>AIR DEFENSE DISTRICT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ADHQ</echelonAbbr>
+<echelonType>AIR DEFENSE HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ADNA</echelonAbbr>
+<echelonType>NATIONAL ARMY HQ</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ADNH</echelonAbbr>
+<echelonType>AIR DEFENSE, NATIONAL HQ</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ADZ</echelonAbbr>
+<echelonType>AIR DEFENSE ZONE HQ</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AFHQ</echelonAbbr>
+<echelonType>AIR FORCE HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AH</echelonAbbr>
+<echelonType>AVIATION HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AI</echelonAbbr>
+<echelonType>ARMY INDEPEDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRARMY</echelonAbbr>
+<echelonType>AIR ARMY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRCMD</echelonAbbr>
+<echelonType>AIR COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRCONP</echelonAbbr>
+<echelonType>AIR CONTROL PARTY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRCRPS</echelonAbbr>
+<echelonType>AIR CORPS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRDET</echelonAbbr>
+<echelonType>AIR DETACHMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRDIV</echelonAbbr>
+<echelonType>AIR DIVISION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRELMT</echelonAbbr>
+<echelonType>AIR ELEMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRFLT</echelonAbbr>
+<echelonType>AIR FLIGHT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRGP</echelonAbbr>
+<echelonType>AIR GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRRGT</echelonAbbr>
+<echelonType>AIR REGIMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRSQ</echelonAbbr>
+<echelonType>AIR SQUADRON</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AIRWG</echelonAbbr>
+<echelonType>AIR WING</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ARHQ</echelonAbbr>
+<echelonType>ARMY HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ARMY</echelonAbbr>
+<echelonType>ARMY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ARMYGP</echelonAbbr>
+<echelonType>ARMY GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ASSR</echelonAbbr>
+<echelonType>AUTONOMOUS REPUBLIC ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>AUTH</echelonAbbr>
+<echelonType>AUTHORITY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BASE</echelonAbbr>
+<echelonType>BASE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BDE</echelonAbbr>
+<echelonType>BRIGADE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BDEI</echelonAbbr>
+<echelonType>BRIGADE, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BDHQ</echelonAbbr>
+<echelonType>BORDER DISTRICT HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BN</echelonAbbr>
+<echelonType>BATTALION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BNI</echelonAbbr>
+<echelonType>BATTALION, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BRDHQ</echelonAbbr>
+<echelonType>BORDER DISTRICT HQ</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BT</echelonAbbr>
+<echelonType>BINH TRAM</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BTY</echelonAbbr>
+<echelonType>BATTERY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>BTYI</echelonAbbr>
+<echelonType>BATTERY, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CBNT</echelonAbbr>
+<echelonType>CABINET LEVEL MILITARY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CC</echelonAbbr>
+<echelonType>CENTRAL COMMITTEE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CDHQ</echelonAbbr>
+<echelonType>CIVIL DEFENSE HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CDU</echelonAbbr>
+<echelonType>CIVIL DEFENSE UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CGHQ</echelonAbbr>
+<echelonType>COAST GUARD HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CINC</echelonAbbr>
+<echelonType>COMMANDER IN CHIEF</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CMBTCMD</echelonAbbr>
+<echelonType>COMBAT COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CMD</echelonAbbr>
+<echelonType>COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CO</echelonAbbr>
+<echelonType>COMPANY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>COI</echelonAbbr>
+<echelonType>COMPANY, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>COLA</echelonAbbr>
+<echelonType>COLONIAL ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>COM</echelonAbbr>
+<echelonType>COMMITTEE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CORPS</echelonAbbr>
+<echelonType>CORPS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CS</echelonAbbr>
+<echelonType>CHIEF OF STAFF</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CTR</echelonAbbr>
+<echelonType>CENTER</echelonType>
+</entry>
+<entry>
+<echelonAbbr>CZ</echelonAbbr>
+<echelonType>COMMUNICATIONS ZONE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DADM</echelonAbbr>
+<echelonType>DISTRICT ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DAG</echelonAbbr>
+<echelonType>DIVISIONAL ARTILLERTY GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DC</echelonAbbr>
+<echelonType>DEFENSE COUNCIL</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DEPT</echelonAbbr>
+<echelonType>DEPARTMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DET</echelonAbbr>
+<echelonType>DETACHMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DETI</echelonAbbr>
+<echelonType>DETACHMENT, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DIR</echelonAbbr>
+<echelonType>DIRECTORATE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DIST</echelonAbbr>
+<echelonType>DISTRICT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DIV</echelonAbbr>
+<echelonType>DIVISION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DIVI</echelonAbbr>
+<echelonType>DIVISION, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>DSE</echelonAbbr>
+<echelonType>DETACHED STAFF ELEMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ELEM</echelonAbbr>
+<echelonType>ELEMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>F</echelonAbbr>
+<echelonType>FLEET</echelonType>
+</entry>
+<entry>
+<echelonAbbr>FAF</echelonAbbr>
+<echelonType>FLEET AIR FORCE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>FELM</echelonAbbr>
+<echelonType>FORWARD ELEMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>FLOT</echelonAbbr>
+<echelonType>FLOTILLA</echelonType>
+</entry>
+<entry>
+<echelonAbbr>FLT</echelonAbbr>
+<echelonType>FLIGHT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>FORC</echelonAbbr>
+<echelonType>FORCE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>FRNT</echelonAbbr>
+<echelonType>FRONT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>FSU</echelonAbbr>
+<echelonType>FOREIGN SERVICE UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>GAR</echelonAbbr>
+<echelonType>GARRISON</echelonType>
+</entry>
+<entry>
+<echelonAbbr>GHQ</echelonAbbr>
+<echelonType>GENERAL HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>GHS</echelonAbbr>
+<echelonType>GENERAL STAFF</echelonType>
+</entry>
+<entry>
+<echelonAbbr>GP</echelonAbbr>
+<echelonType>GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>GPFRCS</echelonAbbr>
+<echelonType>GROUP OF FORCES</echelonType>
+</entry>
+<entry>
+<echelonAbbr>GPFRNT</echelonAbbr>
+<echelonType>GROUP OF FRONTS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>HCF</echelonAbbr>
+<echelonType>HIGH COMMAND OF FORCE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>HOS</echelonAbbr>
+<echelonType>HEAD OF STATE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>IG</echelonAbbr>
+<echelonType>INSPECTOR GENERAL</echelonType>
+</entry>
+<entry>
+<echelonAbbr>JOIN</echelonAbbr>
+<echelonType>JOINT COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>JUN</echelonAbbr>
+<echelonType>JUNTA, NATIONAL MILITARY GOVERNING BODY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>KMDTR</echelonAbbr>
+<echelonType>KOMENDATURA</echelonType>
+</entry>
+<entry>
+<echelonAbbr>LU</echelonAbbr>
+<echelonType>LIAISON UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MADM</echelonAbbr>
+<echelonType>MUNICIPAL ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MB</echelonAbbr>
+<echelonType>MILITARY BRANCH</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MD</echelonAbbr>
+<echelonType>MILITARY DISTRICT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MDHQ</echelonAbbr>
+<echelonType>MILITARY DISTRICT HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MED</echelonAbbr>
+<echelonType>MEDICAL FACILITY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MFLEET</echelonAbbr>
+<echelonType>MAJOR FLEET</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MIN</echelonAbbr>
+<echelonType>MILITERY, GOVERNMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MOD</echelonAbbr>
+<echelonType>MILITARY, DEFENSE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MOI</echelonAbbr>
+<echelonType>MILITARY, INTERIOR</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MR</echelonAbbr>
+<echelonType>MILITARY REGION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MSHQ</echelonAbbr>
+<echelonType>MAJOR SERVICE HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MTHQ</echelonAbbr>
+<echelonType>MARITIME HWEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>MU</echelonAbbr>
+<echelonType>MILITARY SERVICES UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NA</echelonAbbr>
+<echelonType>NATIONAL AGENCY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAC</echelonAbbr>
+<echelonType>NATIONAL ARMY COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NADC</echelonAbbr>
+<echelonType>NATO AIR DEFENSE COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAF</echelonAbbr>
+<echelonType>NATIONAL AIR FORCE HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAHQ</echelonAbbr>
+<echelonType>NAVAL AIR HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAVDET</echelonAbbr>
+<echelonType>NAVAL DETACHMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAVDIV</echelonAbbr>
+<echelonType>NAVAL DIVISION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAVFOR</echelonAbbr>
+<echelonType>NAVAL FORCE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAVGP</echelonAbbr>
+<echelonType>NAVAL GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAVSEC</echelonAbbr>
+<echelonType>NAVAL SECTION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NAVSQ</echelonAbbr>
+<echelonType>NAVAL SQUADRON</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NB</echelonAbbr>
+<echelonType>NATIONAL BUREAU</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NBC</echelonAbbr>
+<echelonType>NAVAL BASE COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NCMD</echelonAbbr>
+<echelonType>NAVAL COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ND</echelonAbbr>
+<echelonType>NAVAL DISTRICT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NDHQ</echelonAbbr>
+<echelonType>NATIONAL DEFENSE HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NFHQ</echelonAbbr>
+<echelonType>NUMBERED FLEET HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NFLT</echelonAbbr>
+<echelonType>NUMBERED FLEET</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NHC</echelonAbbr>
+<echelonType>NATIONAL HIGH COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NMF</echelonAbbr>
+<echelonType>NATIONAL MILITARY FORCE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NNC</echelonAbbr>
+<echelonType>NATIONAL NAVAL HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NOAD</echelonAbbr>
+<echelonType>NATIONAL OKRUG ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NPC</echelonAbbr>
+<echelonType>NATIONAL PARTY CHAIRMAN</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NR</echelonAbbr>
+<echelonType>NAVAL REGION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>NZ</echelonAbbr>
+<echelonType>NAVAL ZONE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>O</echelonAbbr>
+<echelonType>OTHER - EXPLAIN IN REMARKS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>OADM</echelonAbbr>
+<echelonType>OBLAST ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>OFF</echelonAbbr>
+<echelonType>FEDERAL / GOVERNMENT OFFICE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>OTRYD</echelonAbbr>
+<echelonType>OTRYAD</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PAC</echelonAbbr>
+<echelonType>PARAMILITARY AVIATION COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PC</echelonAbbr>
+<echelonType>PORT CAPTAINCY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PHQ</echelonAbbr>
+<echelonType>POLICE HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PLT</echelonAbbr>
+<echelonType>PLATOON</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PMHQ</echelonAbbr>
+<echelonType>PARAMILITARY COMMAND HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>POL</echelonAbbr>
+<echelonType>POLITBURO</echelonType>
+</entry>
+<entry>
+<echelonAbbr>POLU</echelonAbbr>
+<echelonType>POLITICAL UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>POST</echelonAbbr>
+<echelonType>POST</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PREA</echelonAbbr>
+<echelonType>PREFECTURE ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PROA</echelonAbbr>
+<echelonType>PROVINCIAL ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PROV</echelonAbbr>
+<echelonType>PROVINCIAL COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PTRL</echelonAbbr>
+<echelonType>PATROL</echelonType>
+</entry>
+<entry>
+<echelonAbbr>PU</echelonAbbr>
+<echelonType>PROVINCIAL UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RADM</echelonAbbr>
+<echelonType>REGIONAL ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RAG</echelonAbbr>
+<echelonType>REGIMENTAL ARTILLERY GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RCT</echelonAbbr>
+<echelonType>REGIONAL COMBAT TEAM</echelonType>
+</entry>
+<entry>
+<echelonAbbr>REGION</echelonAbbr>
+<echelonType>REGION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RELM</echelonAbbr>
+<echelonType>REAR ELEMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RES</echelonAbbr>
+<echelonType>RESEARCH OR EXPERIMENTAL BASE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RGT</echelonAbbr>
+<echelonType>REGIMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RGTI</echelonAbbr>
+<echelonType>REGIMENT, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>RHQ</echelonAbbr>
+<echelonType>REGIONAL HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SAL</echelonAbbr>
+<echelonType>SUPREME ALLIED COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SARM</echelonAbbr>
+<echelonType>STATE ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SC</echelonAbbr>
+<echelonType>SECTOR COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SCHQ</echelonAbbr>
+<echelonType>SECTOR HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SCI</echelonAbbr>
+<echelonType>SCIENTIFIC / RESEARCH ACADEMY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SCL</echelonAbbr>
+<echelonType>SCHOOL / MILITARY ACADEMY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SCT</echelonAbbr>
+<echelonType>SCRETARIAT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SEC</echelonAbbr>
+<echelonType>SECTION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SHC</echelonAbbr>
+<echelonType>SUPREME HIGH COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SHIP</echelonAbbr>
+<echelonType>SHIP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SQ</echelonAbbr>
+<echelonType>SQUADRON</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SQD</echelonAbbr>
+<echelonType>SQUAD</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SQI</echelonAbbr>
+<echelonType>SQADRON, INDEPENDENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SR</echelonAbbr>
+<echelonType>SUB-REGION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SSCT</echelonAbbr>
+<echelonType>SUBSECRETARIAT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>SSRA</echelonAbbr>
+<echelonType>REPUBLIC ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>STA</echelonAbbr>
+<echelonType>STATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>STN</echelonAbbr>
+<echelonType>UNIT, STATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TAC</echelonAbbr>
+<echelonType>TACTICAL AVIATION HEADQUARTERS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TADM</echelonAbbr>
+<echelonType>TERRITORIAL ADMINISTRATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TE</echelonAbbr>
+<echelonType>TASK ELEMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TF</echelonAbbr>
+<echelonType>TASK FORCE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TG</echelonAbbr>
+<echelonType>TASK GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>THTA</echelonAbbr>
+<echelonType>THEATER ARMY</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TROOP</echelonAbbr>
+<echelonType>TROOP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TSKELMT</echelonAbbr>
+<echelonType>TASK ELEMENT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TSKFOR</echelonAbbr>
+<echelonType>TASK FORCE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TSKGP</echelonAbbr>
+<echelonType>TASK GROUP</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TSKUNIT</echelonAbbr>
+<echelonType>TASK UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>TU</echelonAbbr>
+<echelonType>TASK UNIT, ABBREVIATED</echelonType>
+</entry>
+<entry>
+<echelonAbbr>UAC</echelonAbbr>
+<echelonType>UNIFIED ARMY COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>UCMD</echelonAbbr>
+<echelonType>UNIFIED COMMAND</echelonType>
+</entry>
+<entry>
+<echelonAbbr>UNK</echelonAbbr>
+<echelonType>UNKNOWN</echelonType>
+</entry>
+<entry>
+<echelonAbbr>UNT</echelonAbbr>
+<echelonType>UNIT</echelonType>
+</entry>
+<entry>
+<echelonAbbr>VCS</echelonAbbr>
+<echelonType>VICE CHIEF OF STAFF</echelonType>
+</entry>
+<entry>
+<echelonAbbr>X</echelonAbbr>
+<echelonType>NOT APPLICABLE</echelonType>
+</entry>
+<entry>
+<echelonAbbr>YO</echelonAbbr>
+<echelonType>YOUTH ORGANIZATION</echelonType>
+</entry>
+<entry>
+<echelonAbbr>Z</echelonAbbr>
+<echelonType>INCONCLUSIVE ANALYSIS</echelonType>
+</entry>
+<entry>
+<echelonAbbr>ZASTRV</echelonAbbr>
+<echelonType>ZASTROVA</echelonType>
+</entry>
+</body>

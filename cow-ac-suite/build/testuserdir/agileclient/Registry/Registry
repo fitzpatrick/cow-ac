@@ -1,0 +1,21 @@
+#IflEnvironment
+#Thu Jan 31 13:08:28 EST 2013
+MapData=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\JMVSDK\\data\\MapData
+IFL.IFLVMRun.BootClassPath=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\IFLSDK\\data\\local\\IFLVMRun\\IFLVMRun.classpath
+TMS.Tables=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\DATA\\local\\TMS\\Tables
+IFL.frameworkfilters.icon.registry.properties=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\IFLSDK\\data\\frameworkfilters\\icons\\application.icon.registry.properties
+OverlaysMenu=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\DATA\\local\\TMS\\Overlays\\menuItems
+TMSV_HOME=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\TMSVDK
+IFL.frameworkfilters.data=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\IFLSDK\\data\\frameworkfilters
+AFW_HOME=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\AFWSDK
+IFL_HOME=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\IFLSDK
+AFW_FRAMEWORKFILTERS_HOME=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\AFWSDK\\data\\frameworkfilters
+AFW.PropertyInspector.properties=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\DATA\\local\\ICSF\\PropertyInspectorOverride
+TDA_ICONS=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\TMSVDK\\data\\tda_icons
+TMS.TIC=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\DATA\\local\\TMS\\Tables\\TIC.dat
+TMS.UidAmplifyingTable=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\DATA\\local\\TMS\\Tables\\UidAmplifying-Table.xml
+OVLDB_HOME=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\Overlays
+IFL.frameworkfilters.configuration.properties=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\IFLSDK\\data\\frameworkfilters\\filter.configuration.properties
+DATA_DIR=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\DATA
+IflCustomLookAndFeelInstalled=true
+IFL.data.dir=C\:\\Users\\FITZPATRICK\\Documents\\NetBeansProjects\\wired-widgets-cow-agile-client\\cow-ac-suite\\build\\testuserdir\\agileclient\\IFLSDK\\data

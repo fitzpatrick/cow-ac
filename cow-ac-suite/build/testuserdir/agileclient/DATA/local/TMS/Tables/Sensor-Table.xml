@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VtSensorTable>
+<num>65</num>
+<maxnum>100</maxnum>
+<size>7216</size>
+<version>0</version>
+<entry>
+<sensor>ACSONO</sensor>
+<remarks>ACTIVE SONOBOUY</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>ADS</sensor>
+<remarks>ADVANCED DEPLOYABLE SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>AQS13</sensor>
+<remarks>AQS-13</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>AS</sensor>
+<remarks>ACOUSTIC SENSOR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>ASQ10</sensor>
+<remarks>ASQ-10 MAD</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>ASQ81</sensor>
+<remarks>ASQ-81 MAD</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>BATHY</sensor>
+<remarks>BATHYTHERMOGRAPH</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>BEDF</sensor>
+<remarks>BULLSEYE HFDF DATA</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>CABUOY</sensor>
+<remarks>CALIBRATION BUOY</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>CASS</sensor>
+<remarks>COMMAND ACTIVATED SONOBUOY SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>CATAS</sensor>
+<remarks>CRITICAL ANGLE TOWED ARRAY SONAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>CDF</sensor>
+<remarks>COMBAT DIRECTION FINDING</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>DATAS</sensor>
+<remarks>DEPRESSED ANGLE TOWED ARRAY SONAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>DEFLT</sensor>
+<remarks>DEFAULT FOR MTST IF AOU/SRC/SNSR NOT REPORTED</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>DICASS</sensor>
+<remarks>DIRECTION COMMAND ACTIVATED SONOBOUY SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>DIFAR</sensor>
+<remarks>DIRECTIONAL FREQUENCY ANALYSIS AND RECORDING</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>DPSONA</sensor>
+<remarks>DIPPING SONAR, ACTIVE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>DPSONP</sensor>
+<remarks>DIPPING SONAR, PASSIVE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>ES</sensor>
+<remarks>ELECTRONIC WARFARE SUPPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>FDS</sensor>
+<remarks>FIXED DISTRIBUTED SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>FLIR</sensor>
+<remarks>FORWARD LOOKING INFRARED</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>HFDF</sensor>
+<remarks>HIGH FREQUENCY DIRECTION FINDING</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>IFF</sensor>
+<remarks>IDENTIFICATION FRIEND OR FOE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>IR</sensor>
+<remarks>INFRARED</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>IRDS</sensor>
+<remarks>INFRARED DETECTION SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>ISAR</sensor>
+<remarks>INVERSE SYNTHETIC APERTURE RADAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>IUSS</sensor>
+<remarks>INTEGRATED UNDERWATER SURVEILLANCE SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>IUSS1</sensor>
+<remarks>NTEGRATED UNDERWATER SURVEILLANCE SYSTEM ONE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>IUSS2</sensor>
+<remarks>NTEGRATED UNDERWATER SURVEILLANCE SYSTEM TWO</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>LASER</sensor>
+<remarks>LASER</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>LFA</sensor>
+<remarks>LOW FREQUENCY ACTIVE SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>LLLTV</sensor>
+<remarks>LOW LIGHT LEVEL TELEVISION</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>LOFAR</sensor>
+<remarks>LOW FREQUENCY ANALYSIS AND RECORDING</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>MAD</sensor>
+<remarks>MAGNETIC ANOMALY DETECTOR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>NOD</sensor>
+<remarks>NIGHT OBSERVATION DEVICE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>OBDF</sensor>
+<remarks>OUTBOARD HFDF</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>OPT</sensor>
+<remarks>OPTICAL</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>OPTRN</sensor>
+<remarks>OPTRONIC</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>OTR</sensor>
+<remarks>OTHER</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>PASONO</sensor>
+<remarks>PASSIVE SONOBOUY</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>PHOTO</sensor>
+<remarks>PHOTOGRAPH</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>RADAR</sensor>
+<remarks>RADAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>RDF</sensor>
+<remarks>RADIO DIRECTION FINDING</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>ROTHR</sensor>
+<remarks>RELOCATABLE OVER-THE-HORIZON RADAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>SLAR</sensor>
+<remarks>SIDE LOOKING AIRBORNE RADAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>SONACT</sensor>
+<remarks>ACTIVE SONAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>SONAR</sensor>
+<remarks>SHIP SONAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>SONPAS</sensor>
+<remarks>PASSIVE SONAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>SRN19</sensor>
+<remarks>TRANSIT RECEIVER</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>SRN25</sensor>
+<remarks>GPS COMMERCIAL RECEIVER</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>STASS</sensor>
+<remarks>SUBMARINE TOWED ARRAY SURVEILLANCE SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>SUBTA</sensor>
+<remarks>SUBMARINE TOWED ARRAY</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>TACTAS</sensor>
+<remarks>TACTICAL TOWED ARRAY SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>TARPS</sensor>
+<remarks>TACTICAL AIR RECONNAISSANCE PHOTO SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>TASS</sensor>
+<remarks>TOWED ARRAY SURVEILLANCE SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>TRAM</sensor>
+<remarks>A-6 FLIR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>UNK</sensor>
+<remarks>UNKNOWN</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>VDSACT</sensor>
+<remarks>ACTIVE VARIABLE DEPTH SONAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>VDSPAS</sensor>
+<remarks>PASSIVE VARIABLE DEPTH SONAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>VISUAL</sensor>
+<remarks>VISUAL</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>VLAD</sensor>
+<remarks>VERTICAL LINE ARRAY DIFAR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>WIZARD</sensor>
+<remarks>CLASSIC WIZARD</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>WRN6</sensor>
+<remarks>GPS MILITARY RECEIVER</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>WSN5</sensor>
+<remarks>SHIPBOARD INERTIAL SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<sensor>XBT</sensor>
+<remarks>EXPENDABLE BATHYTHERMOGRAPH</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+</VtSensorTable>

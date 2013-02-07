@@ -1,0 +1,20 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT JUnitSynonymTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (word, synonym)>
+
+	<!ELEMENT word (#PCDATA)>
+	<!ELEMENT synonym (#PCDATA)>

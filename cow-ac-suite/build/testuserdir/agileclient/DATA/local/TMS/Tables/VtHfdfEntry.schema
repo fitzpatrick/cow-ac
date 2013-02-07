@@ -1,0 +1,6 @@
+lat:double
+lng:double
+name:char@3
+longname:char@26
+remarks:char@44
+pad:char@7:omit

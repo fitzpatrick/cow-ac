@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VtRadarFunctTable>
+<num>56</num>
+<maxnum>100</maxnum>
+<size>5616</size>
+<version>0</version>
+<entry>
+<fc>AA</fc>
+<function>ANTI-AIRCRAFT FIRE CONTROL</function>
+</entry>
+<entry>
+<fc>AB</fc>
+<function>AIRBORNE SEARCH AND BOMBING</function>
+</entry>
+<entry>
+<fc>AI</fc>
+<function>AIRBORNE INTERCEPT</function>
+</entry>
+<entry>
+<fc>AL</fc>
+<function>ALTIMETER</function>
+</entry>
+<entry>
+<fc>AM</fc>
+<function>AIRBORNE RECONNAISSANCE AND MAPPING</function>
+</entry>
+<entry>
+<fc>AT</fc>
+<function>AIR TRAFFIC CONTROL</function>
+</entry>
+<entry>
+<fc>BN</fc>
+<function>BEACON/TRANSPONDER (NOT IFF)</function>
+</entry>
+<entry>
+<fc>BS</fc>
+<function>BATTLEFIELD SURVEILLANCE</function>
+</entry>
+<entry>
+<fc>CA</fc>
+<function>CONTROLLED APPROACH (GROUND, SHIP)</function>
+</entry>
+<entry>
+<fc>CI</fc>
+<function>CONTROLLED INTERCEPT (AIR, GROUND, SHIP)</function>
+</entry>
+<entry>
+<fc>CS</fc>
+<function>COASTAL SURVEILLANCE</function>
+</entry>
+<entry>
+<fc>DC</fc>
+<function>DECOY/MIMIC</function>
+</entry>
+<entry>
+<fc>DT</fc>
+<function>DATA TRANSMISSION</function>
+</entry>
+<entry>
+<fc>ES</fc>
+<function>EARTH SURVEILLANCE</function>
+</entry>
+<entry>
+<fc>EW</fc>
+<function>EARLY WARNING</function>
+</entry>
+<entry>
+<fc>FC</fc>
+<function>FIRE CONTROL</function>
+</entry>
+<entry>
+<fc>GB</fc>
+<function>GUN LAYING BEACON</function>
+</entry>
+<entry>
+<fc>GM</fc>
+<function>GROUND MAPPING</function>
+</entry>
+<entry>
+<fc>HF</fc>
+<function>HEIGHT FINDER</function>
+</entry>
+<entry>
+<fc>HS</fc>
+<function>HARBOR SURVEILLANCE</function>
+</entry>
+<entry>
+<fc>IF</fc>
+<function>IDENTIFICATION FRIEND OR FOE (INTERROGATOR)</function>
+</entry>
+<entry>
+<fc>IL</fc>
+<function>INSTRUMENT LANDING SYSTEM</function>
+</entry>
+<entry>
+<fc>IS</fc>
+<function>IONOSPHERIC SOUNDING</function>
+</entry>
+<entry>
+<fc>IT</fc>
+<function>IDENTIFICATION FRIEND OR FOE (TRANSPONDER)</function>
+</entry>
+<entry>
+<fc>JB</fc>
+<function>BARRAGE JAMMING</function>
+</entry>
+<entry>
+<fc>JC</fc>
+<function>CLICK JAMMING</function>
+</entry>
+<entry>
+<fc>JD</fc>
+<function>DECEPTIVE JAMMING</function>
+</entry>
+<entry>
+<fc>JF</fc>
+<function>FREQUENCY SWEPT JAMMING</function>
+</entry>
+<entry>
+<fc>JG</fc>
+<function>JAMMING, GENERAL</function>
+</entry>
+<entry>
+<fc>JN</fc>
+<function>NOISE JAMMING</function>
+</entry>
+<entry>
+<fc>JP</fc>
+<function>PULSE JAMMING</function>
+</entry>
+<entry>
+<fc>JR</fc>
+<function>REPEATER JAMMING</function>
+</entry>
+<entry>
+<fc>JS</fc>
+<function>SPOT NOISE JAMMING</function>
+</entry>
+<entry>
+<fc>JT</fc>
+<function>TRANSPONDER JAMMING</function>
+</entry>
+<entry>
+<fc>MA</fc>
+<function>MISSLE ACQUISITION</function>
+</entry>
+<entry>
+<fc>MD</fc>
+<function>MISSLE DOWNLINK</function>
+</entry>
+<entry>
+<fc>ME</fc>
+<function>METEOROLOGICAL</function>
+</entry>
+<entry>
+<fc>MF</fc>
+<function>MULTI-FUNCTION</function>
+</entry>
+<entry>
+<fc>MG</fc>
+<function>MISSILE GUIDANCE</function>
+</entry>
+<entry>
+<fc>MH</fc>
+<function>MISSILE HOMING</function>
+</entry>
+<entry>
+<fc>MT</fc>
+<function>MISSILE TRACKING</function>
+</entry>
+<entry>
+<fc>NA</fc>
+<function>NAVIGATION (GENERAL)</function>
+</entry>
+<entry>
+<fc>ND</fc>
+<function>NAVIGATION/DISTANCE MEASURING EQUIPMENT (DME)</function>
+</entry>
+<entry>
+<fc>NT</fc>
+<function>NAVIGATION/TERRAIN FOLLOWING</function>
+</entry>
+<entry>
+<fc>NW</fc>
+<function>NAVIGATION/WEATHER AVOIDANCE</function>
+</entry>
+<entry>
+<fc>RI</fc>
+<function>INSTRUMENTATION</function>
+</entry>
+<entry>
+<fc>RO</fc>
+<function>RANGE ONLY</function>
+</entry>
+<entry>
+<fc>RS</fc>
+<function>RADIOSONDE</function>
+</entry>
+<entry>
+<fc>SP</fc>
+<function>SPACE</function>
+</entry>
+<entry>
+<fc>SS</fc>
+<function>SURFACE SEARCH</function>
+</entry>
+<entry>
+<fc>ST</fc>
+<function>SHELL TRACKING</function>
+</entry>
+<entry>
+<fc>TA</fc>
+<function>TARGET ACQUISTION</function>
+</entry>
+<entry>
+<fc>TI</fc>
+<function>TARGET ILLUMINATION</function>
+</entry>
+<entry>
+<fc>TT</fc>
+<function>TARGET TRACKING</function>
+</entry>
+<entry>
+<fc>UN</fc>
+<function>UNKNOWN</function>
+</entry>
+<entry>
+<fc>XP</fc>
+<function>EXPERIMENTAL OR TRAINER/SIMULATOR</function>
+</entry>
+</VtRadarFunctTable>

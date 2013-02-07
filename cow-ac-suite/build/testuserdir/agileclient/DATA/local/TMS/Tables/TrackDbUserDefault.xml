@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmsDb>
+<platform>2000</platform>
+<emitter>4000</emitter>
+<link>3000</link>
+<acoustic>100</acoustic>
+<unit>3000</unit>
+<spa_25g>100</spa_25g>
+<raycas_v>100</raycas_v>
+<si>500</si>
+<fcs>100</fcs>
+<eob>1000</eob>
+<facility>500</facility>
+<missile>500</missile>
+<general>4600</general>
+<space>500</space>
+</tmsDb>

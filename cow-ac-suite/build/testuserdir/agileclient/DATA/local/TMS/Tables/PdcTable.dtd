@@ -1,0 +1,23 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT PdcTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum  CDATA #REQUIRED            
+			num  	CDATA #IMPLIED
+			size  	CDATA #IMPLIED
+						
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (pif1, pif2, cat, threat, spare)>
+
+	<!ELEMENT pif1 (#PCDATA)>
+	<!ELEMENT pif2 (#PCDATA)>
+	<!ELEMENT cat (#PCDATA)>
+	<!ELEMENT threat (#PCDATA)>
+	<!ELEMENT spare (#PCDATA)>

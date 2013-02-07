@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.wiredwidgets.cow.ac">
+    <module_version install_time="1359655699801" last="true" origin="installer" specification_version="0.5.2">
+        <file crc="4006879164" name="config/Modules/org-wiredwidgets-cow-ac.xml"/>
+        <file crc="3263645791" name="modules/org-wiredwidgets-cow-ac.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,18 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT ShipTypeTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (lat, lng, padx, pady, tkno, padtgl, tgl, dont_edit)>
+
+	<!ELEMENT lat (#PCDATA)>
+	<!ELEMENT lng (#PCDATA)>
+	<!ELEMENT padx (#PCDATA)>
+	<!ELEMENT pady (#PCDATA)>
+	<!ELEMENT tkno (#PCDATA)>
+	<!ELEMENT padtgl (#PCDATA)>
+	<!ELEMENT tgl (#PCDATA)>
+	<!ELEMENT dont_edit (#PCDATA)>

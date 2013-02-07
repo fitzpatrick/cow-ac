@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VtLinkDLRPs>
+<entry>
+<name>LINK A</name>
+<lat>1.0E-16</lat>
+<lng>5.929577951308233E-15</lng>
+<padx>0</padx>
+<pady>0</pady>
+<tkno>0</tkno>
+<padtgl>0</padtgl>
+<tgl>0</tgl>
+<dont_edit>0</dont_edit>
+</entry>
+<entry>
+<name>LINK B</name>
+<lat>1.0E-16</lat>
+<lng>5.929577951308233E-15</lng>
+<padx>0</padx>
+<pady>0</pady>
+<tkno>0</tkno>
+<padtgl>0</padtgl>
+<tgl>0</tgl>
+<dont_edit>0</dont_edit>
+</entry>
+<entry>
+<name>LINK C</name>
+<lat>1.0E-16</lat>
+<lng>5.929577951308233E-15</lng>
+<padx>0</padx>
+<pady>0</pady>
+<tkno>0</tkno>
+<padtgl>0</padtgl>
+<tgl>0</tgl>
+<dont_edit>0</dont_edit>
+</entry>
+<entry>
+<name>LINK D</name>
+<lat>1.0E-16</lat>
+<lng>5.929577951308233E-15</lng>
+<padx>0</padx>
+<pady>0</pady>
+<tkno>0</tkno>
+<padtgl>0</padtgl>
+<tgl>0</tgl>
+<dont_edit>0</dont_edit>
+</entry>
+</VtLinkDLRPs>

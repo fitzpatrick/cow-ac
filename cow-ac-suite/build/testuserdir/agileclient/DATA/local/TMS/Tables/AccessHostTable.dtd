@@ -1,0 +1,16 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT AccessHostTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+    <!ATTLIST header
+			num		CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (host, ip)>
+
+	<!ELEMENT host (#PCDATA)>
+	<!ELEMENT ip (#PCDATA)>

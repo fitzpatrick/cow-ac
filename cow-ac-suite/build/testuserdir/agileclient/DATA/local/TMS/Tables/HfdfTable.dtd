@@ -1,0 +1,21 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT HfdfTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (lat, lng, name, longname, remarks, pad)>
+
+	<!ELEMENT lat (#PCDATA)>
+	<!ELEMENT lng (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT longname (#PCDATA)>

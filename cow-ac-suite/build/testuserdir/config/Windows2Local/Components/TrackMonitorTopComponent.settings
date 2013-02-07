@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2010 Northrop Grumman Space & Mission Systems Corp.
+All rights reserved.
+This software and technical documentation were developed under U.S.
+Government Contract No. DCA100-02-D-4007, and therefore the U.S. Government
+is granted a copyright license to this software and technical documentation
+for U.S. Government purposes.
+-->
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <module name="com.ngc.agileclient" spec="4.2.0.4"/>
+    <instanceof class="org.openide.windows.TopComponent"/>
+    <instanceof class="com.ngc.agileclient.trackmonitor.TrackMonitorTopComponent"/>
+    <instance class="com.ngc.agileclient.trackmonitor.TrackMonitorTopComponent" method="getDefault"/>
+</settings>

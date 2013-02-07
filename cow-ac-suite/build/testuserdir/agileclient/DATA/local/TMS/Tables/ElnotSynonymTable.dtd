@@ -1,0 +1,29 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT ElnotSynonymTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version	CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (param_range, num_range, elnot_given, elnot_correction, spare)*>
+       
+	<!ELEMENT num_range (#PCDATA)>
+	<!ELEMENT elnot_given (#PCDATA)>
+	<!ELEMENT elnot_correction (#PCDATA)>
+	<!ELEMENT spare (#PCDATA)>
+
+	<!ELEMENT param_range (pri_low, pri_high, scan_low, scan_high, rf_low, rf_high)>
+	<!ELEMENT pri_low (#PCDATA)>
+	<!ELEMENT pri_high (#PCDATA)>
+	<!ELEMENT scan_low (#PCDATA)>
+	<!ELEMENT scan_high (#PCDATA)>
+	<!ELEMENT rf_low (#PCDATA)>
+	<!ELEMENT rf_high (#PCDATA)>

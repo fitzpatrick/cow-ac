@@ -1,0 +1,22 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT SourceTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version	CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (source, remarks, smjr, smnr, containment)>
+
+	<!ELEMENT source (#PCDATA)>
+	<!ELEMENT remarks (#PCDATA)>
+	<!ELEMENT smjr (#PCDATA)>
+	<!ELEMENT smnr (#PCDATA)>
+	<!ELEMENT containment (#PCDATA)>

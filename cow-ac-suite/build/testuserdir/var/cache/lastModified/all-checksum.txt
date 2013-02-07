@@ -1,0 +1,8 @@
+C:\Program Files (x86)\AgileClient\platform=1352409157673
+C:\Users\FITZPATRICK\Documents\NetBeansProjects\wired-widgets-cow-agile-client\cow-ac-suite\build\cluster=1359655699841
+C:\Program Files (x86)\AgileClient\agclt_agileclient=1352409157673
+C:\Program Files (x86)\AgileClient\ide=1352409157673
+C:\Program Files (x86)\AgileClient\platform=1352409157673
+C:\Program Files (x86)\AgileClient\WorldWind RCP=1352409157673
+C:\Users\FITZPATRICK\Documents\NetBeansProjects\wired-widgets-cow-agile-client\cow-ac-suite\build\testuserdir=1359655699841
+crc=7

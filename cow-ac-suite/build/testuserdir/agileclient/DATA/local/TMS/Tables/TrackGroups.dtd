@@ -1,0 +1,20 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT TrackGroups (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			name CDATA #REQUIRED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (record, serial, priority, leader, radius, spare)*>
+	<!ELEMENT leader (trkrec, serial)>
+
+	<!ELEMENT record (#PCDATA)>
+	<!ELEMENT serial (#PCDATA)>
+	<!ELEMENT priority (#PCDATA)>
+	<!ELEMENT radius (#PCDATA)>
+	<!ELEMENT spare  (#PCDATA)>
+	<!ELEMENT trkrec (#PCDATA)>

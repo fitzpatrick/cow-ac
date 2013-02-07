@@ -1,0 +1,27 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT GBratTemplateTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			name CDATA #REQUIRED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (num, max, (entry)*)>
+        
+	<!ELEMENT num (#PCDATA)>
+	<!ELEMENT max (#PCDATA)>
+	<!ELEMENT entry (key, scn, uic, org_type, echelon, threat, flag, name, scope, state, aou_type)>
+	<!ELEMENT key (#PCDATA)>
+	<!ELEMENT scn (#PCDATA)>
+	<!ELEMENT uic (#PCDATA)>
+	<!ELEMENT org_type (#PCDATA)>
+	<!ELEMENT echelon (#PCDATA)>
+	<!ELEMENT threat (#PCDATA)>
+	<!ELEMENT flag (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT scope (#PCDATA)>
+	<!ELEMENT state (#PCDATA)>
+	<!ELEMENT aou_type (#PCDATA)>

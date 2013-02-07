@@ -1,0 +1,7 @@
+record:int
+serial:char@20
+name:char@44
+priority:int
+leader:VtGroupUnit
+radius:float
+spare:char@4:omit

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VtSourceTable>
+<num>45</num>
+<maxnum>100</maxnum>
+<size>6816</size>
+<version>0</version>
+<entry>
+<source>ACTFIX</source>
+<remarks>ACTIVE FIX</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>BB</source>
+<remarks>BROAD BAND</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>BTMB</source>
+<remarks>BOTTOM BOUNCE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>CASREP</source>
+<remarks>CASUALTY REPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>CD</source>
+<remarks>AEGIS C</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>COOK</source>
+<remarks>PROJECT COOK REPORTING SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>CPA</source>
+<remarks>CLOSEST POINT OF APPROACH</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>CZ</source>
+<remarks>CONVERGENCE ZONE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>DP</source>
+<remarks>DIRECT PATH</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>DR</source>
+<remarks>DEAD RECKONING POSITION</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>EER</source>
+<remarks>EXPLOSIVE ECHO RANGE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>ELINT</source>
+<remarks>ELECTRONIC INTELLIGENCE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>EST</source>
+<remarks>ESTIMATE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>FIX</source>
+<remarks>POSITIVE FIX</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>FNOC</source>
+<remarks>FLEET NUMERIC OCEANOGRAPHY CENTER</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>FTA</source>
+<remarks>FAST TIME ANALYSIS</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>GCCS</source>
+<remarks>GLOBAL COMMAND AND CONTROL SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>LOB</source>
+<remarks>LINE OF BEARING</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>LOCATR</source>
+<remarks>MARITIME LOCATOR REPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>MCDR</source>
+<remarks>MULTI-CHANNEL DIFAR RELAY</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>MCJR</source>
+<remarks>MULTI-CHANNEL JEZEBEL RELAY</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>MERCO</source>
+<remarks>MERCHANT CONTROL AND PROTECTION OF SHIPPING</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>MOVREP</source>
+<remarks>MOVEMENT REPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>MSCMR</source>
+<remarks>MILITARY SEALIFT COMMAND MOVEMENT REPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>NTDS</source>
+<remarks>NAVY TACTICAL DATA SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>OSIS</source>
+<remarks>OCEAN SURVEILLANCE INFORMATION SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>OSWEX</source>
+<remarks>OWN SHIP WEATHER</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>OTR</source>
+<remarks>OTHER - EXPLAIN IN FREE TEXT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>OWN</source>
+<remarks>OWN SHIP REPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>PASFIX</source>
+<remarks>PASSIVE FIX</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>PFA</source>
+<remarks>POST FLIGHT ANALYSIS</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>PLRS</source>
+<remarks>POSITION LOCATION REPORTING SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>PR</source>
+<remarks>SHIP POSTIION REPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>PURPLE</source>
+<remarks>MISSION ANALYSIS SUMMARY MESSAGE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>SELOR</source>
+<remarks>SELOR</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>SKED</source>
+<remarks>SCHEDULE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>SUBN</source>
+<remarks>SUBNOTE</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>TACE</source>
+<remarks>THEATER / NATIONAL ES</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>TBC</source>
+<remarks>TWO BEARING CROSS</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>TSES</source>
+<remarks>TACTICAL SIGNALS EXPLOITATION SYSTEM</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>UNK</source>
+<remarks>UNKNOWN</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>USMER</source>
+<remarks>US MERCHANT SHIP</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>WIZARD</source>
+<remarks>CLASSIC WIZARD</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>WMO</source>
+<remarks>WORLD METEOROLOGICAL ORGANIZATION</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+<entry>
+<source>WXRPT</source>
+<remarks>WEATHER REPORT</remarks>
+<smjr>4.0</smjr>
+<smnr>4.0</smnr>
+<containment>90</containment>
+</entry>
+</VtSourceTable>

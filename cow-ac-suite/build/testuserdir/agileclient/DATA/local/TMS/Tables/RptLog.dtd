@@ -1,0 +1,66 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT RptLogTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (record, num, trkrec, tor, source, serial, rpt)*>
+    <!ELEMENT rpt (lat, lng, cse, spd, alt, anglelv, dtg, rawdata, ctcno, datano, 
+				   source_report_number, trkrec, containment, aou, sensor, source, 
+				   rdf_rf, callsign, xref, chxref, classification, 
+				   releasibility, archived, mask, key, checksum, checkkey, error, 
+				   ci, percent_fit, pad)*>
+	<!ELEMENT aou (typ, brg, a1, a2)> 
+       
+	<!ELEMENT record (#PCDATA)>
+	<!ELEMENT num (#PCDATA)>
+	<!ELEMENT trkrec (#PCDATA)>
+	<!ELEMENT tor (#PCDATA)>
+	<!ELEMENT source (#PCDATA)>
+	<!ELEMENT serial (#PCDATA)>
+	<!ELEMENT rpt (#PCDATA)>
+
+	<!ELEMENT lat (#PCDATA)>
+	<!ELEMENT lng (#PCDATA)>
+	<!ELEMENT cse (#PCDATA)>
+	<!ELEMENT spd (#PCDATA)>
+	<!ELEMENT alt (#PCDATA)>
+	<!ELEMENT anglelv (#PCDATA)>
+	<!ELEMENT dtg (#PCDATA)>
+	<!ELEMENT rawdata (#PCDATA)>
+	<!ELEMENT ctcno (#PCDATA)>
+	<!ELEMENT datano (#PCDATA)>
+	<!ELEMENT source_report_number (#PCDATA)>
+	<!ELEMENT trkrec (#PCDATA)>
+	<!ELEMENT containment (#PCDATA)>
+	<!ELEMENT sensor (#PCDATA)>
+	<!ELEMENT source (#PCDATA)>
+	<!ELEMENT rdf_rf (#PCDATA)>
+	<!ELEMENT callsign (#PCDATA)>
+	<!ELEMENT xref (#PCDATA)>
+	<!ELEMENT chxref (#PCDATA)>
+	<!ELEMENT classification (#PCDATA)>
+	<!ELEMENT releasibility (#PCDATA)>
+	<!ELEMENT archived (#PCDATA)>
+	<!ELEMENT mask (#PCDATA)>
+	<!ELEMENT key (#PCDATA)>
+	<!ELEMENT checksum (#PCDATA)>
+	<!ELEMENT checkkey (#PCDATA)>
+	<!ELEMENT error (#PCDATA)>
+	<!ELEMENT ci (#PCDATA)>
+	<!ELEMENT percent_fit (#PCDATA)>
+	<!ELEMENT pad (#PCDATA)>
+
+	<!ELEMENT typ (#PCDATA)>
+	<!ELEMENT brg (#PCDATA)>
+	<!ELEMENT a1 (#PCDATA)>
+	<!ELEMENT a2 (#PCDATA)>

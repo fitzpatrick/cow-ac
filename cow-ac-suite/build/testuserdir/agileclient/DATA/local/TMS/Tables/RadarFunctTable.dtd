@@ -1,0 +1,20 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT RadarFunctTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (fc, function, spare)>
+
+	<!ELEMENT fc (#PCDATA)>
+	<!ELEMENT function (#PCDATA)>
+	<!ELEMENT spare (#PCDATA)>

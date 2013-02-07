@@ -1,0 +1,8 @@
+num:int
+maxnum:int
+size:int
+version:int
+fillname:int:omit
+bound:NickBound@4
+entry:VtNickEntry@12352
+index:NickIndex@12352

@@ -1,0 +1,5 @@
+elnot:char@10
+system_name:char@25
+threat_range:int
+time_late:char@9
+comments:char@32

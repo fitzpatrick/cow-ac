@@ -1,0 +1,16 @@
+record:int
+active:int
+priority:int
+exclude:int
+name:char@32
+type:int@18
+scope:int@3
+trktype:int@3
+modes:int@4
+alert:int@2
+cttgls:int@65
+elementid:int@19
+attrib:char@19@64
+group:VtGroupSort
+tmlate:VtTimeLate
+geoloc:VtGeoLocation

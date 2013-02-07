@@ -1,0 +1,4296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE body SYSTEM "Platform.dtd">
+<body>
+<entry>
+<type>AA</type>
+<description>AUXILIARY TYPE SHIP, GENERAL</description>
+</entry>
+<entry>
+<type>AAA</type>
+<description>ANTIAIRCRAFT GUN</description>
+</entry>
+<entry>
+<type>AAAH</type>
+<description>AAA HEAVY (100MM OR LARGER)</description>
+</entry>
+<entry>
+<type>AAAL</type>
+<description>AAA LIGHT (20-57MM)</description>
+</entry>
+<entry>
+<type>AAALA</type>
+<description>AAA LIGHT AUTO (UNDER 20MM)</description>
+</entry>
+<entry>
+<type>AAAMDM</type>
+<description>AAA MEDIUM (58-99MM)</description>
+</entry>
+<entry>
+<type>AAASP</type>
+<description>AAA SELF-PROPELLED</description>
+</entry>
+<entry>
+<type>AAATOW</type>
+<description>AAA TOWED</description>
+</entry>
+<entry>
+<type>AAM</type>
+<description>ROCKET/MISSILE AIR-TO-AIR</description>
+</entry>
+<entry>
+<type>AB</type>
+<description>DEPOT SHIP/TENDER</description>
+</entry>
+<entry>
+<type>ABU</type>
+<description>BOUY TENDER</description>
+</entry>
+<entry>
+<type>ABUD</type>
+<description>BOUY TENDER, HEAVY LIFT</description>
+</entry>
+<entry>
+<type>ACFT</type>
+<description>AIRCRAFT</description>
+</entry>
+<entry>
+<type>ACM</type>
+<description>AUXILIARY MINE WARFARE SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>AD</type>
+<description>DESTROYER TENDER</description>
+</entry>
+<entry>
+<type>ADA</type>
+<description>AIR DEFENSE ARTILLERY</description>
+</entry>
+<entry>
+<type>ADAH</type>
+<description>ADA HEAVY (100MM OR LARGER)</description>
+</entry>
+<entry>
+<type>ADAL</type>
+<description>ADA LIGHT (20-57MM)</description>
+</entry>
+<entry>
+<type>ADAMDM</type>
+<description>ADA MEDIUM (58-99MM)</description>
+</entry>
+<entry>
+<type>ADAMSL</type>
+<description>ADA MISSILE</description>
+</entry>
+<entry>
+<type>ADAPOS</type>
+<description>POSITION AREA</description>
+</entry>
+<entry>
+<type>ADG</type>
+<description>DEPERMING SHIP</description>
+</entry>
+<entry>
+<type>ADHQ</type>
+<description>AIR DEFENSE HEADQUARTERS</description>
+</entry>
+<entry>
+<type>ADM</type>
+<description>ROCKET/MISSILE AIR DEFENSE</description>
+</entry>
+<entry>
+<type>AE</type>
+<description>AMMUNITION SHIP</description>
+</entry>
+<entry>
+<type>AEL</type>
+<description>AMMUNITION SHIP, SMALL</description>
+</entry>
+<entry>
+<type>AEM</type>
+<description>MISSILE SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>AET</type>
+<description>AMMUNITION TRANSPORT</description>
+</entry>
+<entry>
+<type>AETL</type>
+<description>AMMUNITION TRANSPORT, SMALL</description>
+</entry>
+<entry>
+<type>AF</type>
+<description>STORES SHIP</description>
+</entry>
+<entry>
+<type>AFBASE</type>
+<description>AIR FORCE BASE</description>
+</entry>
+<entry>
+<type>AFDB</type>
+<description>AUXILIARY FLOATING DRYDOCK, LARGE</description>
+</entry>
+<entry>
+<type>AFDL</type>
+<description>AUXILIARY FLOATING DRYDOCK, SMALL</description>
+</entry>
+<entry>
+<type>AFDM</type>
+<description>AUXILIARY FLOATING DRYDOCK, MEDIUM</description>
+</entry>
+<entry>
+<type>AFL</type>
+<description>STORES SHIP, SMALL</description>
+</entry>
+<entry>
+<type>AFLD</type>
+<description>AIRFIELD</description>
+</entry>
+<entry>
+<type>AFS</type>
+<description>STORES SHIP, COMBAT</description>
+</entry>
+<entry>
+<type>AFT</type>
+<description>STORES, SHIP, TRANSPORT</description>
+</entry>
+<entry>
+<type>AG</type>
+<description>MISCELLANEOUS AUXILIARY</description>
+</entry>
+<entry>
+<type>AGB</type>
+<description>ICEBREAKER</description>
+</entry>
+<entry>
+<type>AGBL</type>
+<description>ICEBREAKER, SMALL</description>
+</entry>
+<entry>
+<type>AGBN</type>
+<description>ICEBREAKER, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>AGCL</type>
+<description>COMMUNICATIONS SHIP, SMALL</description>
+</entry>
+<entry>
+<type>AGDS</type>
+<description>DEEP SUBMERGENCE SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>AGE</type>
+<description>RESEARCH SHIP</description>
+</entry>
+<entry>
+<type>AGEH</type>
+<description>RESEARCH SHIP, HYDROFOIL</description>
+</entry>
+<entry>
+<type>AGENT</type>
+<description>AGENT</description>
+</entry>
+<entry>
+<type>AGF</type>
+<description>AUXILIARY FLAG OR COMMAND SHIP</description>
+</entry>
+<entry>
+<type>AGFF</type>
+<description>RESEARCH SHIP, FRIGATE</description>
+</entry>
+<entry>
+<type>AGH</type>
+<description>INSTRUMENTATION SHIP, HYDROACOUSTIC RANGE </description>
+</entry>
+<entry>
+<type>AGI</type>
+<description>INTELLIGENCE COLLECTOR</description>
+</entry>
+<entry>
+<type>AGM</type>
+<description>MISSILE RANGE INSTRUMENTATION SHIP</description>
+</entry>
+<entry>
+<type>AGMS</type>
+<description>SUPPORT SHIP, MISSILE RANGE </description>
+</entry>
+<entry>
+<type>AGOB</type>
+<description>OCEANOGRAPHIC RESEARCH SHIP, POLAR</description>
+</entry>
+<entry>
+<type>AGOR</type>
+<description>OCEANOGRAPHIC RESEARCH SHIP</description>
+</entry>
+<entry>
+<type>AGOS</type>
+<description>OCEAN SURVEILLANCE SHIP</description>
+</entry>
+<entry>
+<type>AGP</type>
+<description>PATROL CRAFT TENDER</description>
+</entry>
+<entry>
+<type>AGR</type>
+<description>RADAR PICKET SHIP, UNARMED</description>
+</entry>
+<entry>
+<type>AGS</type>
+<description>SURVEY SHIP</description>
+</entry>
+<entry>
+<type>AGSA</type>
+<description>SURVEYING SHIP, POLAR</description>
+</entry>
+<entry>
+<type>AGSC</type>
+<description>SURVEY SHIP, COASTAL</description>
+</entry>
+<entry>
+<type>AGSL</type>
+<description>LAUNCHING SHIP, SATELLITE</description>
+</entry>
+<entry>
+<type>AGSS</type>
+<description>AUXILIARY RESEARCH SUBMARINE</description>
+</entry>
+<entry>
+<type>AGT</type>
+<description>SERVICE SHIP, TARGET</description>
+</entry>
+<entry>
+<type>AGTT</type>
+<description>SERVICE SHIP, TORPEDO/TARGET </description>
+</entry>
+<entry>
+<type>AH</type>
+<description>HOSPITAL SHIP</description>
+</entry>
+<entry>
+<type>AHDBHD</type>
+<description>AIRHEAD/BRIDGEHEAD</description>
+</entry>
+<entry>
+<type>AIRTWR</type>
+<description>AIRFIELD OPERATIONS TOWER</description>
+</entry>
+<entry>
+<type>AK</type>
+<description>CARGO SHIP, NAVAL</description>
+</entry>
+<entry>
+<type>AKL</type>
+<description>CARGO SHIP, LIGHT, NAVAL</description>
+</entry>
+<entry>
+<type>AKR</type>
+<description>CARGO SHIP, RO/RO, NAVAL</description>
+</entry>
+<entry>
+<type>AKS</type>
+<description>STORES SHIP, ISSUE, NAVAL</description>
+</entry>
+<entry>
+<type>AKV</type>
+<description>AIRCRAFT FERRY/CARGO SHIP</description>
+</entry>
+<entry>
+<type>ALOGHQ</type>
+<description>AIR LOGISTICS HEADQUARTERS</description>
+</entry>
+<entry>
+<type>ALS</type>
+<description>LIGHT SHIP</description>
+</entry>
+<entry>
+<type>AMBL</type>
+<description>AMBULANCE</description>
+</entry>
+<entry>
+<type>AMMODP</type>
+<description>AMMUNITION DUMP</description>
+</entry>
+<entry>
+<type>AMPHTK</type>
+<description>TANK AMPHIBIOUS</description>
+</entry>
+<entry>
+<type>AMPHVH</type>
+<description>AMPHIBIOUS VEHICLE</description>
+</entry>
+<entry>
+<type>AN</type>
+<description>NET TENDER</description>
+</entry>
+<entry>
+<type>ANL</type>
+<description>CABLE/NET LAYING SHIP</description>
+</entry>
+<entry>
+<type>ANT</type>
+<description>ANTENNA</description>
+</entry>
+<entry>
+<type>AO</type>
+<description>OILER/TANKER, GENERAL</description>
+</entry>
+<entry>
+<type>AOBLST</type>
+<description>AIR-OBSTRUCTION LIGHTING</description>
+</entry>
+<entry>
+<type>AOE</type>
+<description>COMBAT SUPPORT SHIP, FAST</description>
+</entry>
+<entry>
+<type>AOG</type>
+<description>GASOLINE TANKER</description>
+</entry>
+<entry>
+<type>AOL</type>
+<description>OILER, SMALL, NAVAL</description>
+</entry>
+<entry>
+<type>AOR</type>
+<description>OILER, REPLENISHMENT</description>
+</entry>
+<entry>
+<type>AORL</type>
+<description>OILER, REPLENISHMENT, SMALL, NAVAL</description>
+</entry>
+<entry>
+<type>AOS</type>
+<description>SPECIAL LIQUID SHIP</description>
+</entry>
+<entry>
+<type>AOSR</type>
+<description>RADIOLOGICAL LIQIUID SHIP</description>
+</entry>
+<entry>
+<type>AOT</type>
+<description>OILER, TRANSPORT</description>
+</entry>
+<entry>
+<type>AOTL</type>
+<description>OILER, TRANSPORT, SMALL</description>
+</entry>
+<entry>
+<type>AP</type>
+<description>PERSONNEL TRANSPORT</description>
+</entry>
+<entry>
+<type>APB</type>
+<description>BARRACKS SHIP</description>
+</entry>
+<entry>
+<type>APC</type>
+<description>ARMORED PERSONNEL CARRIER</description>
+</entry>
+<entry>
+<type>APCR</type>
+<description>PRIMARY CASUALTY RECEIVING SHIP</description>
+</entry>
+<entry>
+<type>APCT</type>
+<description>CASUALTY TRANSPORT SHIP</description>
+</entry>
+<entry>
+<type>APERS</type>
+<description>ROCKET/MISSILE, ANTIPERSONNEL</description>
+</entry>
+<entry>
+<type>APL</type>
+<description>BARRACKS CRAFT</description>
+</entry>
+<entry>
+<type>AQ</type>
+<description>CRUISE/RAIDER, ARMED, MERCHANT</description>
+</entry>
+<entry>
+<type>AR</type>
+<description>REPAIR SHIP</description>
+</entry>
+<entry>
+<type>ARB</type>
+<description>REPAIR SHIP, BATTLE DAMAGE </description>
+</entry>
+<entry>
+<type>ARBASE</type>
+<description>ARMY BASE</description>
+</entry>
+<entry>
+<type>ARC</type>
+<description>CABLE SHIP</description>
+</entry>
+<entry>
+<type>ARD</type>
+<description>AUXILIARY REPAIR DOCK</description>
+</entry>
+<entry>
+<type>ARDM</type>
+<description>DRYDOCK, AUXILIARY, REPAIR, MEDIUM</description>
+</entry>
+<entry>
+<type>ARH</type>
+<description>REPAIR SHIP, HEAVY HULL </description>
+</entry>
+<entry>
+<type>ARL</type>
+<description>REPAIR SHIP, SMALL</description>
+</entry>
+<entry>
+<type>ARM</type>
+<description>ANTIRADIATION MISSILE WARNING</description>
+</entry>
+<entry>
+<type>ARMOR</type>
+<description>COMBAT ARMORED VEHICLE</description>
+</entry>
+<entry>
+<type>ARR</type>
+<description>REPAIR SHIP, RADIOLOGICAL</description>
+</entry>
+<entry>
+<type>ARS</type>
+<description>SALVAGE SHIP</description>
+</entry>
+<entry>
+<type>ARSD</type>
+<description>SALVAGE SHIP, LIFTING</description>
+</entry>
+<entry>
+<type>ARSPVH</type>
+<description>ARMORED VEHICLE</description>
+</entry>
+<entry>
+<type>ARTPOS</type>
+<description>ARTILLERY POSTION AREA</description>
+</entry>
+<entry>
+<type>ARTY</type>
+<description>ARTILLERY</description>
+</entry>
+<entry>
+<type>ARTYH</type>
+<description>ARTILLERY HEAVY (161-210MM)</description>
+</entry>
+<entry>
+<type>ARTYL</type>
+<description>ARTILLERY LIGHT (120MM OR SMALLER)</description>
+</entry>
+<entry>
+<type>ARTYM</type>
+<description>ARTILLERY MEDIUM (121-160MM)</description>
+</entry>
+<entry>
+<type>ARTYSH</type>
+<description>ARTILLERY, SELF-PROPELLED HEAVY</description>
+</entry>
+<entry>
+<type>ARTYSL</type>
+<description>ARTILLERY, SELF-PROPELLED LIGHT</description>
+</entry>
+<entry>
+<type>ARTYSM</type>
+<description>ARTILLERY, SELF-PROPELLED MEDIUM</description>
+</entry>
+<entry>
+<type>ARTYSP</type>
+<description>ARTILLERY, SELF-PROPELLED UNKNOWN TYPE</description>
+</entry>
+<entry>
+<type>ARTYTW</type>
+<description>ARTILLERY, TOWED</description>
+</entry>
+<entry>
+<type>ARTYVH</type>
+<description>ARTILLERY, VERY HEAVY (211MM OR LARGER)</description>
+</entry>
+<entry>
+<type>ARV</type>
+<description>ARICRAFT REPAIR SHIP</description>
+</entry>
+<entry>
+<type>AS</type>
+<description>SUBMARINE TENDER</description>
+</entry>
+<entry>
+<type>ASL</type>
+<description>SUMBARINE TENDER, SMALL</description>
+</entry>
+<entry>
+<type>ASLT</type>
+<description>ASSAULT GUN</description>
+</entry>
+<entry>
+<type>ASLTR</type>
+<description>ASSAULT RIFLE</description>
+</entry>
+<entry>
+<type>ASM</type>
+<description>ROCKET/MISSILE, AIR-TO-SURFACE</description>
+</entry>
+<entry>
+<type>ASR</type>
+<description>SUBMARINE RESCUE SHIP</description>
+</entry>
+<entry>
+<type>ASSY</type>
+<description>ASSEMBLY AREA</description>
+</entry>
+<entry>
+<type>ASSYTV</type>
+<description>ASSEMBLY AREA, TROOP/VEHICLE</description>
+</entry>
+<entry>
+<type>ASVR</type>
+<description>SPACE VEHICLE RECOVERY SHIP</description>
+</entry>
+<entry>
+<type>ASW</type>
+<description>ASW PATROL AIRCRAFT</description>
+</entry>
+<entry>
+<type>AT</type>
+<description>TUG, OCEAN GOING</description>
+</entry>
+<entry>
+<type>ATA</type>
+<description>TUG, OCEAN GOING, AUXILIARY</description>
+</entry>
+<entry>
+<type>ATANK</type>
+<description>ROCKET/MISSILE ANTITANK</description>
+</entry>
+<entry>
+<type>ATC</type>
+<description>MINI-ARMORED TROOP CARRIER</description>
+</entry>
+<entry>
+<type>ATF</type>
+<description>TUG, OCEAN GOING, FLEET</description>
+</entry>
+<entry>
+<type>ATG</type>
+<description>ANTITANK GUN</description>
+</entry>
+<entry>
+<type>ATGL</type>
+<description>ANTITANK GUN, LIGHT</description>
+</entry>
+<entry>
+<type>ATR</type>
+<description>TUG, OCEAN GOING, RESCUE</description>
+</entry>
+<entry>
+<type>ATRNHQ</type>
+<description>AIR TRANSPORT HEADQUARTERS</description>
+</entry>
+<entry>
+<type>ATS</type>
+<description>TUG, OCEAN GOING, OR SALVAGE/RESCUE </description>
+</entry>
+<entry>
+<type>AU</type>
+<description>FISHING VESSEL, TRAWLER OR JUNK, GENERAL</description>
+</entry>
+<entry>
+<type>AV</type>
+<description>SEAPLANE TENDER</description>
+</entry>
+<entry>
+<type>AVB</type>
+<description>AVIATION LOGISTIC SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>AVM</type>
+<description>GUIDED MISSILE SHIP</description>
+</entry>
+<entry>
+<type>AVR</type>
+<description>AIRCRAFT RESCUE VESSEL</description>
+</entry>
+<entry>
+<type>AVS</type>
+<description>AVIATION SUPPLY SHIP</description>
+</entry>
+<entry>
+<type>AVT</type>
+<description>AUXILIARY AIRCRAFT LANDING TRAINING SHIP</description>
+</entry>
+<entry>
+<type>AWACS</type>
+<description>AIRBORNE WARNING AND CONTROL SYSTEM AIRCRAFT</description>
+</entry>
+<entry>
+<type>AWT</type>
+<description>WATER TENDER, NAVAL</description>
+</entry>
+<entry>
+<type>AWW</type>
+<description>DISTILLING SHIP, NAVAL</description>
+</entry>
+<entry>
+<type>AX</type>
+<description>TRAINING SHIP, NAVAL</description>
+</entry>
+<entry>
+<type>AXL</type>
+<description>TRAINING SHIP, SMALL, NAVAL</description>
+</entry>
+<entry>
+<type>AXS</type>
+<description>TRAINING SHIP, SAIL, NAVAL</description>
+</entry>
+<entry>
+<type>AXT</type>
+<description>TRAINING SHIP</description>
+</entry>
+<entry>
+<type>AY</type>
+<description>HYDROGRAPHIC/OCEANOGRAPHIC VESSEL</description>
+</entry>
+<entry>
+<type>BASE</type>
+<description>BASE</description>
+</entry>
+<entry>
+<type>BB</type>
+<description>BATTLE SHIP, GENERAL</description>
+</entry>
+<entry>
+<type>BEACON</type>
+<description>PATHFINDER BEACON</description>
+</entry>
+<entry>
+<type>BIKE</type>
+<description>BICYCLE</description>
+</entry>
+<entry>
+<type>BIV</type>
+<description>BIVOUAC</description>
+</entry>
+<entry>
+<type>BLCR</type>
+<description>BUILDING, CONCRETE  TYPE</description>
+</entry>
+<entry>
+<type>BLDG</type>
+<description>BUILDING</description>
+</entry>
+<entry>
+<type>BLGOVT</type>
+<description>BUILDING, GOVERNMENT</description>
+</entry>
+<entry>
+<type>BLK</type>
+<description>CARGO, BULK, MERCHANT SHIP</description>
+</entry>
+<entry>
+<type>BLKPOS</type>
+<description>BLOCKING POSITION</description>
+</entry>
+<entry>
+<type>BLMS</type>
+<description>BUILDING, MASONRY</description>
+</entry>
+<entry>
+<type>BLMT</type>
+<description>BUILDING, METAL</description>
+</entry>
+<entry>
+<type>BLSPL</type>
+<description>BUILDING, SPECIAL-PURPOSE</description>
+</entry>
+<entry>
+<type>BLWD</type>
+<description>BUILDING, WOOD </description>
+</entry>
+<entry>
+<type>BM</type>
+<description>MONITOR, RIVER PATROL</description>
+</entry>
+<entry>
+<type>BMAFLD</type>
+<description>BOMBER AIRFIELD</description>
+</entry>
+<entry>
+<type>BMBR</type>
+<description>BOMBER</description>
+</entry>
+<entry>
+<type>BMR</type>
+<description>MONITOR, RIVER</description>
+</entry>
+<entry>
+<type>BNCP</type>
+<description>BATTALION COMMAND POST</description>
+</entry>
+<entry>
+<type>BOAT</type>
+<description>BOAT</description>
+</entry>
+<entry>
+<type>BRARVH</type>
+<description>BRIDGE, ARMORED, VEHCICLE-LAUNCHED </description>
+</entry>
+<entry>
+<type>BRCR</type>
+<description>BRIDGE, CONCRETE </description>
+</entry>
+<entry>
+<type>BRFLT</type>
+<description>BRIDGE, FLOATING </description>
+</entry>
+<entry>
+<type>BRFRY</type>
+<description>BRIDGE, FLOATING FERRY </description>
+</entry>
+<entry>
+<type>BRFTBT</type>
+<description>FLOATING FOOTBRIDGE, BOAT</description>
+</entry>
+<entry>
+<type>BRFTCR</type>
+<description>FOOTBRIDGE, CONCRETE</description>
+</entry>
+<entry>
+<type>BRFTPT</type>
+<description>FLOATING FOOTBRIDGE, PONTOON</description>
+</entry>
+<entry>
+<type>BRFTRF</type>
+<description>FLOATING FOOTBRIDGE, RAFT</description>
+</entry>
+<entry>
+<type>BRFTST</type>
+<description>FOOTBRIDGE, STEEL</description>
+</entry>
+<entry>
+<type>BRFTWD</type>
+<description>FOOTBRIDGE, WOOD</description>
+</entry>
+<entry>
+<type>BRFXD</type>
+<description>BRIDGE, FIXED </description>
+</entry>
+<entry>
+<type>BRIDGE</type>
+<description>BRIDGE</description>
+</entry>
+<entry>
+<type>BRMISC</type>
+<description>BRIDGE, MISCELLANEOUS </description>
+</entry>
+<entry>
+<type>BRMLAS</type>
+<description>BRIDGE, MOBILE-ASSAULT </description>
+</entry>
+<entry>
+<type>BRMOV</type>
+<description>BRIDGE, PORTABLE OR MOVEABLE </description>
+</entry>
+<entry>
+<type>BRPNL</type>
+<description>BRIDGE, PANEL </description>
+</entry>
+<entry>
+<type>BRRD</type>
+<description>BRIDGE, ROADWAY OR HIGHWAY </description>
+</entry>
+<entry>
+<type>BRRR</type>
+<description>BRIDGE, RAILROAD </description>
+</entry>
+<entry>
+<type>BRSITE</type>
+<description>BRIDGE SITE</description>
+</entry>
+<entry>
+<type>BRST</type>
+<description>BRIDGE, STEEL </description>
+</entry>
+<entry>
+<type>BRVHBT</type>
+<description>BRIDGE, FLOATING VEHICLE,  BOAT</description>
+</entry>
+<entry>
+<type>BRVHCR</type>
+<description>BRIDGE, VEHICLE, CONCRETE</description>
+</entry>
+<entry>
+<type>BRVHLH</type>
+<description>BRIDGE, VEHICLE-LAUNCHED </description>
+</entry>
+<entry>
+<type>BRVHPT</type>
+<description>BRIDGE, FLOATING VEHICLE, PONTOON</description>
+</entry>
+<entry>
+<type>BRVHST</type>
+<description>BRIDGE, VEHICLE, STEEL</description>
+</entry>
+<entry>
+<type>BRVHWD</type>
+<description>BRIDGE, VEHICLE, WOOD</description>
+</entry>
+<entry>
+<type>BRWD</type>
+<description>BRIDGE, WOOD </description>
+</entry>
+<entry>
+<type>BTRY</type>
+<description>BATTERY, DRYCELL OR WETCELL</description>
+</entry>
+<entry>
+<type>BUNKER</type>
+<description>BUNKER</description>
+</entry>
+<entry>
+<type>BUOY</type>
+<description>BUOY</description>
+</entry>
+<entry>
+<type>BUS</type>
+<description>BUS</description>
+</entry>
+<entry>
+<type>CA</type>
+<description>HEAVY CRUISER, GUN</description>
+</entry>
+<entry>
+<type>CAR</type>
+<description>CAR</description>
+</entry>
+<entry>
+<type>CARBN</type>
+<description>CARBINE</description>
+</entry>
+<entry>
+<type>CART</type>
+<description>CART</description>
+</entry>
+<entry>
+<type>CAS</type>
+<description>CLOSE AIR SUPPORT</description>
+</entry>
+<entry>
+<type>CAVNHQ</type>
+<description>NATIONAL AVIATION HEADQUARTERS</description>
+</entry>
+<entry>
+<type>CBSPVH</type>
+<description>COMBAT SUPPORT VEHICLE</description>
+</entry>
+<entry>
+<type>CBTOP</type>
+<description>OUTPOST, COMBAT</description>
+</entry>
+<entry>
+<type>CC</type>
+<description>CRUISER, GENERAL</description>
+</entry>
+<entry>
+<type>CEOTHR</type>
+<description>MISCELLANEOUS COMMUNICATIONS/ELECTRONICS EQUIPMENT</description>
+</entry>
+<entry>
+<type>CEV</type>
+<description>COMBAT ENGINEER VEHICLE</description>
+</entry>
+<entry>
+<type>CEWIRE</type>
+<description>WIRE, COMMUNICATIONS-ELECTRONIC</description>
+</entry>
+<entry>
+<type>CG</type>
+<description>CRUISER, GUIDED MISSILE</description>
+</entry>
+<entry>
+<type>CGF</type>
+<description>FISHING SHIP, CARGO</description>
+</entry>
+<entry>
+<type>CGN</type>
+<description>CRUISER, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CGO</type>
+<description>CARGO, DRY, BREAK BULK, MERCHANT SHIP</description>
+</entry>
+<entry>
+<type>CH</type>
+<description>CARGO, HELICOPTER</description>
+</entry>
+<entry>
+<type>CHECPT</type>
+<description>CHECKPOINT</description>
+</entry>
+<entry>
+<type>CHG</type>
+<description>CRUISER, AVIATIION, GUIDED MISSILE  </description>
+</entry>
+<entry>
+<type>CHGN</type>
+<description>CRUISER, AVIATION, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CHH</type>
+<description>CRUISER, HELICOPTER</description>
+</entry>
+<entry>
+<type>CHN</type>
+<description>CRUISER, AVIATION, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CHURCH</type>
+<description>CHURCH OR CHAPEL</description>
+</entry>
+<entry>
+<type>CIVPER</type>
+<description>CIVILIAN PERSONNEL</description>
+</entry>
+<entry>
+<type>CL</type>
+<description>CRUISER, LIGHT </description>
+</entry>
+<entry>
+<type>CLAA</type>
+<description>CRUISER, LIGHT, ANTI-AIRCRAFT  </description>
+</entry>
+<entry>
+<type>CLC</type>
+<description>TACTICAL COMMAND SHIP</description>
+</entry>
+<entry>
+<type>CLH</type>
+<description>CRUISER, LIGHT, AVIATION </description>
+</entry>
+<entry>
+<type>CLI</type>
+<description>CLASS I SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>CLII</type>
+<description>CLASS II SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>CLIII</type>
+<description>CLASS III SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>CLIV</type>
+<description>CLASS IV SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>CLV</type>
+<description>CLASS V SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>CLVII</type>
+<description>CLASS VII SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>CMEDIC</type>
+<description>CIVILIAN MEDICAL PERSON</description>
+</entry>
+<entry>
+<type>CMPRSR</type>
+<description>AIR COMPRESSOR VEHICLE</description>
+</entry>
+<entry>
+<type>CNCBED</type>
+<description>CONCRETE-LINED FORD BED</description>
+</entry>
+<entry>
+<type>CNSTDP</type>
+<description>CONSTRUCTION MATERIALS SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>CNTRM</type>
+<description>CENTER OF MASS</description>
+</entry>
+<entry>
+<type>COMPTR</type>
+<description>COMPUTER</description>
+</entry>
+<entry>
+<type>CONVOY</type>
+<description>CONVOY</description>
+</entry>
+<entry>
+<type>CP</type>
+<description>COMMAND POST</description>
+</entry>
+<entry>
+<type>CRANE</type>
+<description>CRANE</description>
+</entry>
+<entry>
+<type>CRT</type>
+<description>CATHODE RAY TUBE</description>
+</entry>
+<entry>
+<type>CS</type>
+<description>CRUISER, SMALL</description>
+</entry>
+<entry>
+<type>CT</type>
+<description>CRUISER, TRAINING </description>
+</entry>
+<entry>
+<type>CTH</type>
+<description>CRUISER, AVIATION, TRAINING </description>
+</entry>
+<entry>
+<type>CV</type>
+<description>AIRCRAFT CARRIER, GENERAL</description>
+</entry>
+<entry>
+<type>CVA</type>
+<description>AIRCRAFT CARRIER, ATTACK</description>
+</entry>
+<entry>
+<type>CVG</type>
+<description>AIRCRAFT CARRIER, GUIDED MISSILE </description>
+</entry>
+<entry>
+<type>CVGN</type>
+<description>AIRCRAFT CARRIER, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CVH</type>
+<description>HELICOPTER/VSTOL CARRIER</description>
+</entry>
+<entry>
+<type>CVHG</type>
+<description>AIRCRAFT CARRIER, V-STOL, GUIDED MISSILE  </description>
+</entry>
+<entry>
+<type>CVHGN</type>
+<description>AIRCRAFT CARRIER, V-STOL, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CVHN</type>
+<description>AIRCRAFT CARRIER, VSTOL, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CVL</type>
+<description>AIRCRAFT CARRIER, LIGHT</description>
+</entry>
+<entry>
+<type>CVLG</type>
+<description>AIRCRAFT CARRIER, LIGHT, GUIDED MISSILE</description>
+</entry>
+<entry>
+<type>CVLGN</type>
+<description>AIRCRAFT CARRIER, LIGHT, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CVLN</type>
+<description>AIRCRAFT CARRIER, LIGHT, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CVN</type>
+<description>AIRCRAFT CARRIER, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>CVS</type>
+<description>AIRCRAFT CARRIER, ASW SUPPORT</description>
+</entry>
+<entry>
+<type>CVT</type>
+<description>AIRCRAFT CARRIER, TRAINING</description>
+</entry>
+<entry>
+<type>CYCLE</type>
+<description>MOTORCYCLE</description>
+</entry>
+<entry>
+<type>DAM</type>
+<description>DAM</description>
+</entry>
+<entry>
+<type>DAMCR</type>
+<description>DAM, CONCRETE, REINFORCED  </description>
+</entry>
+<entry>
+<type>DAMETH</type>
+<description>DAM, EARTHEN </description>
+</entry>
+<entry>
+<type>DAMMSR</type>
+<description>DAM, MASONRY </description>
+</entry>
+<entry>
+<type>DAMRPP</type>
+<description>DAM, RIPRAP </description>
+</entry>
+<entry>
+<type>DAMST</type>
+<description>DAM, STONE </description>
+</entry>
+<entry>
+<type>DATLNK</type>
+<description>DATA LINK</description>
+</entry>
+<entry>
+<type>DD</type>
+<description>DESTROYER, GENERAL</description>
+</entry>
+<entry>
+<type>DDE</type>
+<description>DESTROYER ESCORT</description>
+</entry>
+<entry>
+<type>DDG</type>
+<description>DESTROYER, GUIDED MISSILE </description>
+</entry>
+<entry>
+<type>DDGN</type>
+<description>DESTROYER, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>DDH</type>
+<description>DESTROYER, AVIATION </description>
+</entry>
+<entry>
+<type>DDHG</type>
+<description>DESTROYER, AVIATION, GUIDED MISSILE</description>
+</entry>
+<entry>
+<type>DDHGN</type>
+<description>DESTROYER, AVIATION, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>DDHN</type>
+<description>DESTROYER, AVIATION, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>DDM</type>
+<description>DESTROYER, MINELAYING</description>
+</entry>
+<entry>
+<type>DDR</type>
+<description>DESTROYER, RADAR PICKET </description>
+</entry>
+<entry>
+<type>DDT</type>
+<description>DESTROYER, TRAINING </description>
+</entry>
+<entry>
+<type>DECOY</type>
+<description>DECOY</description>
+</entry>
+<entry>
+<type>DEFEC</type>
+<description>DEFECTOR</description>
+</entry>
+<entry>
+<type>DEFILE</type>
+<description>DEFILE</description>
+</entry>
+<entry>
+<type>DER</type>
+<description>DESTROYER ESCORT, RADAR PICKET </description>
+</entry>
+<entry>
+<type>DESER</type>
+<description>DESERTER</description>
+</entry>
+<entry>
+<type>DITCH</type>
+<description>DITCHER</description>
+</entry>
+<entry>
+<type>DIVCP</type>
+<description>DIVISION COMMAND POST</description>
+</entry>
+<entry>
+<type>DMPTRK</type>
+<description>DUMP TRUCK</description>
+</entry>
+<entry>
+<type>DOZER</type>
+<description>BULLDOZER</description>
+</entry>
+<entry>
+<type>DRONE</type>
+<description>DRONE</description>
+</entry>
+<entry>
+<type>DSA</type>
+<description>DIRECTED SEARCH AREA</description>
+</entry>
+<entry>
+<type>DSRV</type>
+<description>DEEP SUBMERGENCE RESCUE VECHLIE, COMMERCIAL</description>
+</entry>
+<entry>
+<type>DSV</type>
+<description>DEEP SUBMERGENCE VECHLIE, COMMERCIAL</description>
+</entry>
+<entry>
+<type>DZ</type>
+<description>DROP ZONE</description>
+</entry>
+<entry>
+<type>DZEQP</type>
+<description>DROP ZONE, EQUIPMENT</description>
+</entry>
+<entry>
+<type>DZSUP</type>
+<description>DROP ZONE, SUPPLY</description>
+</entry>
+<entry>
+<type>DZTRP</type>
+<description>DROP ZONE, TROOP</description>
+</entry>
+<entry>
+<type>EA</type>
+<description>ELECTRONIC ATTACK EQUIPMENT</description>
+</entry>
+<entry>
+<type>EAAIR</type>
+<description>EA AIRCRAFT JAMMER WARNING</description>
+</entry>
+<entry>
+<type>EASUR</type>
+<description>EA SURFACE WARNING</description>
+</entry>
+<entry>
+<type>ELEUNK</type>
+<description>ELECTRONIC, FUNCTION UNKOWN</description>
+</entry>
+<entry>
+<type>EM</type>
+<description>ENLISTED</description>
+</entry>
+<entry>
+<type>EMPL</type>
+<description>EMPLACEMENT</description>
+</entry>
+<entry>
+<type>ENGRVH</type>
+<description>ENGINEER/CONSTRUCTION VEHICLE</description>
+</entry>
+<entry>
+<type>EP</type>
+<description>EQUIPMENT, ELECTRONIC PROTECTION </description>
+</entry>
+<entry>
+<type>EQIR</type>
+<description>EQUIPMENT, INFARED</description>
+</entry>
+<entry>
+<type>EQLSR</type>
+<description>EQUIPMENT, RANGEFINDER LASER</description>
+</entry>
+<entry>
+<type>EQMT</type>
+<description>EQUIPMENT</description>
+</entry>
+<entry>
+<type>EQOP</type>
+<description>EQUIPMENT, OPTICAL </description>
+</entry>
+<entry>
+<type>EQOPDL</type>
+<description>EQUIPMENT, OPTICAL DATA LINK</description>
+</entry>
+<entry>
+<type>EQPH</type>
+<description>EQUIPMENT, PHOTOGRAPHIC</description>
+</entry>
+<entry>
+<type>EQSIG</type>
+<description>SIGNAL LIGHT</description>
+</entry>
+<entry>
+<type>EQTDP</type>
+<description>INDIVIDUAL EQUIPMENT SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>ESAIR</type>
+<description>EA AIRCRAFT PERFORMING EA DECEPTION</description>
+</entry>
+<entry>
+<type>ESDLT</type>
+<description>ES DETECTION, LOCATION, TRACKING AND TARGETING ,</description>
+</entry>
+<entry>
+<type>ESSUR</type>
+<description>EM SURFACE JAMMER INSTALLATIONS</description>
+</entry>
+<entry>
+<type>ESURV</type>
+<description>ELECTRONIC SURVEILLANCE</description>
+</entry>
+<entry>
+<type>EW</type>
+<description>ELECTRONIC WARFARE EQUIPMENT</description>
+</entry>
+<entry>
+<type>FARRP</type>
+<description>REARMING AND REFUELING POINT, FORWARD AREA</description>
+</entry>
+<entry>
+<type>FAX</type>
+<description>FACSIMILE</description>
+</entry>
+<entry>
+<type>FF</type>
+<description>FRIGATE</description>
+</entry>
+<entry>
+<type>FFG</type>
+<description>FRIGATE, GUIDED MISSILE </description>
+</entry>
+<entry>
+<type>FFGH</type>
+<description>FRIGATE, AVIATION, GUIDED MISSILE  </description>
+</entry>
+<entry>
+<type>FFGN</type>
+<description>FRIGATE, GUIDED MISSILE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>FFH</type>
+<description>FRIGATE, AVIATION </description>
+</entry>
+<entry>
+<type>FFHGN</type>
+<description>FRIGATE, AVIATION, GUIDED MISSILE  , NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>FFHN</type>
+<description>FRIGATE, AVIATION, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>FFL</type>
+<description>CORVETTE</description>
+</entry>
+<entry>
+<type>FFLG</type>
+<description>CORVETTE, GUIDED MISSILE </description>
+</entry>
+<entry>
+<type>FFR</type>
+<description>FRIGATE, RADAR PICKET </description>
+</entry>
+<entry>
+<type>FFS</type>
+<description>FRIGATE, SMALL, CORVETTE</description>
+</entry>
+<entry>
+<type>FFT</type>
+<description>FRIGATE, TRAINING </description>
+</entry>
+<entry>
+<type>FHOLE</type>
+<description>FOXHOLE</description>
+</entry>
+<entry>
+<type>FIRE</type>
+<description>FIRE TRUCK</description>
+</entry>
+<entry>
+<type>FLAME</type>
+<description>PORTABLE FLAMETHROWER</description>
+</entry>
+<entry>
+<type>FLDGUN</type>
+<description>FIELD GUN</description>
+</entry>
+<entry>
+<type>FLFT</type>
+<description>FORKLIFT</description>
+</entry>
+<entry>
+<type>FLKTWR</type>
+<description>FLAK TOWER</description>
+</entry>
+<entry>
+<type>FLOTHQ</type>
+<description>FLOTILLA HEADQUARTERS</description>
+</entry>
+<entry>
+<type>FLTHQ</type>
+<description>FLEET HEADQUARTERS</description>
+</entry>
+<entry>
+<type>FO</type>
+<description>FORWARD OBSERVER</description>
+</entry>
+<entry>
+<type>FORD</type>
+<description>FORD</description>
+</entry>
+<entry>
+<type>FRTSTR</type>
+<description>FORTIFICATION/STRUCTURE</description>
+</entry>
+<entry>
+<type>FSH</type>
+<description>FISHING SHIP</description>
+</entry>
+<entry>
+<type>FTAFLD</type>
+<description>FIGHTER AIRFIELD</description>
+</entry>
+<entry>
+<type>FTR</type>
+<description>FIGHTER</description>
+</entry>
+<entry>
+<type>FTRBMR</type>
+<description>FIGHTER-BOMBER</description>
+</entry>
+<entry>
+<type>FWDCP</type>
+<description>FORWARD COMMAND POST</description>
+</entry>
+<entry>
+<type>FWLZ</type>
+<description>FIXED-WING LANDING ZONE</description>
+</entry>
+<entry>
+<type>GDNC</type>
+<description>GUIDANCE EQUIPMENT</description>
+</entry>
+<entry>
+<type>GENOFF</type>
+<description>OFFICER, GENERAL </description>
+</entry>
+<entry>
+<type>GENR</type>
+<description>GENERATOR</description>
+</entry>
+<entry>
+<type>GLIDER</type>
+<description>GLIDER</description>
+</entry>
+<entry>
+<type>GNDHQ</type>
+<description>GROUND FORCE HEADQUARTERS</description>
+</entry>
+<entry>
+<type>GRADER</type>
+<description>GRADER</description>
+</entry>
+<entry>
+<type>GREN</type>
+<description>GRENADE</description>
+</entry>
+<entry>
+<type>GUER</type>
+<description>GUERILLA</description>
+</entry>
+<entry>
+<type>GUNNER</type>
+<description>GUNNER</description>
+</entry>
+<entry>
+<type>HAFLD</type>
+<description>HELICOPTER AIRFIELD</description>
+</entry>
+<entry>
+<type>HAMB</type>
+<description>HELICOPTER, AMBULANCE</description>
+</entry>
+<entry>
+<type>HASLT</type>
+<description>HELICOPTER, ASSAULT (MOVABLE)</description>
+</entry>
+<entry>
+<type>HATK</type>
+<description>HELICOPTER, ATTACK</description>
+</entry>
+<entry>
+<type>HELO</type>
+<description>HELICOPTER</description>
+</entry>
+<entry>
+<type>HELPAD</type>
+<description>HELIPAD</description>
+</entry>
+<entry>
+<type>HH</type>
+<description>HOVERCRAFT, AIR CUSHION/GRND EFFECT MACHINE, GENERAL</description>
+</entry>
+<entry>
+<type>HILL</type>
+<description>HILL</description>
+</entry>
+<entry>
+<type>HL</type>
+<description>HOVERCRAFT, LARGE</description>
+</entry>
+<entry>
+<type>HLH</type>
+<description>HELICOPTER, HEAVY-LIFT</description>
+</entry>
+<entry>
+<type>HLZ</type>
+<description>HELICOPTER LANDING ZONE</description>
+</entry>
+<entry>
+<type>HOSP</type>
+<description>HOSPITAL</description>
+</entry>
+<entry>
+<type>HOSTG</type>
+<description>HOSTAGE</description>
+</entry>
+<entry>
+<type>HOWTZ</type>
+<description>HOWITZER</description>
+</entry>
+<entry>
+<type>HP</type>
+<description>HOVERCRAFT, PERSONNEL</description>
+</entry>
+<entry>
+<type>HQ</type>
+<description>HEADQUARTERS COMPLEX</description>
+</entry>
+<entry>
+<type>HS</type>
+<description>HOVERCRAFT, SMALL</description>
+</entry>
+<entry>
+<type>HTK</type>
+<description>TANK, HEAVY</description>
+</entry>
+<entry>
+<type>HTRKVH</type>
+<description>HALF-TRACK</description>
+</entry>
+<entry>
+<type>HVMG</type>
+<description>MACHINE GUN, HEAVY (.50CAL OR LARGER)</description>
+</entry>
+<entry>
+<type>HVWHL</type>
+<description>WHEELED VEHICLE, HEAVY (10 TON OR LARGER)</description>
+</entry>
+<entry>
+<type>HZDLT</type>
+<description>HAZARD LIGHT</description>
+</entry>
+<entry>
+<type>IAFLD</type>
+<description>INSTALLATION, AIR FIELD/AIR OPERATIONS </description>
+</entry>
+<entry>
+<type>IBASE</type>
+<description>MILITARY BASE</description>
+</entry>
+<entry>
+<type>ICDCTR</type>
+<description>COMMAND CENTER</description>
+</entry>
+<entry>
+<type>ICDPST</type>
+<description>INSTALLATION, COMMAND POST</description>
+</entry>
+<entry>
+<type>ICOMM</type>
+<description>INSTALLATION, COMMUNICATIONS </description>
+</entry>
+<entry>
+<type>IEW</type>
+<description>INSTALLATION, ELECTRONIC WARFARE </description>
+</entry>
+<entry>
+<type>IIND</type>
+<description>INDUSTRIAL</description>
+</entry>
+<entry>
+<type>IJAM</type>
+<description>INSTALLATION, JAMMING</description>
+</entry>
+<entry>
+<type>ILS</type>
+<description>INSTRUMENT-LANDING-SYSTEM LOCALIZER</description>
+</entry>
+<entry>
+<type>IMPBED</type>
+<description>IMPROVED FORD BED, TYPE UNKNOWN</description>
+</entry>
+<entry>
+<type>INACFT</type>
+<description>AIRCRAFT PRODUCTION COMPLEX</description>
+</entry>
+<entry>
+<type>INAVIG</type>
+<description>INSTALLATION, NAVIGATION</description>
+</entry>
+<entry>
+<type>INCHEM</type>
+<description>CHEMICAL PRODUCTS COMPLEX</description>
+</entry>
+<entry>
+<type>INCPLX</type>
+<description>INDUSTRIAL COMPLEX</description>
+</entry>
+<entry>
+<type>INF</type>
+<description>INFANTRY</description>
+</entry>
+<entry>
+<type>INGM</type>
+<description>GUIDED-MISSILE PRODUCTION COMPLEX</description>
+</entry>
+<entry>
+<type>INHTEC</type>
+<description>HIGH-TECHNOLOGY COMPLEX</description>
+</entry>
+<entry>
+<type>INMUN</type>
+<description>MUNITIONS COMPLEX</description>
+</entry>
+<entry>
+<type>INMV</type>
+<description>MOTOR-VEHICLE PRODUCTION COMPLEX</description>
+</entry>
+<entry>
+<type>INPOL</type>
+<description>PETROLEUM-PRODUCTS COMPLEX</description>
+</entry>
+<entry>
+<type>INSHYD</type>
+<description>SHIPYARD</description>
+</entry>
+<entry>
+<type>INSTAL</type>
+<description>INSTALLATION</description>
+</entry>
+<entry>
+<type>INTEL</type>
+<description>INTELLIGENCE</description>
+</entry>
+<entry>
+<type>INTRCP</type>
+<description>INTERCEPTOR</description>
+</entry>
+<entry>
+<type>IOPTIC</type>
+<description>INSTALLATION, OPTICAL </description>
+</entry>
+<entry>
+<type>IPORT</type>
+<description>INSTALLATION, PORT/HARBOR </description>
+</entry>
+<entry>
+<type>IRADAR</type>
+<description>INSTALLATION, RADAR </description>
+</entry>
+<entry>
+<type>IRAIL</type>
+<description>INSTALLATION, RAILROAD </description>
+</entry>
+<entry>
+<type>ISTOR</type>
+<description>INSTALLATION, STORAGE</description>
+</entry>
+<entry>
+<type>ISUB</type>
+<description>INSTALLATION, SUBMARINE </description>
+</entry>
+<entry>
+<type>ISUPLY</type>
+<description>INSTALLATION, SUPPLY DUMP </description>
+</entry>
+<entry>
+<type>IX</type>
+<description>MISCELLANEOUS UNIT, MERCHANT, UNCLASSIFIED</description>
+</entry>
+<entry>
+<type>JCT</type>
+<description>ROAD JUNCTION</description>
+</entry>
+<entry>
+<type>JHQ</type>
+<description>JOINT COMMAND HEADQUARTERS</description>
+</entry>
+<entry>
+<type>LB</type>
+<description>ASSUALT VESSEL, BEACHING</description>
+</entry>
+<entry>
+<type>LC</type>
+<description>ASSAULT CRAFT</description>
+</entry>
+<entry>
+<type>LCAC</type>
+<description>LANDING CRAFT, AIR CUSHION </description>
+</entry>
+<entry>
+<type>LCC</type>
+<description>AMPHIBIOUS COMMAND SHIP</description>
+</entry>
+<entry>
+<type>LCFS</type>
+<description>LANDING CRAFT, FIRE SUPPORT</description>
+</entry>
+<entry>
+<type>LCHMSL</type>
+<description>LAUNCHER, MISSILE</description>
+</entry>
+<entry>
+<type>LCHRKT</type>
+<description>LAUNCHER, ROCKET</description>
+</entry>
+<entry>
+<type>LCM</type>
+<description>LANDING CRAFT, MECHANIZED</description>
+</entry>
+<entry>
+<type>LCMA</type>
+<description>LANDING CRAFT, MEDIUM, AIR CUSHION  </description>
+</entry>
+<entry>
+<type>LCP</type>
+<description>LANDING CRAFT, PERSONNEL</description>
+</entry>
+<entry>
+<type>LCPA</type>
+<description>LANDING CRAFT, PERSONNEL, ARMORED</description>
+</entry>
+<entry>
+<type>LCPL</type>
+<description>LANDING CRAFT, PERSONNEL, LARGE</description>
+</entry>
+<entry>
+<type>LCU</type>
+<description>LANDING CRAFT, UTILITY</description>
+</entry>
+<entry>
+<type>LCUA</type>
+<description>LANDING CRAFT, UTILITY, AIR CUSHION</description>
+</entry>
+<entry>
+<type>LCVP</type>
+<description>LANDING CRAFT, VEHICLE/PERSONNEL </description>
+</entry>
+<entry>
+<type>LCW</type>
+<description>LANDING CRAFT, SWIMMER SUPPORT</description>
+</entry>
+<entry>
+<type>LDSTRP</type>
+<description>LANDING STRIP</description>
+</entry>
+<entry>
+<type>LELEM</type>
+<description>LEAD ELEMENT LOCATION</description>
+</entry>
+<entry>
+<type>LFS</type>
+<description>AMPHIBIOUS FIRE SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>LG</type>
+<description>ASSAULT CRAFT, GUN-EQUIPPED</description>
+</entry>
+<entry>
+<type>LGCP</type>
+<description>LARGE COMMAND POST</description>
+</entry>
+<entry>
+<type>LHA</type>
+<description>AMPHIBIOUS ASSAULT SHIP, GENERAL</description>
+</entry>
+<entry>
+<type>LHD</type>
+<description>AMPHIBIOUS ASSAULT SHIP, MULTI-PURPOSE</description>
+</entry>
+<entry>
+<type>LINCRS</type>
+<description>LINE CROSSER</description>
+</entry>
+<entry>
+<type>LINK</type>
+<description>LINK-UP POINT OR POSITION</description>
+</entry>
+<entry>
+<type>LKA</type>
+<description>AMPHIBIOUS CARGO SHIP</description>
+</entry>
+<entry>
+<type>LL</type>
+<description>AMBHIBIOUS ASSAULT, GENERAL</description>
+</entry>
+<entry>
+<type>LM</type>
+<description>ASSAULT CRAFT, MISSILE EQUIPPED</description>
+</entry>
+<entry>
+<type>LNCOMM</type>
+<description>LINE OF COMMUNICATIONS</description>
+</entry>
+<entry>
+<type>LO</type>
+<description>ASSAULT SHIP, NON-BEACHING</description>
+</entry>
+<entry>
+<type>LOC</type>
+<description>LINE OF COMMUNICATION</description>
+</entry>
+<entry>
+<type>LOCAL</type>
+<description>LOCAL INHABITANT</description>
+</entry>
+<entry>
+<type>LORAN</type>
+<description>LORAN STATION</description>
+</entry>
+<entry>
+<type>LP</type>
+<description>ASSAULT SHIP, PERSONNEL</description>
+</entry>
+<entry>
+<type>LPA</type>
+<description>AMPHIBIOUS TRANSPORT, PERSONNEL</description>
+</entry>
+<entry>
+<type>LPD</type>
+<description>AMPHIBIOUS TRANSPORT, DOCK</description>
+</entry>
+<entry>
+<type>LPH</type>
+<description>AMPHIBIOUS ASSAULT SHIP, HELICOPTER</description>
+</entry>
+<entry>
+<type>LR</type>
+<description>ASSAULT SHIP, ROCKET-FIRING</description>
+</entry>
+<entry>
+<type>LRAVHQ</type>
+<description>LONG-RANGE AVIATION HEADQUARTERS</description>
+</entry>
+<entry>
+<type>LS</type>
+<description>LOUDSPEAKER</description>
+</entry>
+<entry>
+<type>LSD</type>
+<description>LANDING SHIP, DOCK</description>
+</entry>
+<entry>
+<type>LSDV</type>
+<description>SWIMMER DELIVERY VEHICLE</description>
+</entry>
+<entry>
+<type>LSM</type>
+<description>LANDING SHIP, MEDIUM</description>
+</entry>
+<entry>
+<type>LSSC</type>
+<description>LIGHT SEAL SUPPORT CRAFT</description>
+</entry>
+<entry>
+<type>LST</type>
+<description>LANDING SHIP, TANK</description>
+</entry>
+<entry>
+<type>LSV</type>
+<description>LANDING SHIP, VEHICLE</description>
+</entry>
+<entry>
+<type>LT</type>
+<description>ASSAULT SHIP, TANK</description>
+</entry>
+<entry>
+<type>LTA</type>
+<description>LIGHTER-THAN-AIR AIRCRAFT</description>
+</entry>
+<entry>
+<type>LTBCN</type>
+<description>AERONAUTICAL LIGHT BEACON</description>
+</entry>
+<entry>
+<type>LTHOUS</type>
+<description>LIGHTHOUSE</description>
+</entry>
+<entry>
+<type>LTK</type>
+<description>TANK, LIGHT </description>
+</entry>
+<entry>
+<type>LTMG</type>
+<description>MACHINE GUN, LIGHT (UNDER .50CAL ) ",</description>
+</entry>
+<entry>
+<type>LTWHL</type>
+<description>WHEELED VEHICLE, LIGHT (5 TON OR SMALLER)</description>
+</entry>
+<entry>
+<type>LV</type>
+<description>ASSAULT VEHICLE, AMPHIBIOUS</description>
+</entry>
+<entry>
+<type>LVT</type>
+<description>TRACKED LANDING-VEHICLE</description>
+</entry>
+<entry>
+<type>LZ</type>
+<description>LANDING ZONE</description>
+</entry>
+<entry>
+<type>MACHP</type>
+<description>MACHINE PISTOL</description>
+</entry>
+<entry>
+<type>MAPORT</type>
+<description>MAJOR PORT</description>
+</entry>
+<entry>
+<type>MCBASE</type>
+<description>MARINE BASE</description>
+</entry>
+<entry>
+<type>MCCS</type>
+<description>MINE COUNTERMEASURES COMMAND AND SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>MCD</type>
+<description>MINE COUNTERMEASURES VESSEL, DIVING</description>
+</entry>
+<entry>
+<type>MCJ</type>
+<description>MINE COUNTERMEASURES VESSEK, HOVERCRAFT</description>
+</entry>
+<entry>
+<type>MCM</type>
+<description>MINE COUNTERMEASURES SHIP, GENERAL</description>
+</entry>
+<entry>
+<type>MCMV</type>
+<description>MINE COUNTERMEASURES VESSEL, GENERAL</description>
+</entry>
+<entry>
+<type>MCS</type>
+<description>MINE COUNTERMEASURES SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>MCSL</type>
+<description>MINE COUNTERMEASURES SHIP, SMALL</description>
+</entry>
+<entry>
+<type>MCT</type>
+<description>MINE COUNTERMEASURES CRAFT, TRAINING</description>
+</entry>
+<entry>
+<type>MDF</type>
+<description>FLEET MINESWEEPER</description>
+</entry>
+<entry>
+<type>MDMCP</type>
+<description>MEDIUM COMMAND POST</description>
+</entry>
+<entry>
+<type>MDMTK</type>
+<description>TANK, MEDIUM</description>
+</entry>
+<entry>
+<type>MDMVH</type>
+<description>WHEELED VEHICLE, MEDIUM (5-10 TONS)</description>
+</entry>
+<entry>
+<type>MEDIC</type>
+<description>MEDICAL PERSON</description>
+</entry>
+<entry>
+<type>MERCH</type>
+<description>MERCHANT SHIP TYPES</description>
+</entry>
+<entry>
+<type>METBAL</type>
+<description>METEOROLOGICAL BALLOON</description>
+</entry>
+<entry>
+<type>MF</type>
+<description>MINESWEEPER, FAST</description>
+</entry>
+<entry>
+<type>MFAC</type>
+<description>MAINTENANCE FACILITY</description>
+</entry>
+<entry>
+<type>MFACFT</type>
+<description>MAINTENANCE FACILITY AIRCRAFT</description>
+</entry>
+<entry>
+<type>MFAR</type>
+<description>MAINTENANCE FACILITY, ARMOR/ARTILLERY </description>
+</entry>
+<entry>
+<type>MFLD</type>
+<description>MINEFIELD</description>
+</entry>
+<entry>
+<type>MFMV</type>
+<description>MAINTENANCE FACILITY MOTOR VEHICLE</description>
+</entry>
+<entry>
+<type>MG</type>
+<description>MACHINE GUN</description>
+</entry>
+<entry>
+<type>MH</type>
+<description>MINEHUNTER, GENERAL</description>
+</entry>
+<entry>
+<type>MHA</type>
+<description>MINEHUNTER, AUXILIARY</description>
+</entry>
+<entry>
+<type>MHC</type>
+<description>MINEHUNTER, COSTAL</description>
+</entry>
+<entry>
+<type>MHI</type>
+<description>MINEHUNTER, INSHORE</description>
+</entry>
+<entry>
+<type>MHO</type>
+<description>MINEHUNTER, OCEAN</description>
+</entry>
+<entry>
+<type>MHS</type>
+<description>MINEHUNTER/SWEEPER, GENERAL</description>
+</entry>
+<entry>
+<type>MHSC</type>
+<description>MINEHUNTER/SWEEPER, COASTAL</description>
+</entry>
+<entry>
+<type>MHSD</type>
+<description>MINEHUNTER/SWEEPER, WITH DRONE</description>
+</entry>
+<entry>
+<type>MHSO</type>
+<description>MINEHUNTER, SWEEPER, OCEAN</description>
+</entry>
+<entry>
+<type>MILPER</type>
+<description>MILITARY PERSONNEL</description>
+</entry>
+<entry>
+<type>MINLR</type>
+<description>MINELAYER</description>
+</entry>
+<entry>
+<type>MIPORT</type>
+<description>MINOR PORT</description>
+</entry>
+<entry>
+<type>MIS</type>
+<description>MISCELLANEOUS, MINE WARFARE</description>
+</entry>
+<entry>
+<type>MISSILE</type>
+<description>MISSILE</description>
+</entry>
+<entry>
+<type>MKRBCN</type>
+<description>MARKER BEACON</description>
+</entry>
+<entry>
+<type>ML</type>
+<description>MINELAYER, GENERAL</description>
+</entry>
+<entry>
+<type>MLA</type>
+<description>MINELAYER, AUXILIARY</description>
+</entry>
+<entry>
+<type>MLC</type>
+<description>MINELAYER, COASTAL</description>
+</entry>
+<entry>
+<type>MLD</type>
+<description>MINELAYER, FAST</description>
+</entry>
+<entry>
+<type>MLI</type>
+<description>MINELAYER, INSHORE</description>
+</entry>
+<entry>
+<type>MLO</type>
+<description>MINELAYER, OCEAN</description>
+</entry>
+<entry>
+<type>MLR</type>
+<description>MINELAYER, RIVER</description>
+</entry>
+<entry>
+<type>MLS</type>
+<description>MINELAYER, SUPPORT SHIP</description>
+</entry>
+<entry>
+<type>MM</type>
+<description>MINE WARFARE VESSEL</description>
+</entry>
+<entry>
+<type>MMF</type>
+<description>MINELAYER, FLEET</description>
+</entry>
+<entry>
+<type>MON</type>
+<description>RIVER MONITOR, ASSAULT</description>
+</entry>
+<entry>
+<type>MORT</type>
+<description>MORTAR</description>
+</entry>
+<entry>
+<type>MP</type>
+<description>MILITARY POLICEMAN</description>
+</entry>
+<entry>
+<type>MRTRH</type>
+<description>MORTAR, HEAVY  (108-150MM)</description>
+</entry>
+<entry>
+<type>MRTRL</type>
+<description>MORTAR, LIGHT  (60MM OR SMALLER)</description>
+</entry>
+<entry>
+<type>MRTRM</type>
+<description>MORTAR, MEDIUM  (61-107MM)</description>
+</entry>
+<entry>
+<type>MRTRVH</type>
+<description>MORTAR, VERY HEAVY  (OVER 150MM)</description>
+</entry>
+<entry>
+<type>MS</type>
+<description>MINESWEEPER, SMALL, GENERAL</description>
+</entry>
+<entry>
+<type>MSA</type>
+<description>MINESWEEPER, AUXILIARY</description>
+</entry>
+<entry>
+<type>MSB</type>
+<description>MINESWEEPER, BOAT</description>
+</entry>
+<entry>
+<type>MSC</type>
+<description>MINESWEEPER, COASTAL</description>
+</entry>
+<entry>
+<type>MSCA</type>
+<description>MINESWEEPER, COASTAL, AIR CUSHION  </description>
+</entry>
+<entry>
+<type>MSCD</type>
+<description>MINESWEEPER, COASTAL, WITH DRONE</description>
+</entry>
+<entry>
+<type>MSCH</type>
+<description>MINESWEEPER, COASTAL, HYDROFOIL</description>
+</entry>
+<entry>
+<type>MSCT</type>
+<description>MINESWEEPER, COASTAL, TRAINING  </description>
+</entry>
+<entry>
+<type>MSD</type>
+<description>MINESWEEPER, DRONE</description>
+</entry>
+<entry>
+<type>MSF</type>
+<description>MINESWEEPER, FLEET </description>
+</entry>
+<entry>
+<type>MSFA</type>
+<description>MINESWEEPER, FLEET, AIR CUSHION</description>
+</entry>
+<entry>
+<type>MSFH</type>
+<description>MINESWEEPER, FLEET, HYDROFOIL  </description>
+</entry>
+<entry>
+<type>MSGR</type>
+<description>MESSENGER</description>
+</entry>
+<entry>
+<type>MSH</type>
+<description>MINEHUNTER</description>
+</entry>
+<entry>
+<type>MSI</type>
+<description>MINESWEEPER, INSHORE </description>
+</entry>
+<entry>
+<type>MSIA</type>
+<description>MINESWEEPER, INSHORE, AIR CUSHION</description>
+</entry>
+<entry>
+<type>MSL</type>
+<description>MINESWEEPING LAUNCH</description>
+</entry>
+<entry>
+<type>MSLG</type>
+<description>MISSILE, GUIDED</description>
+</entry>
+<entry>
+<type>MSLH</type>
+<description>MISSILE, HEAVY</description>
+</entry>
+<entry>
+<type>MSLL</type>
+<description>MISSILE, LIGHT</description>
+</entry>
+<entry>
+<type>MSLMDM</type>
+<description>MISSILE, MEDIUM</description>
+</entry>
+<entry>
+<type>MSLPOS</type>
+<description>POSTION AREA, ROCKET/MISSILE</description>
+</entry>
+<entry>
+<type>MSNRY</type>
+<description>MISSIONARY</description>
+</entry>
+<entry>
+<type>MSO</type>
+<description>MINESWEEPER, OCEAN</description>
+</entry>
+<entry>
+<type>MSR</type>
+<description>MINESWEEPER, RIVER</description>
+</entry>
+<entry>
+<type>MSS</type>
+<description>MINESWEEPER, SPECIAL DEVICE</description>
+</entry>
+<entry>
+<type>MSSC</type>
+<description>MINESWEEPER, COASTAL, SPECIAL</description>
+</entry>
+<entry>
+<type>MUAFLD</type>
+<description>MULTIPURPOSE AIRFIELD</description>
+</entry>
+<entry>
+<type>MULDP</type>
+<description>MULTIPLE-PURPOSE SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>MWAVE</type>
+<description>MICROWAVE</description>
+</entry>
+<entry>
+<type>NABASE</type>
+<description>NAVY BASE</description>
+</entry>
+<entry>
+<type>NAS</type>
+<description>NAVAL AIR STATION</description>
+</entry>
+<entry>
+<type>NATURL</type>
+<description>UNIMPROVED NATURAL FORD BED</description>
+</entry>
+<entry>
+<type>NAVAID</type>
+<description>NAVAID SITE</description>
+</entry>
+<entry>
+<type>NAVNHQ</type>
+<description>NAVAL AVIATION HEADQUARTERS</description>
+</entry>
+<entry>
+<type>NCO</type>
+<description>NONCOM</description>
+</entry>
+<entry>
+<type>NNAVHQ</type>
+<description>NATIONAL NAVAL HEADQUARTERS</description>
+</entry>
+<entry>
+<type>NR</type>
+<description>SUBMERSIBLE RESEARCH VEHICLE</description>
+</entry>
+<entry>
+<type>OBSR</type>
+<description>REMOTE OBSERVER</description>
+</entry>
+<entry>
+<type>OBVTWR</type>
+<description>OBERSERVATION TOWER</description>
+</entry>
+<entry>
+<type>OFF</type>
+<description>OFFICER</description>
+</entry>
+<entry>
+<type>OH</type>
+<description>HELICOPTER, OBSERVATION</description>
+</entry>
+<entry>
+<type>OMNI</type>
+<description>OMNIRANGE STATION</description>
+</entry>
+<entry>
+<type>OP</type>
+<description>OBSERVATION POST</description>
+</entry>
+<entry>
+<type>OPLP</type>
+<description>OBERSAVATION/LISTENING POST</description>
+</entry>
+<entry>
+<type>PARMIL</type>
+<description>PARAMILITARY PERSONNEL</description>
+</entry>
+<entry>
+<type>PARTSN</type>
+<description>PARTISAN</description>
+</entry>
+<entry>
+<type>PAS</type>
+<description>PASSAGE</description>
+</entry>
+<entry>
+<type>PATROL</type>
+<description>PATROL AIRCRAFT</description>
+</entry>
+<entry>
+<type>PAX</type>
+<description>PASSENGER MERCHANT SHIP</description>
+</entry>
+<entry>
+<type>PB</type>
+<description>PATROL BOAT</description>
+</entry>
+<entry>
+<type>PBA</type>
+<description>PATROL BOAT, AIR CUSHION </description>
+</entry>
+<entry>
+<type>PBD</type>
+<description>PATROL BOAT, DRONE</description>
+</entry>
+<entry>
+<type>PBF</type>
+<description>PATROL BOAT, FAST</description>
+</entry>
+<entry>
+<type>PBR</type>
+<description>PATROL BOAT, RIVER-ROADSTEAD </description>
+</entry>
+<entry>
+<type>PBS</type>
+<description>PATROL BOAT, FIRE SUPPORT</description>
+</entry>
+<entry>
+<type>PC</type>
+<description>SUBMARINE CHASER/ESCORT CRAFT, GENERAL</description>
+</entry>
+<entry>
+<type>PCE</type>
+<description>PATROL, COASTAL, ESCORT</description>
+</entry>
+<entry>
+<type>PCF</type>
+<description>PATROL SUBCHASER, FAST </description>
+</entry>
+<entry>
+<type>PCFA</type>
+<description>PATROL CRAFT, AIR CUSHION, FAST</description>
+</entry>
+<entry>
+<type>PCFH</type>
+<description>PATROL CRAFT, HYDROFOIL, FAST </description>
+</entry>
+<entry>
+<type>PCFS</type>
+<description>PATROL CRAFT, FIRE SUPPORT</description>
+</entry>
+<entry>
+<type>PCH</type>
+<description>PATROL CRAFT, HYDROFOIL</description>
+</entry>
+<entry>
+<type>PCNTRM</type>
+<description>CENTER OF MASS, PLANNED</description>
+</entry>
+<entry>
+<type>PCS</type>
+<description>SUBMARINE CHASER</description>
+</entry>
+<entry>
+<type>PCSA</type>
+<description>SUBMARINE CHASER, AIR CUSHION </description>
+</entry>
+<entry>
+<type>PCSH</type>
+<description>SUBMARINE CHASER, HYDROFOIL</description>
+</entry>
+<entry>
+<type>PCT</type>
+<description>PATROL CRAFT, TRAINING</description>
+</entry>
+<entry>
+<type>PERBAR</type>
+<description>PERSONNEL BARRIER</description>
+</entry>
+<entry>
+<type>PERS</type>
+<description>PERSONNEL</description>
+</entry>
+<entry>
+<type>PF</type>
+<description>PATROL FRIGATE</description>
+</entry>
+<entry>
+<type>PFR</type>
+<description>PATROL FRIGATE, RADAR PICKET </description>
+</entry>
+<entry>
+<type>PG</type>
+<description>PATROL CRAFT, GUN-EQUIPPED, GENERAL</description>
+</entry>
+<entry>
+<type>PGA</type>
+<description>PATROL COMBATANT, AIR CUSHION </description>
+</entry>
+<entry>
+<type>PGB</type>
+<description>PATROL SHIP, ICEBREAKER</description>
+</entry>
+<entry>
+<type>PGF</type>
+<description>PATROL SHIP, FAST</description>
+</entry>
+<entry>
+<type>PGG</type>
+<description>PATROL COMBATANT. GUIDED MISSILE </description>
+</entry>
+<entry>
+<type>PGGA</type>
+<description>PATROL COMBATANT. GUIDED MISSILE , AIR CUSHION</description>
+</entry>
+<entry>
+<type>PGGH</type>
+<description>PATROL COMBATANT. GUIDED MISSILE, HYDROFOIL</description>
+</entry>
+<entry>
+<type>PGH</type>
+<description>PATROL COMBATANT, HYDROFOIL</description>
+</entry>
+<entry>
+<type>PGM</type>
+<description>MOTOR GUNBOAT</description>
+</entry>
+<entry>
+<type>PGR</type>
+<description>PATROL COMBATANT, RECONNAISSANCE</description>
+</entry>
+<entry>
+<type>PGS</type>
+<description>PATROL SHIP, ASW</description>
+</entry>
+<entry>
+<type>PIER</type>
+<description>PIER</description>
+</entry>
+<entry>
+<type>PILBOX</type>
+<description>PILLBOX</description>
+</entry>
+<entry>
+<type>PILEDR</type>
+<description>PILE DRIVER</description>
+</entry>
+<entry>
+<type>PILOT</type>
+<description>PILOT</description>
+</entry>
+<entry>
+<type>PIPE</type>
+<description>PIPELINE SEGMENTS</description>
+</entry>
+<entry>
+<type>PISTOL</type>
+<description>PISTOL OR OTHER HANDGUN</description>
+</entry>
+<entry>
+<type>PM</type>
+<description>RIVER MONITOR</description>
+</entry>
+<entry>
+<type>POLDP</type>
+<description>PETROLEUM PRODUCTS SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>POLICE</type>
+<description>POLICE STATION</description>
+</entry>
+<entry>
+<type>PORT</type>
+<description>PORT/HARBOR</description>
+</entry>
+<entry>
+<type>POW</type>
+<description>PRISONER</description>
+</entry>
+<entry>
+<type>PP</type>
+<description>MOTOR/PATROL CRAFT, FAST, GENERAL</description>
+</entry>
+<entry>
+<type>PR</type>
+<description>PATROL CRAFT, RESCUE</description>
+</entry>
+<entry>
+<type>PRISON</type>
+<description>PRISONER-OF-WAR CAMP</description>
+</entry>
+<entry>
+<type>PRSHVL</type>
+<description>POWER SHOVEL</description>
+</entry>
+<entry>
+<type>PS</type>
+<description>PATROL SHIP, LARGE</description>
+</entry>
+<entry>
+<type>PT</type>
+<description>PATROL CRAFT, MOTOR TORPEDO </description>
+</entry>
+<entry>
+<type>PTA</type>
+<description>TORPEDO BOAT, AIR CUSHION </description>
+</entry>
+<entry>
+<type>PTG</type>
+<description>ATTACK BOAT, GUIDED MISSILE</description>
+</entry>
+<entry>
+<type>PTGA</type>
+<description>ATTACK BOAT, GUIDED MISSILE, AIR CUSHION  </description>
+</entry>
+<entry>
+<type>PTGH</type>
+<description>ATTACK BOAT, GUIDED MISSILE, HYDROFOIL</description>
+</entry>
+<entry>
+<type>PTGT</type>
+<description>ATTACK BOAT, GUIDED MISSILE, TRAINING</description>
+</entry>
+<entry>
+<type>PTH</type>
+<description>TORPEDO BOAT, MOTOR, HYDROFOIL  </description>
+</entry>
+<entry>
+<type>PTL</type>
+<description>TORPEDO BOAT, SMALL</description>
+</entry>
+<entry>
+<type>PTLH</type>
+<description>TORPEDO BOAT, SMALL, HYDROFOIL</description>
+</entry>
+<entry>
+<type>PTRL</type>
+<description>PATROL</description>
+</entry>
+<entry>
+<type>PTT</type>
+<description>TORPEDO BOAT, TRAINING</description>
+</entry>
+<entry>
+<type>PWRFAC</type>
+<description>POWER FACILITY</description>
+</entry>
+<entry>
+<type>PWRFF</type>
+<description>POWER PLANT, FOSSIL-FUEL </description>
+</entry>
+<entry>
+<type>PWRHYD</type>
+<description>POWER PLANT, HYDROELECTRIC</description>
+</entry>
+<entry>
+<type>PWRLN</type>
+<description>POWER LINE</description>
+</entry>
+<entry>
+<type>PWRNUC</type>
+<description>POWER PLANT, NUCLEAR</description>
+</entry>
+<entry>
+<type>PWRSTA</type>
+<description>POWER SUBSTATION</description>
+</entry>
+<entry>
+<type>PWRTRM</type>
+<description>POWER PLANT, THERMAL</description>
+</entry>
+<entry>
+<type>QM</type>
+<description>MOTOR BOAT, LAUNCH</description>
+</entry>
+<entry>
+<type>QQ</type>
+<description>BOAT, GENERAL</description>
+</entry>
+<entry>
+<type>QR</type>
+<description>ROWBOAT</description>
+</entry>
+<entry>
+<type>QW</type>
+<description>SAILBOAT</description>
+</entry>
+<entry>
+<type>RADAR</type>
+<description>RADAR EQUIPMENT</description>
+</entry>
+<entry>
+<type>RADIO</type>
+<description>RADIO EQUIPMENT</description>
+</entry>
+<entry>
+<type>RADOME</type>
+<description>RADOME</description>
+</entry>
+<entry>
+<type>RADTWR</type>
+<description>RADIO-TRANSMITTER TOWER</description>
+</entry>
+<entry>
+<type>RAIL</type>
+<description>RAILROAD SEGMENTS</description>
+</entry>
+<entry>
+<type>RATT</type>
+<description>RADIO TELETYPE</description>
+</entry>
+<entry>
+<type>RCLR</type>
+<description>RECOILLESS RIFLE</description>
+</entry>
+<entry>
+<type>RDF</type>
+<description>RADIO DIRECTION-FINDING</description>
+</entry>
+<entry>
+<type>RDL</type>
+<description>RADIO DATA LINK</description>
+</entry>
+<entry>
+<type>RDRABN</type>
+<description>RADAR, AIRBORNE </description>
+</entry>
+<entry>
+<type>RDRAS</type>
+<description>RADAR, AIR-SURVEILLANCE </description>
+</entry>
+<entry>
+<type>RDRCBR</type>
+<description>RADAR, COUNTER-BATTERY RANGING </description>
+</entry>
+<entry>
+<type>RDRCMR</type>
+<description>RADAR, COUNTER-MORTAR RANGING ELECTRONICS</description>
+</entry>
+<entry>
+<type>RDRDF</type>
+<description>RADAR, DIRECTION-FINDING </description>
+</entry>
+<entry>
+<type>RDRFC</type>
+<description>RADAR, FIRE-CONTROL </description>
+</entry>
+<entry>
+<type>RDRGDN</type>
+<description>RADAR, GUIDANCE </description>
+</entry>
+<entry>
+<type>RDRGS</type>
+<description>RADAR, GROUND SURVEILLANCE </description>
+</entry>
+<entry>
+<type>RDRRNG</type>
+<description>RADAR, RANGING </description>
+</entry>
+<entry>
+<type>RDRSLR</type>
+<description>RADAR, SIDE-LOOKING </description>
+</entry>
+<entry>
+<type>REAFLD</type>
+<description>RECONNAISSANCE AIRFIELD</description>
+</entry>
+<entry>
+<type>RECCE</type>
+<description>RECONNAISSANCE AIRCRAFT</description>
+</entry>
+<entry>
+<type>RECNVH</type>
+<description>RECONNAISSANCE VEHICLE</description>
+</entry>
+<entry>
+<type>RECO</type>
+<description>RECONNAISSANCE, COMBAT </description>
+</entry>
+<entry>
+<type>REF</type>
+<description>REFRIGERATOR MERCHANT SHIP</description>
+</entry>
+<entry>
+<type>REFUG</type>
+<description>REFUGEE</description>
+</entry>
+<entry>
+<type>REGTCP</type>
+<description>REGIMENT COMMAND POST</description>
+</entry>
+<entry>
+<type>REL</type>
+<description>RELEASE</description>
+</entry>
+<entry>
+<type>REPAT</type>
+<description>REPATRIATE</description>
+</entry>
+<entry>
+<type>REVET</type>
+<description>REVETMENT</description>
+</entry>
+<entry>
+<type>RFLMN</type>
+<description>RIFLEMAN</description>
+</entry>
+<entry>
+<type>RGDN</type>
+<description>RADIO GUIDANCE</description>
+</entry>
+<entry>
+<type>RIFLE</type>
+<description>RIFLE</description>
+</entry>
+<entry>
+<type>RIV</type>
+<description>RIVER/SEA MERCHANT SHIP</description>
+</entry>
+<entry>
+<type>RKTMSL</type>
+<description>ROCKET/MISSILE</description>
+</entry>
+<entry>
+<type>RNWY</type>
+<description>RUNWAY</description>
+</entry>
+<entry>
+<type>ROAD</type>
+<description>ROAD SEGMENTS</description>
+</entry>
+<entry>
+<type>ROCK</type>
+<description>ROCK CRUSHER</description>
+</entry>
+<entry>
+<type>RPV</type>
+<description>REMOTELY-PILOTED-VEHICLE</description>
+</entry>
+<entry>
+<type>RR</type>
+<description>RAILROAD</description>
+</entry>
+<entry>
+<type>RRCLAS</type>
+<description>RAILROAD CLASSIFICATION FACILITY</description>
+</entry>
+<entry>
+<type>RREQRP</type>
+<description>RAILROAD EQUIPMENT REPAIR FACILITY</description>
+</entry>
+<entry>
+<type>RRFAC</type>
+<description>RAILROAD TRANSPORT FACILITY</description>
+</entry>
+<entry>
+<type>RRFRT</type>
+<description>RAILROAD FREIGHT TERMINAL</description>
+</entry>
+<entry>
+<type>RRJCT</type>
+<description>RAILROAD JUNCTION</description>
+</entry>
+<entry>
+<type>RRLDPL</type>
+<description>RAILROAD MILITARY LOADING PLATFORM</description>
+</entry>
+<entry>
+<type>RRPAS</type>
+<description>RAILROAD PASSENGER TERMINAL</description>
+</entry>
+<entry>
+<type>RRRLY</type>
+<description>RAILROAD RELAY FACILITY</description>
+</entry>
+<entry>
+<type>RRSTOR</type>
+<description>RAILROAD STORAGE OR HOLDING FACILITY</description>
+</entry>
+<entry>
+<type>RRTRLD</type>
+<description>RAILROAD TRANSLOADING FACILITY</description>
+</entry>
+<entry>
+<type>RRX</type>
+<description>RAILROAD CROSSING</description>
+</entry>
+<entry>
+<type>RT</type>
+<description>RADIO TELEPHONE</description>
+</entry>
+<entry>
+<type>RTNDP</type>
+<description>SUBSISTENCE ITEMS SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>SABOT</type>
+<description>SABOTEUR</description>
+</entry>
+<entry>
+<type>SAM</type>
+<description>ROCKET/MISSILE, SURFACE-TO-AIR</description>
+</entry>
+<entry>
+<type>SAMHQ</type>
+<description>SURFACE-TO-AIR MISSILE HEADQUARTERS</description>
+</entry>
+<entry>
+<type>SAPPER</type>
+<description>SAPPER</description>
+</entry>
+<entry>
+<type>SCHOOL</type>
+<description>SCHOOL</description>
+</entry>
+<entry>
+<type>SCOUT</type>
+<description>SCOUT</description>
+</entry>
+<entry>
+<type>SCP</type>
+<description>SMALL COMMAND POST</description>
+</entry>
+<entry>
+<type>SCPORT</type>
+<description>SECONDARY PORT</description>
+</entry>
+<entry>
+<type>SFCRFT</type>
+<description>SURFACE VESSELS, NAVAL</description>
+</entry>
+<entry>
+<type>SG</type>
+<description>SUBMARINE, GUIDED/CRUISE MISSILE</description>
+</entry>
+<entry>
+<type>SHIP</type>
+<description>SHIP</description>
+</entry>
+<entry>
+<type>SHORAN</type>
+<description>SHORAN STATION</description>
+</entry>
+<entry>
+<type>SHOTG</type>
+<description>SHOTGUN</description>
+</entry>
+<entry>
+<type>SK</type>
+<description>SUBMARINE HUNTER/KILLER</description>
+</entry>
+<entry>
+<type>SLT</type>
+<description>SEARCHLIGHT</description>
+</entry>
+<entry>
+<type>SNIPER</type>
+<description>SNIPER</description>
+</entry>
+<entry>
+<type>SNPLOW</type>
+<description>SNOWPLOW</description>
+</entry>
+<entry>
+<type>SONAR</type>
+<description>SOUND RANGING</description>
+</entry>
+<entry>
+<type>SPA</type>
+<description>SPACE EVENT SUPPORT MERCHANT SHIP</description>
+</entry>
+<entry>
+<type>SPCTAR</type>
+<description>SPACE TARGET</description>
+</entry>
+<entry>
+<type>SPCVEH</type>
+<description>SPACE VEHICLE</description>
+</entry>
+<entry>
+<type>SR</type>
+<description>SUBMARINE RESEARCH, MANNED OR UNMANNED</description>
+</entry>
+<entry>
+<type>SS</type>
+<description>SUBMARINE, GENERAL</description>
+</entry>
+<entry>
+<type>SSA</type>
+<description>SUBMARINE, AUXILIARY</description>
+</entry>
+<entry>
+<type>SSAN</type>
+<description>SUBMARINE, AUXILIARY, NUCLEAR-POWERED</description>
+</entry>
+<entry>
+<type>SSB</type>
+<description>SUBMARINE, BALLISTIC MISSILE </description>
+</entry>
+<entry>
+<type>SSBN</type>
+<description>SUBMARINE, BALLISTIC MISSILE,  NUCLEAR-POWERED</description>
+</entry>
+<entry>
+<type>SSC</type>
+<description>SUBMARINE, COASTAL</description>
+</entry>
+<entry>
+<type>SSG</type>
+<description>SUBMARINE, ATTACK, SURFACE MISSILE  </description>
+</entry>
+<entry>
+<type>SSGN</type>
+<description>SUBMARINE, ATTACK, SURFACE MISSILE, NUCLEAR-POWERED</description>
+</entry>
+<entry>
+<type>SSK</type>
+<description>SUBMARINE, PATROL </description>
+</entry>
+<entry>
+<type>SSLP</type>
+<description>SUBMARINE, TRANSPORT </description>
+</entry>
+<entry>
+<type>SSM</type>
+<description>ROCKET/MISSILE SURFACE-TO-SURFACE</description>
+</entry>
+<entry>
+<type>SSMHQ</type>
+<description>SURFACE-TO-SURFACE MISSILE HEADQUARTERS</description>
+</entry>
+<entry>
+<type>SSN</type>
+<description>SUBMARINE, ATTACK, NUCLEAR-POWERED</description>
+</entry>
+<entry>
+<type>SSQ</type>
+<description>SUBMARINE, AUXILIARY, COMMUNICATIONS</description>
+</entry>
+<entry>
+<type>SSQN</type>
+<description>SUBMARINE, AUXILIARY, COMMUNICATIONS, NUCLEAR-POWERED,</description>
+</entry>
+<entry>
+<type>SSR</type>
+<description>SUBMARINE, RADAR PICKET </description>
+</entry>
+<entry>
+<type>SST</type>
+<description>SUBMARINE, TRAINING </description>
+</entry>
+<entry>
+<type>SSU</type>
+<description>SUBMARINE, MILITARY CAPABILITY UNKNOWN</description>
+</entry>
+<entry>
+<type>SSUN</type>
+<description>SUBMARINE, MILITARY CAPABILITY UNKNOWN, NUCLEAR-POWERED,</description>
+</entry>
+<entry>
+<type>SSW</type>
+<description>SUBMARINE, MIDGET</description>
+</entry>
+<entry>
+<type>START</type>
+<description>START-INITIAL</description>
+</entry>
+<entry>
+<type>STOL</type>
+<description>SHORT-TAKEOFF/LANDING AIRCRAFT</description>
+</entry>
+<entry>
+<type>STONE</type>
+<description>STONE-LINED FORD BED</description>
+</entry>
+<entry>
+<type>STRGPT</type>
+<description>STRONGPOINT</description>
+</entry>
+<entry>
+<type>STYBH</type>
+<description>STAY-BEHIND</description>
+</entry>
+<entry>
+<type>SUB</type>
+<description>SUBMARINE</description>
+</entry>
+<entry>
+<type>SUBMG</type>
+<description>SUBMACHINE GUN</description>
+</entry>
+<entry>
+<type>SUPPLY</type>
+<description>SUPPLY DUMP</description>
+</entry>
+<entry>
+<type>SVC</type>
+<description>SERVICE CRAFT</description>
+</entry>
+<entry>
+<type>SWBD</type>
+<description>SWITCHBOARD</description>
+</entry>
+<entry>
+<type>SWCL</type>
+<description>SPECIAL WARFARE CRAFT, LIGHT</description>
+</entry>
+<entry>
+<type>SWCM</type>
+<description>SPECIAL WARFARE CRAFT, MEDIUM</description>
+</entry>
+<entry>
+<type>TACAN</type>
+<description>TACAN STATION</description>
+</entry>
+<entry>
+<type>TACIC</type>
+<description>INTELLIGENCE CENTER, TACTICAL</description>
+</entry>
+<entry>
+<type>TACOC</type>
+<description>OPERATIONS CENTER, TACTICAL</description>
+</entry>
+<entry>
+<type>TACPOS</type>
+<description>TACTICAL POSITION/SITE</description>
+</entry>
+<entry>
+<type>TANKER</type>
+<description>TANKER TRUCK</description>
+</entry>
+<entry>
+<type>TAVNHQ</type>
+<description>TACTICAL AVIATION HEADQUARTERS</description>
+</entry>
+<entry>
+<type>TEL</type>
+<description>TELEGRAPH</description>
+</entry>
+<entry>
+<type>TELE</type>
+<description>TELEPHONE</description>
+</entry>
+<entry>
+<type>TER</type>
+<description>TERRAIN FEATURE</description>
+</entry>
+<entry>
+<type>THREAT</type>
+<description>THREAT WARNINGS</description>
+</entry>
+<entry>
+<type>TJ</type>
+<description>HOVERCRAFT, GENERAL</description>
+</entry>
+<entry>
+<type>TJC</type>
+<description>HOVERCRAFT, TRANSPORT/CARGO</description>
+</entry>
+<entry>
+<type>TJF</type>
+<description>HOVERCRAFT, FERRY</description>
+</entry>
+<entry>
+<type>TJGB</type>
+<description>HOVERCRAFT, ICEBREAKER</description>
+</entry>
+<entry>
+<type>TJGS</type>
+<description>HOVERCRAFT, SCIENTIFIC RESEARCH/SURVEY</description>
+</entry>
+<entry>
+<type>TK</type>
+<description>TANK</description>
+</entry>
+<entry>
+<type>TKDSTR</type>
+<description>TANK DESTROYER</description>
+</entry>
+<entry>
+<type>TKGUNH</type>
+<description>TANK GUN, HEAVY (OVER 120MM)</description>
+</entry>
+<entry>
+<type>TKGUNL</type>
+<description>TANK GUN, LIGHT (UNDER 90MM)</description>
+</entry>
+<entry>
+<type>TKGUNM</type>
+<description>TANK GUN, MEDIUM (90-120MM)</description>
+</entry>
+<entry>
+<type>TKR</type>
+<description>LIQUID CARGO MERCHANT SHIP</description>
+</entry>
+<entry>
+<type>TKRCVY</type>
+<description>TANK-RECOVERY VEHICLE</description>
+</entry>
+<entry>
+<type>TM</type>
+<description>MERCHANT SHIP, GENERAL</description>
+</entry>
+<entry>
+<type>TMA</type>
+<description>MERCHANT SHIP, DRY CARGO, BREAK BULK</description>
+</entry>
+<entry>
+<type>TMB</type>
+<description>MERCHANT SHIP, BULK</description>
+</entry>
+<entry>
+<type>TMC</type>
+<description>MERHCHANT SHIP, CONTAINER, NON-SELF SUSTAINED</description>
+</entry>
+<entry>
+<type>TMCS</type>
+<description>MERHCHANT SHIP, CONTAINER, SELFCONTAINED</description>
+</entry>
+<entry>
+<type>TMD</type>
+<description>MERCHANT SHIP, DREDGER</description>
+</entry>
+<entry>
+<type>TME</type>
+<description>MERCHANT SHIP, RO/RO</description>
+</entry>
+<entry>
+<type>TMF</type>
+<description>MERCHANT SHIP, CAR/PASSENGER FERRY</description>
+</entry>
+<entry>
+<type>TMFR</type>
+<description>MERCHANT SHIP, RAILTOAD, CAR FERRY</description>
+</entry>
+<entry>
+<type>TMGB</type>
+<description>MERCHANT SHIP, ICEBREAKER</description>
+</entry>
+<entry>
+<type>TMGS</type>
+<description>MERCHANT SHIP, SCIENTIFIC RESEARCH/SURVEY</description>
+</entry>
+<entry>
+<type>TMH</type>
+<description>MERCHANT SHIP, HEAVY LIFT</description>
+</entry>
+<entry>
+<type>TMI</type>
+<description>MERCHANT SHIP, INLAND WATERWAY</description>
+</entry>
+<entry>
+<type>TMK</type>
+<description>MERCHANT SHIP, CABLE LAYER</description>
+</entry>
+<entry>
+<type>TML</type>
+<description>MERCHANT SHIP, LASH</description>
+</entry>
+<entry>
+<type>TMLS</type>
+<description>MERCHANT SHIP, SEABEE</description>
+</entry>
+<entry>
+<type>TMM</type>
+<description>MERCHANT SHIP, METEOROLOGICAL</description>
+</entry>
+<entry>
+<type>TMO</type>
+<description>MERCHANT SHIP, TANKER</description>
+</entry>
+<entry>
+<type>TMOL</type>
+<description>MERHCQNT SHIP, REPLENISHMENT, OILER, SMALL</description>
+</entry>
+<entry>
+<type>TMOR</type>
+<description>MERCHANT SHIP, REPLENISHMENT, OILER</description>
+</entry>
+<entry>
+<type>TMOS</type>
+<description>MERHCANT SHIP, SPECIAL LIQUIDS</description>
+</entry>
+<entry>
+<type>TMOT</type>
+<description>MERCHANT SHP, LIQUID</description>
+</entry>
+<entry>
+<type>TMP</type>
+<description>MERCHANT SHIP, PASSENGER</description>
+</entry>
+<entry>
+<type>TMR</type>
+<description>MERCHANT SHIP, REFRIGERATED</description>
+</entry>
+<entry>
+<type>TMS</type>
+<description>MERCHANT SHIP, SPACE/MISSILE ASSOCIATED</description>
+</entry>
+<entry>
+<type>TMT</type>
+<description>MERCHANT TUG</description>
+</entry>
+<entry>
+<type>TMTR</type>
+<description>MERCHANT TUG, OCEANGOING RESCUE</description>
+</entry>
+<entry>
+<type>TMTS</type>
+<description>MERCHANT TUG, OCEANSOING SALVAGE</description>
+</entry>
+<entry>
+<type>TMWT</type>
+<description>MERCHANT SHIP, WATER TENDER</description>
+</entry>
+<entry>
+<type>TMWW</type>
+<description>MERCHANT SHIP, DISTILLING</description>
+</entry>
+<entry>
+<type>TMX</type>
+<description>MERCHANT SHIP, TRAINING</description>
+</entry>
+<entry>
+<type>TNKR</type>
+<description>TANKER AIRCRAFT</description>
+</entry>
+<entry>
+<type>TNSP</type>
+<description>TRANSPORT AIRCRAFT</description>
+</entry>
+<entry>
+<type>TOWER</type>
+<description>TOWER</description>
+</entry>
+<entry>
+<type>TRAFLD</type>
+<description>AIR TRANSPORT AIRFIELD</description>
+</entry>
+<entry>
+<type>TRAIL</type>
+<description>TRAIL</description>
+</entry>
+<entry>
+<type>TRAIN</type>
+<description>RAILROAD TRAIN</description>
+</entry>
+<entry>
+<type>TRCTR</type>
+<description>TRACTOR</description>
+</entry>
+<entry>
+<type>TRENCH</type>
+<description>TRENCH</description>
+</entry>
+<entry>
+<type>TRKDVH</type>
+<description>TRACKED VEHICLE</description>
+</entry>
+<entry>
+<type>TRLR</type>
+<description>SEMITRAILER TRUCK</description>
+</entry>
+<entry>
+<type>TRNSVH</type>
+<description>TRANSPORTER</description>
+</entry>
+<entry>
+<type>TROPO</type>
+<description>TROPOSCATTER</description>
+</entry>
+<entry>
+<type>TRP</type>
+<description>ASSEMBLY AREA, TROOPS</description>
+</entry>
+<entry>
+<type>TRPARM</type>
+<description>ASSEMBLY AREA, TROOPS AND ARMOR</description>
+</entry>
+<entry>
+<type>TRPMEC</type>
+<description>ASSEMBLY AREA, MECHANIZED TROOPS</description>
+</entry>
+<entry>
+<type>TRPVEH</type>
+<description>ASSEMBLY AREA, TROOPS AND VEHICLES</description>
+</entry>
+<entry>
+<type>TRUCK</type>
+<description>TRUCK</description>
+</entry>
+<entry>
+<type>TS</type>
+<description>SUBMERSIBLE, GENERAL, COMMERCIAL</description>
+</entry>
+<entry>
+<type>TSG</type>
+<description>SUBMERSIBLE, RESEARCH, COMMERCIAL</description>
+</entry>
+<entry>
+<type>TSR</type>
+<description>SUBMERSIBLE, RESCUE, COMMERCIAL</description>
+</entry>
+<entry>
+<type>TTTEQ</type>
+<description>TELEPHONE/TELEGRAPH/TELETYPE EQUIPMENT</description>
+</entry>
+<entry>
+<type>TTY</type>
+<description>TELETYPE</description>
+</entry>
+<entry>
+<type>TU</type>
+<description>FISHING VESSEL, GENERAL</description>
+</entry>
+<entry>
+<type>TUB</type>
+<description>FISHING BASE SHIP</description>
+</entry>
+<entry>
+<type>TUC</type>
+<description>FISHING VESSEL, WHALE CATCHER</description>
+</entry>
+<entry>
+<type>TUF</type>
+<description>FISHING FACTORY SHIP</description>
+</entry>
+<entry>
+<type>TUG</type>
+<description>TUG</description>
+</entry>
+<entry>
+<type>TUI</type>
+<description>FISHING VESSEL, INSPECTION</description>
+</entry>
+<entry>
+<type>TUNNEL</type>
+<description>TUNNEL</description>
+</entry>
+<entry>
+<type>TUR</type>
+<description>FISHING VESSEL, REFRIGERATED</description>
+</entry>
+<entry>
+<type>TUS</type>
+<description>FISHERIES RESEARCH SHIP</description>
+</entry>
+<entry>
+<type>TUT</type>
+<description>FISHING VESSEL, TRAINING</description>
+</entry>
+<entry>
+<type>TUW</type>
+<description>WHALE FACTORY SHIP</description>
+</entry>
+<entry>
+<type>TV</type>
+<description>TELEVISION</description>
+</entry>
+<entry>
+<type>TVTWR</type>
+<description>TEVEVISION-TRANSMITTER TOWER</description>
+</entry>
+<entry>
+<type>UABN</type>
+<description>UNIT, AIRBORNE  </description>
+</entry>
+<entry>
+<type>UAMPHB</type>
+<description>UNIT, AMPHIBIOUS  </description>
+</entry>
+<entry>
+<type>UARMOR</type>
+<description>UNIT, ARMOR </description>
+</entry>
+<entry>
+<type>UARTY</type>
+<description>UNIT, ARTILLERY </description>
+</entry>
+<entry>
+<type>UASLT</type>
+<description>UNIT, ASSAULT </description>
+</entry>
+<entry>
+<type>UBMBR</type>
+<description>UNIT, BOMBER AIRCRAFT </description>
+</entry>
+<entry>
+<type>UCBTSP</type>
+<description>UNIT, COMBAT SERVICE SUPPORT </description>
+</entry>
+<entry>
+<type>UCHEM</type>
+<description>UNIT, CHEMICAL </description>
+</entry>
+<entry>
+<type>UCONST</type>
+<description>UNIT, CONSTRUCTION </description>
+</entry>
+<entry>
+<type>UENGR</type>
+<description>UNIT, ENGINEER </description>
+</entry>
+<entry>
+<type>UFTBMR</type>
+<description>UNIT, FIGHTER-BOMBER AIRCRAFT </description>
+</entry>
+<entry>
+<type>UFTR</type>
+<description>UNIT, FIGHTER AIRCRAFT </description>
+</entry>
+<entry>
+<type>UHELO</type>
+<description>UNIT, HELICOPTER </description>
+</entry>
+<entry>
+<type>UINF</type>
+<description>UNIT, INFANTRY </description>
+</entry>
+<entry>
+<type>UINTEL</type>
+<description>UNIT, INTELLIGENCE </description>
+</entry>
+<entry>
+<type>ULOG</type>
+<description>UNIT, LOGISTIC </description>
+</entry>
+<entry>
+<type>UMAINT</type>
+<description>UNIT, MAINTENANCE </description>
+</entry>
+<entry>
+<type>UMECH</type>
+<description>UNIT, MECHANIZED INFANTRY </description>
+</entry>
+<entry>
+<type>UMTRFL</type>
+<description>UNIT, MOTORIZED RIFLE </description>
+</entry>
+<entry>
+<type>UNIT</type>
+<description>UNIT</description>
+</entry>
+<entry>
+<type>UNK</type>
+<description>UNKNOWN</description>
+</entry>
+<entry>
+<type>UPPL</type>
+<description>UNIT, PIPELINE </description>
+</entry>
+<entry>
+<type>UPTOON</type>
+<description>UNIT, PONTOON </description>
+</entry>
+<entry>
+<type>URECCE</type>
+<description>UNIT, RECONNAISSANCE </description>
+</entry>
+<entry>
+<type>URKT</type>
+<description>UNIT, ROCKET </description>
+</entry>
+<entry>
+<type>USAM</type>
+<description>UNIT, SURFACE-TO-AIR MISSILE </description>
+</entry>
+<entry>
+<type>USCTY</type>
+<description>UNIT, SECURITY </description>
+</entry>
+<entry>
+<type>USIG</type>
+<description>UNIT, SIGNAL </description>
+</entry>
+<entry>
+<type>USSM</type>
+<description>UNIT, SURFACE-TO-SURFACE MISSILE </description>
+</entry>
+<entry>
+<type>USUPLY</type>
+<description>UNIT, SUPPLY</description>
+</entry>
+<entry>
+<type>UTILVH</type>
+<description>UTILITY VEHICLE</description>
+</entry>
+<entry>
+<type>UTK</type>
+<description>UNIT, TANK </description>
+</entry>
+<entry>
+<type>UTKI</type>
+<description>TANK UNIT, INDEPENDENT</description>
+</entry>
+<entry>
+<type>UTRANS</type>
+<description>UNIT, TRANSPORT </description>
+</entry>
+<entry>
+<type>VEH</type>
+<description>VEHICLE</description>
+</entry>
+<entry>
+<type>VEHBAR</type>
+<description>VEHICULAR BARRIER</description>
+</entry>
+<entry>
+<type>VHOTH</type>
+<description>VEHICLE, OTHER TYPE </description>
+</entry>
+<entry>
+<type>VSTOL</type>
+<description>VERTICAL-SHORT-TAKEOFF/LANDING AIRCRAFT</description>
+</entry>
+<entry>
+<type>VTOL</type>
+<description>VERTICAL-TAKEOFF/LANDING AIRCRAFT</description>
+</entry>
+<entry>
+<type>WAG</type>
+<description>MISCELLANEOUS AUXILIARY, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAGB</type>
+<description>ICEBREAKER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAGE</type>
+<description>RESEARCH SHIP,EXPERIMENTAL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAGL</type>
+<description>BUOY TENDER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAGOR</type>
+<description>OCEANOGRAPHIC RESEARCH SHIP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAGS</type>
+<description>HYDROGRAPHIC SURVEY SHIP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAK</type>
+<description>CARGO SHIP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAO</type>
+<description>OILER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WAOT</type>
+<description>OILER, TRANSPORT, COAST GUARD</description>
+</entry>
+<entry>
+<type>WARC</type>
+<description>CABLE REPAIR SHIP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WARS</type>
+<description>SALVAGE AND RESCUE SHIP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WATA</type>
+<description>OCEAN TUG, COAST GUARD</description>
+</entry>
+<entry>
+<type>WATER</type>
+<description>WATERWAY SEGMENTS</description>
+</entry>
+<entry>
+<type>WAXT</type>
+<description>TRAINING SHIP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WDD</type>
+<description>DESTROYER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WFF</type>
+<description>FRIGATE, COAST GUARD</description>
+</entry>
+<entry>
+<type>WFFL</type>
+<description>CORVETTE, COAST GUARD</description>
+</entry>
+<entry>
+<type>WKPTY</type>
+<description>WORK PARTY</description>
+</entry>
+<entry>
+<type>WLCM</type>
+<description>LANDING CRAFT, MEDIUM, PERSONNEL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WLCP</type>
+<description>LANDING CRAFT, PERSONNEL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WLCPA</type>
+<description>LANDING CRAFT, PERSONNEL, ARMORED, COAST GUARD</description>
+</entry>
+<entry>
+<type>WLCU</type>
+<description>LANDING CRAFT, UTILITY, COAST GUARD</description>
+</entry>
+<entry>
+<type>WLCVP</type>
+<description>VEHICLE/PERSONNEL LANDING CRAFT, COAST GUARD</description>
+</entry>
+<entry>
+<type>WLSM</type>
+<description>LANDING SHIP, MEDIUM, COAST GUARD</description>
+</entry>
+<entry>
+<type>WLST</type>
+<description>LANDING SHIP, TANK, COAST GUARD</description>
+</entry>
+<entry>
+<type>WMM</type>
+<description>MINELAYER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WMSB</type>
+<description>MINESWEEPING BOAT, COAST GUARD</description>
+</entry>
+<entry>
+<type>WMSF</type>
+<description>MINESWEEPER, FLEET, COAST GUARD</description>
+</entry>
+<entry>
+<type>WMSI</type>
+<description>MINESWEEPER, INSHORE, COAST GUARD</description>
+</entry>
+<entry>
+<type>WO</type>
+<description>WARRANT OFFICER</description>
+</entry>
+<entry>
+<type>WPB</type>
+<description>PATROL BOAT, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPBA</type>
+<description>PATROL BOAT, AIR CUSHION, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPBH</type>
+<description>PATROL BOAT, HYDROFOIL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPBR</type>
+<description>PATROL BOAT, RIVER-ROADSTEAD, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPC</type>
+<description>PATROL CRAFT, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPCF</type>
+<description>PATROL CRAFT, FAST, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPCFA</type>
+<description>FAST PATROL CRAFT, AIR CUSHION, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPCS</type>
+<description>SUBMARINE CHASTER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPCSH</type>
+<description>SUBMARINE CHASER, HYDROFOIL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPCT</type>
+<description>PATROL CRAFT, TRAINING, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPG</type>
+<description>PATROL COMABTANT, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPGF</type>
+<description>PATROL SHIP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPM</type>
+<description>RIVER MONITOR, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPN</type>
+<description>WEAPONS</description>
+</entry>
+<entry>
+<type>WPNCRW</type>
+<description>CREW-SERVED WEAPON</description>
+</entry>
+<entry>
+<type>WPNIND</type>
+<description>WEAPON, INDIVIDUAL </description>
+</entry>
+<entry>
+<type>WPSB</type>
+<description>PATROL BOAT, HARBOL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPT</type>
+<description>TORPEDO BOAT, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPTG</type>
+<description>ATTACK BOAT, GUIDED MISSILE, COAST GUARD</description>
+</entry>
+<entry>
+<type>WPTL</type>
+<description>TORPEDO BOAT, SMALL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WRKVH</type>
+<description>WRECKER</description>
+</entry>
+<entry>
+<type>WTRTWR</type>
+<description>WATER-STORAGE TOWER</description>
+</entry>
+<entry>
+<type>WYAG</type>
+<description>SERVICE CRAFT, MISCELLANEOUS, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYAGE</type>
+<description>SERVICE CRAFT, EXPERIMENTAL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYC</type>
+<description>BARGE, OPEN, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYDT</type>
+<description>DIVING TENDER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYF</type>
+<description>LIGHTER, COVERED, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYFB</type>
+<description>FERRY, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYFDL</type>
+<description>FLOATING DRY DOCK, SMALL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYFL</type>
+<description>LAUNCH, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYFLH</type>
+<description>LAUNCH, HYDROFOIL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYFU</type>
+<description>TRANSPORT, UTILITY, HARBOR, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYGS</type>
+<description>CRAFT, SURVEY, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYH</type>
+<description>CRAFT, AMBULANCE, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYO</type>
+<description>LIGHTER, FUEL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYON</type>
+<description>BARGE, FUEL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYPL</type>
+<description>BARGE, BARRACKS, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYR</type>
+<description>BARGE, FLOATING, WORKSHOP, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYTB</type>
+<description>TUG, HARBOR, LARGE, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYTL</type>
+<description>TUG, HARBOR, SMALL, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYTM</type>
+<description>TUG, HARBOR, MEDIUM, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYTS</type>
+<description>CRAFT, SAIL, TRAINING, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYW</type>
+<description>LIGHTER, WATER, COAST GUARD</description>
+</entry>
+<entry>
+<type>WYXT</type>
+<description>CRAFT, TRAINING, COAST GUARD</description>
+</entry>
+<entry>
+<type>YAC</type>
+<description>YACHT</description>
+</entry>
+<entry>
+<type>YAG</type>
+<description>SERVICE CRAFT, MISCELLANEOUS</description>
+</entry>
+<entry>
+<type>YAGA</type>
+<description>SERVICE CRAFT, SURFACE EFFECT, EXPERIMENTAL</description>
+</entry>
+<entry>
+<type>YAGE</type>
+<description>SERVICE CRAFT, EXPERIMENTAL</description>
+</entry>
+<entry>
+<type>YAGEN</type>
+<description>BARGE, EXPERIMENTAL WEAPON TESTING </description>
+</entry>
+<entry>
+<type>YAGF</type>
+<description>COMMAND CRAFT, MISCELLANEOUS</description>
+</entry>
+<entry>
+<type>YAGT</type>
+<description>TARGET SERVICE CRAFT</description>
+</entry>
+<entry>
+<type>YAMM</type>
+<description>SUPPORT BARGE, MISSILE</description>
+</entry>
+<entry>
+<type>YB</type>
+<description>BARGE, NON-SELF PROPELLED</description>
+</entry>
+<entry>
+<type>YBD</type>
+<description>DOCK, BOW</description>
+</entry>
+<entry>
+<type>YC</type>
+<description>LIGHTER, OPEN </description>
+</entry>
+<entry>
+<type>YCF</type>
+<description>BARGE, CARGO</description>
+</entry>
+<entry>
+<type>YCK</type>
+<description>LIGHTER, OPEN, CARGO</description>
+</entry>
+<entry>
+<type>YCV</type>
+<description>LIGHTER, AIRCRAFT</description>
+</entry>
+<entry>
+<type>YD</type>
+<description>FLOATING CRANE</description>
+</entry>
+<entry>
+<type>YDG</type>
+<description>VESSEL, DEGAUSSING</description>
+</entry>
+<entry>
+<type>YDT</type>
+<description>DIVING TENDER</description>
+</entry>
+<entry>
+<type>YE</type>
+<description>LIGHTER, AMMUNITION</description>
+</entry>
+<entry>
+<type>YEN</type>
+<description>BARGE, AMMUNITION </description>
+</entry>
+<entry>
+<type>YF</type>
+<description>FERRY, LIGHTER, COVERED </description>
+</entry>
+<entry>
+<type>YFB</type>
+<description>FERRY BOAT</description>
+</entry>
+<entry>
+<type>YFC</type>
+<description>LIGHTER, COVERED, DRY DOCK COMPANION</description>
+</entry>
+<entry>
+<type>YFD</type>
+<description>YARD FLOATING DRY DOCK</description>
+</entry>
+<entry>
+<type>YFDB</type>
+<description>DRY DOCK, FLOATING, OPEN, LARGE  </description>
+</entry>
+<entry>
+<type>YFDL</type>
+<description>DRY DOCK, FLOATING, OPEN, SMALL</description>
+</entry>
+<entry>
+<type>YFDM</type>
+<description>DRY DOCK, FLOATING, OPEN, MEDIUM</description>
+</entry>
+<entry>
+<type>YFL</type>
+<description>LAUNCH</description>
+</entry>
+<entry>
+<type>YFLH</type>
+<description>LAUNCH, HYDROFOIL</description>
+</entry>
+<entry>
+<type>YFN</type>
+<description>LAUNCH, COVERED</description>
+</entry>
+<entry>
+<type>YFNB</type>
+<description>LAUNCH, COVERED, LARGE</description>
+</entry>
+<entry>
+<type>YFND</type>
+<description>DRY DOCK COMPANION CRAFT</description>
+</entry>
+<entry>
+<type>YFNX</type>
+<description>BARGE, SPECIAL PURPOSE NON-SELF PROPELLED</description>
+</entry>
+<entry>
+<type>YFP</type>
+<description>BARGE, FLOATING POWER </description>
+</entry>
+<entry>
+<type>YFR</type>
+<description>LIGHTER, COVERED, REFRIGERATED </description>
+</entry>
+<entry>
+<type>YFRN</type>
+<description>BARGE, REFRIGERATED </description>
+</entry>
+<entry>
+<type>YFRT</type>
+<description>RANGE TENDER</description>
+</entry>
+<entry>
+<type>YFT</type>
+<description>LIGHTER, TORPEDO TRANSPORT </description>
+</entry>
+<entry>
+<type>YFU</type>
+<description>HARBOR UTILITY TRANSPORT</description>
+</entry>
+<entry>
+<type>YG</type>
+<description>LIGHTER, GARBAGE </description>
+</entry>
+<entry>
+<type>YGN</type>
+<description>BARGE, GARBAGE </description>
+</entry>
+<entry>
+<type>YGS</type>
+<description>SURVEY CRAFT</description>
+</entry>
+<entry>
+<type>YGT</type>
+<description>FLOATING TARGET</description>
+</entry>
+<entry>
+<type>YGTN</type>
+<description>BARGE, TARGET </description>
+</entry>
+<entry>
+<type>YH</type>
+<description>AMBULANCE BOAT</description>
+</entry>
+<entry>
+<type>YHT</type>
+<description>BARGE, HEATING </description>
+</entry>
+<entry>
+<type>YL</type>
+<description>LIGHTER</description>
+</entry>
+<entry>
+<type>YLC</type>
+<description>SALVAGE LIFT CRAFT</description>
+</entry>
+<entry>
+<type>YLCN</type>
+<description>BARGE, SALVAGE LIFT </description>
+</entry>
+<entry>
+<type>YLWT</type>
+<description>WARPING TUG</description>
+</entry>
+<entry>
+<type>YM</type>
+<description>FLOATING DREDGE</description>
+</entry>
+<entry>
+<type>YMN</type>
+<description>DREDGE, NON-SELF PROPELLED </description>
+</entry>
+<entry>
+<type>YNC</type>
+<description>NET CARGO CRAFT</description>
+</entry>
+<entry>
+<type>YNG</type>
+<description>GATE CRAFT</description>
+</entry>
+<entry>
+<type>YNR</type>
+<description>RESEARCH VEHICLE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>YNT</type>
+<description>NET TENDER, BOOM</description>
+</entry>
+<entry>
+<type>YO</type>
+<description>BARGE, FUEL OIL</description>
+</entry>
+<entry>
+<type>YOG</type>
+<description>BARGE, GASOLINE </description>
+</entry>
+<entry>
+<type>YOM</type>
+<description>BARGE, SPECIAL LIQUID</description>
+</entry>
+<entry>
+<type>YON</type>
+<description>BARGE, FUEL </description>
+</entry>
+<entry>
+<type>YOS</type>
+<description>BARGE, OIL STORAGE </description>
+</entry>
+<entry>
+<type>YOSR</type>
+<description>BARGE, DISPOSAL, NUCLEAR WASTE  </description>
+</entry>
+<entry>
+<type>YOSS</type>
+<description>BARGE, SUBMERSIBLE OIL STORAGE </description>
+</entry>
+<entry>
+<type>YP</type>
+<description>HARBOR PATROL CRAFT</description>
+</entry>
+<entry>
+<type>YPB</type>
+<description>FLOATING BARRACKS</description>
+</entry>
+<entry>
+<type>YPD</type>
+<description>FLOATING PILE DRIVER</description>
+</entry>
+<entry>
+<type>YPK</type>
+<description>BARGE, PONTOON STORAGE</description>
+</entry>
+<entry>
+<type>YPL</type>
+<description>BARGE, BARRACKS </description>
+</entry>
+<entry>
+<type>YPT</type>
+<description>TORPEDO RETREIVER CRAFT</description>
+</entry>
+<entry>
+<type>YR</type>
+<description>REPAIR, FLOATING WORKSHOP</description>
+</entry>
+<entry>
+<type>YR</type>
+<description>FLOATING WORKSHOP BARGE</description>
+</entry>
+<entry>
+<type>YRB</type>
+<description>BARGE, REPAIR AND BERTHING</description>
+</entry>
+<entry>
+<type>YRBM</type>
+<description>BARGE, REPAIR, BERTHING AND MESSING </description>
+</entry>
+<entry>
+<type>YRC</type>
+<description>CABLE TENDER YARD CRAFT</description>
+</entry>
+<entry>
+<type>YRCN</type>
+<description>BARGE, CABLE </description>
+</entry>
+<entry>
+<type>YRD</type>
+<description>DRY DOCK, FLOATING, WORKSHOP</description>
+</entry>
+<entry>
+<type>YRDB</type>
+<description>DRY DOCK FLOATING, CLOSED, LARGE</description>
+</entry>
+<entry>
+<type>YRDH</type>
+<description>FLOATING DRY DOCK WORKSHOP, HULL</description>
+</entry>
+<entry>
+<type>YRDL</type>
+<description>DRY DOCK FLOATING, CLOSED, SMALL</description>
+</entry>
+<entry>
+<type>YRDM</type>
+<description>DRY DOCK FLOATING, CLOSED, MEDIUM</description>
+</entry>
+<entry>
+<type>YRG</type>
+<description>TANK CLEANING CRAFT</description>
+</entry>
+<entry>
+<type>YRNS</type>
+<description>BARGE, NUCLEAR SHIP SUPPORT</description>
+</entry>
+<entry>
+<type>YRR</type>
+<description>BARGE, RADIOLOGICAL REPAIR</description>
+</entry>
+<entry>
+<type>YRRN</type>
+<description>REPAIR BARGE, NUCLEAR POWERED</description>
+</entry>
+<entry>
+<type>YRST</type>
+<description>BARGE, SALVAGE </description>
+</entry>
+<entry>
+<type>YS</type>
+<description>BARGE, SELF-PROPELLED</description>
+</entry>
+<entry>
+<type>YSG</type>
+<description>SUBMERSIBLE, RESEARCH, MILITARY</description>
+</entry>
+<entry>
+<type>YSLWT</type>
+<description>SIDE LOADING WARPING TUG</description>
+</entry>
+<entry>
+<type>YSR</type>
+<description>SUBMERSIBLE, RESCUE, MILITARY</description>
+</entry>
+<entry>
+<type>YSRV</type>
+<description>DEEP SUBMERSIBLE RESCUE VEHICLE, MILITARY</description>
+</entry>
+<entry>
+<type>YSS</type>
+<description>SUBMERSIBLE, SERVICE, MILITARY</description>
+</entry>
+<entry>
+<type>YSV</type>
+<description>DEEP SUBMERGENCE VEHICLE, MILITARY</description>
+</entry>
+<entry>
+<type>YT</type>
+<description>HARBOR TUG</description>
+</entry>
+<entry>
+<type>YTB</type>
+<description>TUG, HARBOR, LARGE  </description>
+</entry>
+<entry>
+<type>YTL</type>
+<description>TUG, HARBOR, SMALL</description>
+</entry>
+<entry>
+<type>YTM</type>
+<description>TUG, HARBOR, MEDIUM</description>
+</entry>
+<entry>
+<type>YTR</type>
+<description>FIRE/RESCUE BOAT, SMALL</description>
+</entry>
+<entry>
+<type>YTS</type>
+<description>TRAINING CRAFT, SAIL</description>
+</entry>
+<entry>
+<type>YTT</type>
+<description>TORPEDO TRIALS CRAFT</description>
+</entry>
+<entry>
+<type>YV</type>
+<description>DRONE AIRCRAFT, CATAPULT CONTROL CRAFT</description>
+</entry>
+<entry>
+<type>YVS</type>
+<description>SEAPLANE SERVICE CRAFT</description>
+</entry>
+<entry>
+<type>YW</type>
+<description>BARGE, WATER </description>
+</entry>
+<entry>
+<type>YXR</type>
+<description>HULK OR RELIC</description>
+</entry>
+<entry>
+<type>YXT</type>
+<description>TRAINING CRAFT</description>
+</entry>
+<entry>
+<type>YY</type>
+<description>SERVICE CRAFT, YARD</description>
+</entry>
+</body>

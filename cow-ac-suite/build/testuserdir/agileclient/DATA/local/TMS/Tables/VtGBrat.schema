@@ -1,0 +1,11 @@
+key:char@6
+scn:char@6
+uic:char@7
+org_type:char@9
+echelon:char@8
+threat:char@4
+flag:char@3
+name:char@30
+scope:char@5
+state:char@14:omit
+aou_type:char@8:omit

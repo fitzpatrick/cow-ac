@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE body SYSTEM "OrgType.dtd">
+<body>
+<entry>
+<orgAbbr>AAA</orgAbbr>
+<orgType>AIR DEFENSE ARTILLERY</orgType>
+</entry>
+<entry>
+<orgAbbr>AAM</orgAbbr>
+<orgType>AIR-TO-AIR MISSILE</orgType>
+</entry>
+<entry>
+<orgAbbr>AARMMSL</orgAbbr>
+<orgType>ANTI-ARMOR MISSILE</orgType>
+</entry>
+<entry>
+<orgAbbr>AAW</orgAbbr>
+<orgType>ANTI-AIR WARFARE</orgType>
+</entry>
+<entry>
+<orgAbbr>ABN</orgAbbr>
+<orgType>AIRBORNE</orgType>
+</entry>
+<entry>
+<orgAbbr>ABNCMDO</orgAbbr>
+<orgType>AIRBORNE COMMANDO</orgType>
+</entry>
+<entry>
+<orgAbbr>ABNINF</orgAbbr>
+<orgType>AIRBORNE INFANTRY</orgType>
+</entry>
+<entry>
+<orgAbbr>AD</orgAbbr>
+<orgType>AIR DEFENSE</orgType>
+</entry>
+<entry>
+<orgAbbr>ADMIN</orgAbbr>
+<orgType>ADMINISTRATIVE</orgType>
+</entry>
+<entry>
+<orgAbbr>AIRCAV</orgAbbr>
+<orgType>AIR CAVALRY</orgType>
+</entry>
+<entry>
+<orgAbbr>AMBLINF</orgAbbr>
+<orgType>AIRMOBILE INFANTRY</orgType>
+</entry>
+<entry>
+<orgAbbr>AMOB</orgAbbr>
+<orgType>AIRMOBILE</orgType>
+</entry>
+<entry>
+<orgAbbr>AMPHASLT</orgAbbr>
+<orgType>AMPHIBIOUS ASSAULT</orgType>
+</entry>
+<entry>
+<orgAbbr>AMPHENG</orgAbbr>
+<orgType>AMPHIBIOUS ENGINEERS</orgType>
+</entry>
+<entry>
+<orgAbbr>AMPHTK</orgAbbr>
+<orgType>AMPHIBIOUS TANK</orgType>
+</entry>
+<entry>
+<orgAbbr>ARMDARTY</orgAbbr>
+<orgType>ARMORED ARTILLERY</orgType>
+</entry>
+<entry>
+<orgAbbr>ARMDCAV</orgAbbr>
+<orgType>ARMORED CAVALARY</orgType>
+</entry>
+<entry>
+<orgAbbr>ARMOR</orgAbbr>
+<orgType>ARMOR</orgType>
+</entry>
+<entry>
+<orgAbbr>ARMYAVN</orgAbbr>
+<orgType>ARMY AVIATION</orgType>
+</entry>
+<entry>
+<orgAbbr>ARTY</orgAbbr>
+<orgType>ARTILLERY</orgType>
+</entry>
+<entry>
+<orgAbbr>ASLTENG</orgAbbr>
+<orgType>ASSAULT ENGINEERS</orgType>
+</entry>
+<entry>
+<orgAbbr>ASLTLAND</orgAbbr>
+<orgType>ASSAULT LANDING</orgType>
+</entry>
+<entry>
+<orgAbbr>ASM</orgAbbr>
+<orgType>AIR-TO-SURFACE MISSILE</orgType>
+</entry>
+<entry>
+<orgAbbr>ASW</orgAbbr>
+<orgType>ANTI-SUBMARINE WARFARE</orgType>
+</entry>
+<entry>
+<orgAbbr>AT</orgAbbr>
+<orgType>ANTI-TANK</orgType>
+</entry>
+<entry>
+<orgAbbr>BIO</orgAbbr>
+<orgType>BIOLOGICAL ORDNANCE CAPABLE</orgType>
+</entry>
+<entry>
+<orgAbbr>BMBR</orgAbbr>
+<orgType>BOMBER</orgType>
+</entry>
+<entry>
+<orgAbbr>CAV</orgAbbr>
+<orgType>CAVALRY</orgType>
+</entry>
+<entry>
+<orgAbbr>CHEM</orgAbbr>
+<orgType>CHEMICAL</orgType>
+</entry>
+<entry>
+<orgAbbr>CMBARM</orgAbbr>
+<orgType>COMBINED ARMS</orgType>
+</entry>
+<entry>
+<orgAbbr>CMBT</orgAbbr>
+<orgType>COMBAT TYPE UNKNOWN</orgType>
+</entry>
+<entry>
+<orgAbbr>CMBTENG</orgAbbr>
+<orgType>COMBAT ENGINEERS</orgType>
+</entry>
+<entry>
+<orgAbbr>CMDO</orgAbbr>
+<orgType>COMMANDO</orgType>
+</entry>
+<entry>
+<orgAbbr>CSS</orgAbbr>
+<orgType>COMBAT SERVICE SUPPORT</orgType>
+</entry>
+<entry>
+<orgAbbr>CWC</orgAbbr>
+<orgType>COMPOSITE WARFARE COMMANDER</orgType>
+</entry>
+<entry>
+<orgAbbr>DMTDCAV</orgAbbr>
+<orgType>DISMOUNTED CAVALRY</orgType>
+</entry>
+<entry>
+<orgAbbr>EA</orgAbbr>
+<orgType>ELECTRONIC ATTACK</orgType>
+</entry>
+<entry>
+<orgAbbr>ENG</orgAbbr>
+<orgType>ENGINEER</orgType>
+</entry>
+<entry>
+<orgAbbr>ES</orgAbbr>
+<orgType>ELECTRONIC WARFARE SUPPORT</orgType>
+</entry>
+<entry>
+<orgAbbr>EW</orgAbbr>
+<orgType>ELECTRONIC WARFARE</orgType>
+</entry>
+<entry>
+<orgAbbr>EWC</orgAbbr>
+<orgType>EW COORDINATOR</orgType>
+</entry>
+<entry>
+<orgAbbr>FLDARTY</orgAbbr>
+<orgType>FIELD ARTILLERY</orgType>
+</entry>
+<entry>
+<orgAbbr>FROG</orgAbbr>
+<orgType>FROG SSM</orgType>
+</entry>
+<entry>
+<orgAbbr>FTR</orgAbbr>
+<orgType>FIGHTER</orgType>
+</entry>
+<entry>
+<orgAbbr>FTRBMBR</orgAbbr>
+<orgType>FIGHTER BOMBER</orgType>
+</entry>
+<entry>
+<orgAbbr>FW</orgAbbr>
+<orgType>FIXED WING</orgType>
+</entry>
+<entry>
+<orgAbbr>HELO</orgAbbr>
+<orgType>HELICOPTER</orgType>
+</entry>
+<entry>
+<orgAbbr>HOWTZR</orgAbbr>
+<orgType>GUN-HOWITZER</orgType>
+</entry>
+<entry>
+<orgAbbr>HTK</orgAbbr>
+<orgType>HEAVY TANK</orgType>
+</entry>
+<entry>
+<orgAbbr>INF</orgAbbr>
+<orgType>INFANTRY</orgType>
+</entry>
+<entry>
+<orgAbbr>INFONFT</orgAbbr>
+<orgType>INFANTRY ON FOOT</orgType>
+</entry>
+<entry>
+<orgAbbr>INTEL</orgAbbr>
+<orgType>INTELLIGENCE</orgType>
+</entry>
+<entry>
+<orgAbbr>LTK</orgAbbr>
+<orgType>LIGHT TANK</orgType>
+</entry>
+<entry>
+<orgAbbr>MAINT</orgAbbr>
+<orgType>MAINTENANCE</orgType>
+</entry>
+<entry>
+<orgAbbr>MARN</orgAbbr>
+<orgType>NAVY INFANTRY / MARINES</orgType>
+</entry>
+<entry>
+<orgAbbr>MECHENG</orgAbbr>
+<orgType>MECHANIZED ENGINEER</orgType>
+</entry>
+<entry>
+<orgAbbr>MECHINF</orgAbbr>
+<orgType>MECHANIZED INFANTRY</orgType>
+</entry>
+<entry>
+<orgAbbr>MED</orgAbbr>
+<orgType>MEDICAL</orgType>
+</entry>
+<entry>
+<orgAbbr>MEF</orgAbbr>
+<orgType>MARINE EXPEDITIONARY FORCE</orgType>
+</entry>
+<entry>
+<orgAbbr>MEFFWD</orgAbbr>
+<orgType>MEF FORWARD</orgType>
+</entry>
+<entry>
+<orgAbbr>METOC</orgAbbr>
+<orgType>METEOROLOGICAL AND OCEANOGRAPHIC</orgType>
+</entry>
+<entry>
+<orgAbbr>MEU</orgAbbr>
+<orgType>MARINE EXPEDITIONARY UNIT</orgType>
+</entry>
+<entry>
+<orgAbbr>MINE</orgAbbr>
+<orgType>MINING</orgType>
+</entry>
+<entry>
+<orgAbbr>MORT</orgAbbr>
+<orgType>MORTAR</orgType>
+</entry>
+<entry>
+<orgAbbr>MP</orgAbbr>
+<orgType>MILITARY POLICE</orgType>
+</entry>
+<entry>
+<orgAbbr>MRFLTRP</orgAbbr>
+<orgType>MOTORIZED RIFLE TROOPS</orgType>
+</entry>
+<entry>
+<orgAbbr>MTINF</orgAbbr>
+<orgType>MOUNTAIN INFANTRY</orgType>
+</entry>
+<entry>
+<orgAbbr>MTK</orgAbbr>
+<orgType>MEDIUM TANK</orgType>
+</entry>
+<entry>
+<orgAbbr>NBC</orgAbbr>
+<orgType>NUCLEAR, BIOLOGICAL, CHEMICAL</orgType>
+</entry>
+<entry>
+<orgAbbr>NUC</orgAbbr>
+<orgType>NUCLEAR ORDNANCE CAPABLE</orgType>
+</entry>
+<entry>
+<orgAbbr>ORD</orgAbbr>
+<orgType>ORDNANCE</orgType>
+</entry>
+<entry>
+<orgAbbr>PARAMIL</orgAbbr>
+<orgType>PARAMILITARY</orgType>
+</entry>
+<entry>
+<orgAbbr>PKT</orgAbbr>
+<orgType>PICKET</orgType>
+</entry>
+<entry>
+<orgAbbr>PONT</orgAbbr>
+<orgType>PONTOON</orgType>
+</entry>
+<entry>
+<orgAbbr>RCKTARTY</orgAbbr>
+<orgType>ROCKET ARTILLERY</orgType>
+</entry>
+<entry>
+<orgAbbr>RCNARM</orgAbbr>
+<orgType>RECONNAISSANCE, ARMOR</orgType>
+</entry>
+<entry>
+<orgAbbr>RCP</orgAbbr>
+<orgType>REAR COMMAND POST</orgType>
+</entry>
+<entry>
+<orgAbbr>RECON</orgAbbr>
+<orgType>RECONNAISSANCE</orgType>
+</entry>
+<entry>
+<orgAbbr>RNGR</orgAbbr>
+<orgType>RANGER</orgType>
+</entry>
+<entry>
+<orgAbbr>RRTRPS</orgAbbr>
+<orgType>RAILROAD TROOPS</orgType>
+</entry>
+<entry>
+<orgAbbr>SAM</orgAbbr>
+<orgType>SURFACE-TO-AIR MISSILE</orgType>
+</entry>
+<entry>
+<orgAbbr>SAP</orgAbbr>
+<orgType>SAPPER</orgType>
+</entry>
+<entry>
+<orgAbbr>SCH</orgAbbr>
+<orgType>MILITARY SCHOOL OR ACADEMY</orgType>
+</entry>
+<entry>
+<orgAbbr>SCUD</orgAbbr>
+<orgType>SCUD SSM UNIT</orgType>
+</entry>
+<entry>
+<orgAbbr>SIGCOMM</orgAbbr>
+<orgType>SIGNAL / COMMUNICATIONS</orgType>
+</entry>
+<entry>
+<orgAbbr>SIGELECT</orgAbbr>
+<orgType>SIGNAL / ELECTRONIC</orgType>
+</entry>
+<entry>
+<orgAbbr>SPFORCE</orgAbbr>
+<orgType>SPECIAL FORCES</orgType>
+</entry>
+<entry>
+<orgAbbr>SSM</orgAbbr>
+<orgType>SURFACE-TO-SURFACE MISSILE</orgType>
+</entry>
+<entry>
+<orgAbbr>SUPLY</orgAbbr>
+<orgType>SUPPLY</orgType>
+</entry>
+<entry>
+<orgAbbr>SUR</orgAbbr>
+<orgType>SURVEILLANCE</orgType>
+</entry>
+<entry>
+<orgAbbr>SVC</orgAbbr>
+<orgType>SERVICE</orgType>
+</entry>
+<entry>
+<orgAbbr>TACAIRC</orgAbbr>
+<orgType>TACTICAL AIR CONTROL</orgType>
+</entry>
+<entry>
+<orgAbbr>TACMSLS</orgAbbr>
+<orgType>TACTICAL MISSILES</orgType>
+</entry>
+<entry>
+<orgAbbr>TK</orgAbbr>
+<orgType>TANK</orgType>
+</entry>
+<entry>
+<orgAbbr>TKDSTR</orgAbbr>
+<orgType>TANK DESTROYER</orgType>
+</entry>
+<entry>
+<orgAbbr>TKRCVY</orgAbbr>
+<orgType>TANK HEAVY RECOVERY</orgType>
+</entry>
+<entry>
+<orgAbbr>TNG</orgAbbr>
+<orgType>TRAINING</orgType>
+</entry>
+<entry>
+<orgAbbr>TRANSP</orgAbbr>
+<orgType>TRANSPORTATION</orgType>
+</entry>
+<entry>
+<orgAbbr>TRNSP</orgAbbr>
+<orgType>TRANSPORT</orgType>
+</entry>
+<entry>
+<orgAbbr>UNK</orgAbbr>
+<orgType>UNKNOWN</orgType>
+</entry>
+<entry>
+<orgAbbr>WX</orgAbbr>
+<orgType>WEATHER</orgType>
+</entry>
+</body>

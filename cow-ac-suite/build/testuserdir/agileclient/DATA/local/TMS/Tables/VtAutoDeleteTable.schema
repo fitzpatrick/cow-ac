@@ -1,0 +1,9 @@
+intel_tgl:int
+link_tgl:int
+force_defaults:int@2@1000
+slowwalker_tgl:int
+slowwalker_tl:int
+nrt_track_tgl:int
+nrt_track_tl:int
+emitteramb_tgl:int
+emitteramb_tl:int

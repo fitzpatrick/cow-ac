@@ -1,0 +1,7 @@
+geotype:int
+location:int
+lname:char@32
+box:VtGeoBox
+rng:VtGeoRange
+ply:VtGeoPolygon
+trk:VtGeoTrack

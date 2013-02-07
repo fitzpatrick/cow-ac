@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tms_msl_prod_table>
+
+<num>15</num>
+<maxnum>100</maxnum>
+<version>1</version>
+
+<entry>
+	<msl_prod_source_name>msl_prod_1</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>1000</ibss_min_trk_block>
+	<ibss_max_trk_block>1999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_2</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>2000</ibss_min_trk_block>
+	<ibss_max_trk_block>2999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_3</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>3000</ibss_min_trk_block>
+	<ibss_max_trk_block>3999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_4</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>4000</ibss_min_trk_block>
+	<ibss_max_trk_block>4999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_5</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>5000</ibss_min_trk_block>
+	<ibss_max_trk_block>5499</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_6</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>5500</ibss_min_trk_block>
+	<ibss_max_trk_block>5999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_7</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>6000</ibss_min_trk_block>
+	<ibss_max_trk_block>6332</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_8</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>6333</ibss_min_trk_block>
+	<ibss_max_trk_block>6665</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_9</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>6666</ibss_min_trk_block>
+	<ibss_max_trk_block>6999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_10</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>7000</ibss_min_trk_block>
+	<ibss_max_trk_block>7199</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_11</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>7200</ibss_min_trk_block>
+	<ibss_max_trk_block>7399</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_12</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>7400</ibss_min_trk_block>
+	<ibss_max_trk_block>7599</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_13</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>7600</ibss_min_trk_block>
+	<ibss_max_trk_block>7799</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+<entry>
+	<msl_prod_source_name>msl_prod_14</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>7800</ibss_min_trk_block>
+	<ibss_max_trk_block>7999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+
+<entry>
+	<msl_prod_source_name>msl_prod_15</msl_prod_source_name>
+	<msl_prod_type>IR</msl_prod_type>
+	<ibss_min_trk_block>9000</ibss_min_trk_block>
+	<ibss_max_trk_block>9999</ibss_max_trk_block>
+	<ibsi_src_id>999</ibsi_src_id>
+	<link_ju>77777</link_ju>
+	<link_min_trk_block>77770</link_min_trk_block>
+	<link_max_trk_block>77777</link_max_trk_block>
+</entry>
+
+
+</tms_msl_prod_table>

@@ -1,0 +1,20 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT AutoDeleteTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (intel_tgl, link_tgl, force_defaults, slowwalker_tgl, slowwalker_tl,
+				    nrt_track_tgl, nrt_track_tl, emitteramb_tgl, emitteramb_tl)>
+	
+	<!ELEMENT intel_tgl (#PCDATA)>
+	<!ELEMENT link_tgl (#PCDATA)>
+	<!ELEMENT force_defaults (#PCDATA)>
+	<!ELEMENT slowwalker_tgl (#PCDATA)>
+	<!ELEMENT slowwalker_tl (#PCDATA)>
+	<!ELEMENT nrt_track_tgl (#PCDATA)>
+	<!ELEMENT nrt_track_tl (#PCDATA)>
+	<!ELEMENT emitteramb_tgl (#PCDATA)>
+	<!ELEMENT emitteramb_tl (#PCDATA)>

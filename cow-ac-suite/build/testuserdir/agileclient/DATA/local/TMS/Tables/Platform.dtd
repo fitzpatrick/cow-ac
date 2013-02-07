@@ -1,0 +1,7 @@
+	<!ELEMENT Platform (body)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (type, description)>
+
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>

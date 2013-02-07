@@ -1,0 +1,5 @@
+pif1:char@5
+pif2:char@5
+cat:char@4
+threat:char@4
+spare:char@2:omit

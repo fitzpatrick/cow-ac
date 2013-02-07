@@ -1,0 +1,21 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT ShipClassTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry ((class | ship_class), category, remarks)>
+
+	<!ELEMENT class (#PCDATA)>
+	<!ELEMENT ship_class (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT remarks (#PCDATA)>

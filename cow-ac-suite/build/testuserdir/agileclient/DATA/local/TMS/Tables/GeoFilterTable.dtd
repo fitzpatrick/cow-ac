@@ -1,0 +1,53 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT GeoFilterTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (record, active, priority, exclude, name, type, scope, 
+				     trktype, modes, alert, cttgls, elemntid, attrib, group, 
+					 tmlate, geoloc)*>
+	<!ELEMENT group(tgl, mask)>
+	<!ELEMENT tmlate(tgl, mask)>
+	<!ELEMENT geoloc(geotype, location, name, box, rng, ply, trk)*>
+	<!ELEMENT rng (lat, lng, range)>
+	<!ELEMENT lng (lat, lng, npts)>  
+	<!ELEMENT trk (tkno, serial, range, name)>
+
+	<!ELEMENT record (#PCDATA)>
+	<!ELEMENT active (#PCDATA)>
+	<!ELEMENT priority (#PCDATA)>
+	<!ELEMENT exclude (#PCDATA)>
+	<!ELEMENT exclude (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT scope (#PCDATA)>
+	<!ELEMENT trktype (#PCDATA)>
+	<!ELEMENT modes (#PCDATA)>
+	<!ELEMENT alert (#PCDATA)>
+	<!ELEMENT cttgls (#PCDATA)>
+	<!ELEMENT elementid (#PCDATA)>
+	<!ELEMENT attrib (#PCDATA)>
+
+	<!ELEMENT tgl (#PCDATA)>
+	<!ELEMENT mask (#PCDATA)>
+
+	<!ELEMENT geotype (#PCDATA)>
+	<!ELEMENT location (#PCDATA)>
+	<!ELEMENT box (#PCDATA)>
+
+	<!ELEMENT lat (#PCDATA)>
+	<!ELEMENT lng (#PCDATA)>
+	<!ELEMENT range (#PCDATA)>
+	<!ELEMENT npts (#PCDATA)>
+	<!ELEMENT tkno (#PCDATA)>
+	<!ELEMENT serial (#PCDATA)>

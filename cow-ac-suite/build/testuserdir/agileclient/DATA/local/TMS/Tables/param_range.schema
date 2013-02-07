@@ -1,0 +1,6 @@
+pri_low:double
+pri_high:double
+scan_low:float
+scan_high:float
+rf_low:float
+rf_high:float

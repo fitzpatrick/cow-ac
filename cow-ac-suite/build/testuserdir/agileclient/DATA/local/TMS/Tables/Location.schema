@@ -1,0 +1,9 @@
+obs_speed_kts:int
+obs_elevation_m:int
+tms_contact_id:int
+obs_elevation_angle_dg:char@5
+course_tru:char@4
+sensor_type_ident:char@7
+obs_sensor_source:char@7
+pad2:char@1
+coordinate:Coordinate

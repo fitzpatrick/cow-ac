@@ -1,0 +1,12 @@
+rtn:int
+name:int
+shipclass:int
+trademark:int
+type:int
+category:int
+hull:int
+flag:int
+sconum:int
+pif:int
+threat:int
+callsign:int

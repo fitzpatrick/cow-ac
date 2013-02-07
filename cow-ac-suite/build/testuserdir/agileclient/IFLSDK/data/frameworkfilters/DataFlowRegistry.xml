@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:Registry xmlns:urn="urn:disa:icsf.frameworkfilter.registry:1.0:types">
+    <urn:RegistryGroup GUID="FAD94026-2699-3905-A1A5-E1D1CEFA7EA5">
+        <urn:Name>Chart Filter</urn:Name>
+        <urn:InputList>
+            <urn:GUID>TMS</urn:GUID>
+        </urn:InputList>
+    </urn:RegistryGroup>
+    <urn:RegistryGroup GUID="TMS"/>
+    <urn:RegistryGroup GUID="08DAD681-5950-C73A-77F3-307ABC8BDE32">
+        <urn:Name>TMS client filter</urn:Name>
+        <urn:ParentGroupGUID>TMS</urn:ParentGroupGUID>
+    </urn:RegistryGroup>
+    <urn:RegistryGroup GUID="PMF"/>
+    <urn:RegistryGroup GUID="2E4017F7-1283-B554-233D-3BEB9B21D66D">
+        <urn:Name>NewMap1.wwj</urn:Name>
+        <urn:ParentGroupGUID>PMF</urn:ParentGroupGUID>
+    </urn:RegistryGroup>
+</urn:Registry>

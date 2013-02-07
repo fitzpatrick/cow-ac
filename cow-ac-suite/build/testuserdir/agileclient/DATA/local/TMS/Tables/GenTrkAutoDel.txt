@@ -1,0 +1,20 @@
+# The format of this file is as follows:
+# 0 or non-zero (overall on/off)
+# default timelate for new entries (0 - new entry inactive, > 0 new entry active)
+# num entries
+# originator name,timelate in seconds,1 or 0 (on or off)
+#
+# The Archiver will add new entries as it detects a new general track in TMS
+# with an originator not in this table.
+#
+# Example:
+# 1
+# 86400
+# 3
+# FOO,600,1
+# BAR,1200,0
+# NEWORIG,86400,1
+#
+0
+0
+0

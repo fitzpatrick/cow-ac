@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<VtMppControls>
+<msl_correlation>1</msl_correlation>
+<msl_kinematic_correlation>0</msl_kinematic_correlation>
+<fused_scope>0</fused_scope>
+<unit_creation>0</unit_creation>
+<unit_scope>0</unit_scope>
+<expire>1</expire>
+<time_to_expire>60</time_to_expire>
+<e2w_uid1>XXX</e2w_uid1>
+<e2w_uid2>XXX</e2w_uid2>
+<e2w_uid3>XXX</e2w_uid3>
+<e2w_uid4>XXX</e2w_uid4>
+<time_out>30</time_out>
+<correlator_installed>1</correlator_installed>
+<msl_radar_correlation>0</msl_radar_correlation>
+<radar_time_to_stale>N/A</radar_time_to_stale>
+<msl_debris>1</msl_debris>
+</VtMppControls>

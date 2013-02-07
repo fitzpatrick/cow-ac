@@ -1,0 +1,16 @@
+msl_correlation:int
+msl_kinematic_correlation:int
+fused_scope:int
+unit_creation:int
+unit_scope:int
+expire:int
+time_to_expire:int
+e2w_uid1:char@4
+e2w_uid2:char@4
+e2w_uid3:char@4
+e2w_uid4:char@4
+time_out:int
+correlator_installed:int
+msl_radar_correlation:int
+radar_time_to_stale:char@4
+msl_debris:int

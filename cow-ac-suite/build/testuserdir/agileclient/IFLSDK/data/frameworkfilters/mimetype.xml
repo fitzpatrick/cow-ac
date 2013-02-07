@@ -1,0 +1,8 @@
+<MimeTypes xmlns="urn:disa:icsf.frameworkfilter:1.0:types">
+	<MimeType content-type="filter-application/disa.afw.frameworkfilter.SymplotBootApplication">
+		<Property name="iconImage">icons/disa.afw.frameworkfilter.SymplotBootApplication.png</Property>
+		<SupportedMimeTypeInputs>
+			<ContentType>filter-application/disa.tms.frameworkfilters.corba.TmsClientFilter</ContentType>
+		</SupportedMimeTypeInputs>
+	</MimeType>
+</MimeTypes>

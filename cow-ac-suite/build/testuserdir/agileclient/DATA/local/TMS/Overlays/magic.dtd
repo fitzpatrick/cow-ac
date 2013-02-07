@@ -1,0 +1,1432 @@
+<?xml encoding="US-ASCII"?>
+	<!ELEMENT magic (header, body)>
+	<!ELEMENT header (description?, remark*, URL*)>
+		<!ATTLIST header
+			version				CDATA #REQUIRED
+			originator			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+		>
+	<!ELEMENT body ( description?, remark*, URL*, (arc | arrow | boundary | box |
+		bitmap | circle | corridor | ellipse | line | milsymbol | polygon | rbline | 
+		milpolygon | milpoint | nbc | rectangle | sector | text | text16 | rotatedtext |
+		minefield | controlpoint | group)*)
+	>
+		<!ATTLIST body
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+		>
+	<!ELEMENT group ( description?, remark*, URL*, (arc | arrow | boundary | box |
+		bitmap | circle | corridor | ellipse | line | milsymbol | polygon | rbline |
+		milpolygon | milpoint | rectangle | sector | text | text16 | rotatedtext |
+		minefield | controlpoint | group)*) 
+	>
+		<!ATTLIST group
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+		>
+	<!ELEMENT arc (position, leftbearing, rightbearing, radius, description?,
+		remark*, URL*)
+	>
+		<!ATTLIST arc
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>	
+	<!ELEMENT arrow (point+, closedtgl, airaxistgl, width, length,
+		description?, remark*, URL*)
+	>
+		<!ATTLIST arrow
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT boundary (point+, closedtgl, length, insert, insertsize,
+							outertext, innertext, description?, remark*, URL*)
+	>
+		<!ATTLIST boundary 
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+        <!ELEMENT bitmap (position, bitmapData, description?, remark*, URL*)>
+	        <!ATTLIST bitmap 
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT box (length, width, bearing, position, description?, remark*, URL*)>
+		<!ATTLIST box 
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT circle (position, radius, description?, remark*, URL*)>
+		<!ATTLIST circle
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT corridor (point+, closedtgl, type, flags, width, outertext, innertext,
+			 description?, remark*, URL*)
+	>
+		<!ATTLIST corridor
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT ellipse (position, semiminor, semimajor, bearing, description?,
+			   remark*, URL*)
+	>
+		<!ATTLIST ellipse
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT line (point1, point2, description?, remark*, URL*)>
+		<!ATTLIST line
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT milsymbol (position, milsymbolid, fieldaa, fieldb, fieldc,
+							 fielde, fieldf, fieldg, fieldh, fieldj, fieldk,
+							 fieldl, fieldm, fieldn, fieldp, fieldt, fieldv,
+							 fieldw, fieldx, fieldy, fieldz, description?,
+			 remark*, URL*)
+	>
+		<!ATTLIST milsymbol
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+
+			SymbolSize (Tiny | Small | 
+				Medium | Large | Huge ) "Medium"
+		>
+	<!ELEMENT milpolygon (point+, labelPoint, milPolygonName, milPolygonId, closedtgl, fieldh, fieldh1, fieldn,
+							 fieldt, fieldt1, fieldv, fieldw, fieldw1, description?, remark*, URL*)>
+		<!ATTLIST milpolygon
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED		
+		>
+	<!ELEMENT milpoint (position, milPointId, milPointName, fieldh, fieldh1,
+							 fieldt, description?, remark*, URL*)>
+		<!ATTLIST milpoint
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+
+			SymbolSize (Tiny | Small | 
+				Medium | Large | Huge ) "Medium"
+		>
+	<!ELEMENT polygon (point+, closedtgl, description?, remark*, URL*)>
+		<!ATTLIST polygon
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT rbline (object1, object2, fontid, symbol, arrows, arrowtype, 
+		description?, remark*, URL*)
+	>
+		<!ATTLIST rbline
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty)
+				"Solid"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillColor CDATA #IMPLIED
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) "None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+
+	<!ELEMENT rectangle (upperleft, lowerright, description?, remark*, URL*)>
+		<!ATTLIST rectangle
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT sector (position, innerradius, outerradius, leftbearing,
+						  rightbearing, description?, remark*, URL*)
+	>
+		<!ATTLIST sector 
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+		>
+	<!ELEMENT text (position, string, description?, remark*, URL*)>
+		<!ATTLIST text
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor			CDATA  "Yellow"
+			FillColor			CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset				CDATA  "(0,0)"
+			Priority			NMTOKEN #IMPLIED
+			VisibleTgl			NMTOKEN #IMPLIED
+			BlinkTgl			NMTOKEN #IMPLIED
+
+			Font				CDATA #IMPLIED
+			TextColor			CDATA  "Red"
+			Margin				NMTOKEN #IMPLIED
+		>
+
+	<!ELEMENT text16 (position, string, description?, remark*, URL*)>
+		<!ATTLIST text16
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+
+			Font CDATA #IMPLIED
+			TextColor CDATA  "Red"
+			Margin NMTOKEN #IMPLIED
+		>
+
+	<!ELEMENT rotatedtext (position, string, angle, description?, remark*, URL*)>
+		<!ATTLIST rotatedtext
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+
+			Font CDATA #IMPLIED
+			TextColor CDATA  "Red"
+			Margin NMTOKEN #IMPLIED
+		>
+	<!ELEMENT controlpoint (position, controlPointId, controlPointName, fieldh, fieldh1, fieldw, fieldw1, fieldt, fieldt1, description?,
+		remark*, URL*)
+	>
+		<!ATTLIST controlpoint
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+			Font CDATA "Arial"
+			SymbolSize (Tiny | Small | 
+				Medium | Large | Huge ) "Medium"
+		>
+	<!ELEMENT nbc (position, NBCId, NBCName, fieldc, fieldh, fieldn, fieldt, fieldv, fieldw,
+						 fieldq, fieldy, description?, remark*, URL*)
+	>
+		<!ATTLIST nbc
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+			Font CDATA "Arial"
+			SymbolSize (Tiny | Small | 
+				Medium | Large | Huge ) "Medium"
+		>
+	<!ELEMENT minefield (position, minefieldId, minefieldName, fieldh, fieldw,
+						description?, remark*, URL*)
+	>
+		<!ATTLIST minefield
+			segmentName			CDATA #REQUIRED
+			type				CDATA #IMPLIED
+			source				CDATA #REQUIRED
+			startDTG			CDATA #IMPLIED
+			endDTG				CDATA #IMPLIED
+			modifiedDTG			CDATA #IMPLIED
+			createdDTG			CDATA #IMPLIED
+			GUID				CDATA #IMPLIED
+			plotScaleEnabled		CDATA #IMPLIED
+			plotDTGEnabled			CDATA #IMPLIED
+			blinkEnabled			CDATA #IMPLIED
+			blinkDTG			CDATA #IMPLIED
+			colorSwitchEnabled		CDATA #IMPLIED
+			colorSwitchDTG			CDATA #IMPLIED
+			colorSwitchColor		CDATA #IMPLIED
+			minScale			CDATA #IMPLIED
+			maxScale			CDATA #IMPLIED
+			savedMinScale			CDATA #IMPLIED
+			savedMaxScale			CDATA #IMPLIED
+			plotLabelType			CDATA #IMPLIED
+			LineType (Solid | Dashed | Dotted | DotDashed |
+				LongDashed | LongDotDashed |
+				DoubleDashed | DoubleDotDashed |
+				DoubleLongDashed | DoubleLongDotDashed |
+				Empty) 
+				"Solid"
+			LineStyle (WarmFront | ColdFront |
+				StationaryFront | OccludedFront |
+				PlannedFLOT | PresentFLOT |
+				PlannedFLET | PresentFLET | PlannedOO |
+				PresentOO | PlannedEO | PresentEO |
+				PlannedFort | PresentFort |
+				PlannedEFort | PresentEFort | Reconn |
+				Route | Bridge | DelayAction | Path |
+				Ferry | AntiTankDitch | AntiPersMine |
+				AntiTankMine | AntiTankMainAH |
+				UnspcMine | boundary | PhaseLine |
+				IceEdge | Railroad | Normal) 
+				"Normal"
+			LineGeometry (GreatCircle | Rhumbline |
+				StraightLine | SplineLine)
+				"StraightLine"
+			LineWidth (1 | 2 | 3 | 4 | 5) "1"
+			LineColor CDATA  "Yellow"
+			FillColor CDATA #IMPLIED
+			FillType (Empty | Solid | Stipple) "Empty"
+			FillStipple (StipplePlus | StippleX |
+				StippleNegSlope | StipplePosSlope |
+				StippleHor | StippleVer | Stipple10 |
+				Stipple25 | Stipple50 | None) 
+				"None"
+			Offset CDATA  "(0,0)"
+			Priority NMTOKEN #IMPLIED
+			VisibleTgl NMTOKEN #IMPLIED
+			BlinkTgl NMTOKEN #IMPLIED
+			Font CDATA "Arial"
+			SymbolSize (Tiny | Small | 
+				Medium | Large | Huge ) "Medium"
+		>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+	<!ELEMENT URL (#PCDATA)>
+	<!ELEMENT position (#PCDATA)>
+	<!ELEMENT bearing (#PCDATA)>
+	<!ELEMENT leftbearing (#PCDATA)>
+	<!ELEMENT rightbearing (#PCDATA)>
+	<!ELEMENT radius (#PCDATA)>
+	<!ELEMENT innerradius (#PCDATA)>
+	<!ELEMENT outerradius (#PCDATA)>
+	<!ELEMENT semimajor (#PCDATA)>
+	<!ELEMENT semiminor (#PCDATA)>
+	<!ELEMENT closedtgl (#PCDATA)>
+	<!ELEMENT airaxistgl (#PCDATA)>
+	<!ELEMENT width (#PCDATA)>
+	<!ELEMENT length (#PCDATA)>
+	<!ELEMENT insert (#PCDATA)>
+	<!ELEMENT insertsize (#PCDATA)>
+	<!ELEMENT outertext (#PCDATA)>
+	<!ELEMENT innertext (#PCDATA)>
+	<!ELEMENT string (#PCDATA)>
+	<!ELEMENT point (#PCDATA)>
+	<!ELEMENT point1 (#PCDATA)>
+	<!ELEMENT point2 (#PCDATA)>
+	<!ELEMENT upperleft (#PCDATA)>
+	<!ELEMENT lowerright (#PCDATA)>
+	<!ELEMENT milsymbolid (#PCDATA)>
+	<!ELEMENT fieldaa (#PCDATA)>
+	<!ELEMENT fieldb (#PCDATA)>
+	<!ELEMENT fieldc (#PCDATA)>
+	<!ELEMENT fielde (#PCDATA)>
+	<!ELEMENT fieldf (#PCDATA)>
+	<!ELEMENT fieldg (#PCDATA)>
+	<!ELEMENT fieldh (#PCDATA)>
+	<!ELEMENT fieldj (#PCDATA)>
+	<!ELEMENT fieldk (#PCDATA)>
+	<!ELEMENT fieldl (#PCDATA)>
+	<!ELEMENT fieldm (#PCDATA)>
+	<!ELEMENT fieldn (#PCDATA)>
+	<!ELEMENT fieldp (#PCDATA)>
+	<!ELEMENT fieldt (#PCDATA)>
+	<!ELEMENT fieldv (#PCDATA)>
+	<!ELEMENT fieldw (#PCDATA)>
+	<!ELEMENT fieldx (#PCDATA)>
+	<!ELEMENT fieldy (#PCDATA)>
+	<!ELEMENT fieldz (#PCDATA)>
+	<!ELEMENT fieldq (#PCDATA)>
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT flags (#PCDATA)>
+	<!ELEMENT object1 (#PCDATA)>
+	<!ELEMENT object2 (#PCDATA)>
+	<!ELEMENT fontid (#PCDATA)>
+	<!ELEMENT symbol (#PCDATA)>
+	<!ELEMENT arrows (#PCDATA)>
+	<!ELEMENT arrowtype (#PCDATA)>
+	<!ELEMENT angle (#PCDATA)>
+	<!ELEMENT controlPointId (#PCDATA)>
+	<!ELEMENT controlPointName (#PCDATA)>
+	<!ELEMENT bitmapData (#PCDATA)>
+	<!ELEMENT milPolygonName (#PCDATA)>
+	<!ELEMENT milPolygonId (#PCDATA)>
+	<!ELEMENT fieldh1 (#PCDATA)>
+	<!ELEMENT fieldt1 (#PCDATA)>
+	<!ELEMENT fieldw1 (#PCDATA)>
+	<!ELEMENT labelPoint (#PCDATA)>
+	<!ELEMENT milPointId (#PCDATA)>
+	<!ELEMENT milPointName (#PCDATA)>
+	<!ELEMENT NBCId (#PCDATA)>
+	<!ELEMENT NBCName (#PCDATA)>
+	<!ELEMENT minefieldId (#PCDATA)>
+	<!ELEMENT minefieldName (#PCDATA)>

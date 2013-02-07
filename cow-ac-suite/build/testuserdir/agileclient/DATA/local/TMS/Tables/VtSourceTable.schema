@@ -1,0 +1,5 @@
+num:int
+maxnum:int
+size:int
+version:int
+entry:VtSourceEntry@100

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VtFlagSynonymTable>
+<num>2</num>
+<maxnum>500</maxnum>
+<size>8</size>
+<version>0</version>
+<entry>
+<flag>AC</flag>
+<synonym>US</synonym>
+<remarks/>
+</entry>
+<entry>
+<flag>AF</flag>
+<synonym>UR</synonym>
+<remarks/>
+</entry>
+</VtFlagSynonymTable>

@@ -1,0 +1,6 @@
+source:char@8
+remarks:char@48
+smjr:float
+smnr:float
+containment:short
+pad:short:omit

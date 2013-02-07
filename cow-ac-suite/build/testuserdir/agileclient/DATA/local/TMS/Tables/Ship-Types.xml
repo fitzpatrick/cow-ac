@@ -1,0 +1,3007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VtShipTypeTable>
+<num>500</num>
+<maxnum>600</maxnum>
+<size>34016</size>
+<version>0</version>
+<entry>
+<type>AA</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY SHIP, GENERAL</remarks>
+</entry>
+<entry>
+<type>AB</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DEPOT SHIP / TENDER</remarks>
+</entry>
+<entry>
+<type>ABU</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BUOY TENDER</remarks>
+</entry>
+<entry>
+<type>ACM</type>
+<category>NAV</category>
+<function_id>CM----</function_id>
+<remarks>AUXILIARY, MINE WARFARE SUPPORT</remarks>
+</entry>
+<entry>
+<type>AD</type>
+<category>NAV</category>
+<function_id>NF----</function_id>
+<remarks>DESTROYER TENDER</remarks>
+</entry>
+<entry>
+<type>ADG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DEPERMING SHIP</remarks>
+</entry>
+<entry>
+<type>AE    </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>AMMUNITION SHIP</remarks>
+</entry>
+<entry>
+<type>AEL   </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>AMMUNITION SHIP, SMALL</remarks>
+</entry>
+<entry>
+<type>AEM   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MISSILE SUPPORT SHIP</remarks>
+</entry>
+<entry>
+<type>AET   </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>AMMUNITION TRANSPORT</remarks>
+</entry>
+<entry>
+<type>AF    </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>STORES SHIP</remarks>
+</entry>
+<entry>
+<type>AFDB</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY, FLOATING DRY DOCK,  LARGE</remarks>
+</entry>
+<entry>
+<type>AFDL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY, FLOATING DRY DOCK, SMALL </remarks>
+</entry>
+<entry>
+<type>AFDM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY, FLOATING DRY DOCK,  MEDIUM</remarks>
+</entry>
+<entry>
+<type>AG    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY, MISCELLANEOUS</remarks>
+</entry>
+<entry>
+<type>AGB   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ICEBREAKER</remarks>
+</entry>
+<entry>
+<type>AGBL  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ICEBREAKER, SMALL</remarks>
+</entry>
+<entry>
+<type>AGBN  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ICEBREAKER, NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>AGCL  </type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>COMMUNICATIONS SHIP, SMALL</remarks>
+</entry>
+<entry>
+<type>AGDS  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUPPORT SHIP, DEEP SUBMERGENCE </remarks>
+</entry>
+<entry>
+<type>AGE   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RESEARCH SHIP</remarks>
+</entry>
+<entry>
+<type>AGEH  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RESEARCH SHIP, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>AGF   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY FLAG OR COMMAND SHIP</remarks>
+</entry>
+<entry>
+<type>AGFF  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RESEARCH SHIP, FRIGATE</remarks>
+</entry>
+<entry>
+<type>AGH   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>INSTRUMENTATION SHIP, HYDROACOUSTIC RANGE</remarks>
+</entry>
+<entry>
+<type>AGI   </type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>INTELLIGENCE COLLECTOR</remarks>
+</entry>
+<entry>
+<type>AGM   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>INSTRUMENTATION SHIP, MISSILE RANGE </remarks>
+</entry>
+<entry>
+<type>AGMS  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUPPORT SHIP, MISSILE RANGE </remarks>
+</entry>
+<entry>
+<type>AGOB</type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>RESEARCH SHIP, OCEANOGRAPHIC, POLAR</remarks>
+</entry>
+<entry>
+<type>AGOR  </type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>RESEARCH SHIP, OCEANOGRAPHIC</remarks>
+</entry>
+<entry>
+<type>AGOS</type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>SURVEILLANCE SHIP, OCEAN</remarks>
+</entry>
+<entry>
+<type>AGP   </type>
+<category>NAV</category>
+<function_id>NF----</function_id>
+<remarks>PATROL / TORPEDO BOAT  TENDER</remarks>
+</entry>
+<entry>
+<type>AGR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RADAR PICKET SHIP, UNARMED</remarks>
+</entry>
+<entry>
+<type>AGS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SURVEY SHIP</remarks>
+</entry>
+<entry>
+<type>AGSA</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SURVEY SHIP, POLAR</remarks>
+</entry>
+<entry>
+<type>AGSC  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SURVEY SHIP, COASTAL</remarks>
+</entry>
+<entry>
+<type>AGSL  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SATELLITE LAUNCHING SHIP</remarks>
+</entry>
+<entry>
+<type>AGSS</type>
+<category>SUB</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY RESEARCH SUBMARINE</remarks>
+</entry>
+<entry>
+<type>AGT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SERVICE SHIP, TARGET</remarks>
+</entry>
+<entry>
+<type>AGTT  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SERVICE SHIP, TORPEDO TARGET</remarks>
+</entry>
+<entry>
+<type>AH    </type>
+<category>NAV</category>
+<function_id>NM----</function_id>
+<remarks>HOSPITAL SHIP</remarks>
+</entry>
+<entry>
+<type>AK    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CARGO SHIP, NAVAL</remarks>
+</entry>
+<entry>
+<type>AKL   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CARGO SHIP,  NAVAL, LIGHT</remarks>
+</entry>
+<entry>
+<type>AKR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CARGO SHIP. NAVAL RO/RO</remarks>
+</entry>
+<entry>
+<type>AKS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>STORES SHIP, ISSUE, NAVAL</remarks>
+</entry>
+<entry>
+<type>AKSL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>STORES SHIP, ISSUE, NAVAL, SMALL</remarks>
+</entry>
+<entry>
+<type>AKV   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AIRCRAFT FERRY / CARGO SHIP</remarks>
+</entry>
+<entry>
+<type>ALS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHT SHIP</remarks>
+</entry>
+<entry>
+<type>AN    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>NET TENDER</remarks>
+</entry>
+<entry>
+<type>ANL   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CABLE / NET LAYING SHIP</remarks>
+</entry>
+<entry>
+<type>AO    </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER / TANKER, GENERAL</remarks>
+</entry>
+<entry>
+<type>AOE   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>COMBAT SUPPORT SHIP, FAST</remarks>
+</entry>
+<entry>
+<type>AOG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>GASOLINE TANKER</remarks>
+</entry>
+<entry>
+<type>AOL   </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER, NAVAL, SMALL</remarks>
+</entry>
+<entry>
+<type>AOR   </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER, REPLENISHMENT</remarks>
+</entry>
+<entry>
+<type>AORL  </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER, REPLENISHMENT, SMALL</remarks>
+</entry>
+<entry>
+<type>AOS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SPECIAL LIQUID SHIP</remarks>
+</entry>
+<entry>
+<type>AOSR  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RADIOLOGICAL LIQUID SHIP</remarks>
+</entry>
+<entry>
+<type>AOT   </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER, TRANSPORT</remarks>
+</entry>
+<entry>
+<type>AOTL  </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER, TRANSPORT, SMALL</remarks>
+</entry>
+<entry>
+<type>AP    </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>PERSONNEL TRANSPORT</remarks>
+</entry>
+<entry>
+<type>APB   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARRACKS SHIP</remarks>
+</entry>
+<entry>
+<type>APCR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PRIMARY CASUALTY RECEIVING SHIP</remarks>
+</entry>
+<entry>
+<type>APCT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CASUALTY TRANSPORT SHIP</remarks>
+</entry>
+<entry>
+<type>APL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARRACKS CRAFT</remarks>
+</entry>
+<entry>
+<type>AQ</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MERCHANT RAIDER, ARMED</remarks>
+</entry>
+<entry>
+<type>AR    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR SHIP</remarks>
+</entry>
+<entry>
+<type>ARB   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR SHIP, BATTLE DAMAGE</remarks>
+</entry>
+<entry>
+<type>ARC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR SHIP, CABLE</remarks>
+</entry>
+<entry>
+<type>ARD</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY REPAIR DOCK</remarks>
+</entry>
+<entry>
+<type>ARDM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY, REPAIR, DRYDOCK, MEDIUM</remarks>
+</entry>
+<entry>
+<type>ARH   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR SHIP, HEAVY HULL</remarks>
+</entry>
+<entry>
+<type>ARL   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR SHIP, SMALL</remarks>
+</entry>
+<entry>
+<type>ARR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR SHIP, RADIOLOGICAL</remarks>
+</entry>
+<entry>
+<type>ARS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SALVAGE SHIP</remarks>
+</entry>
+<entry>
+<type>ARSD</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SALVAGE SHIP, LIFTING</remarks>
+</entry>
+<entry>
+<type>ARV   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR SHIP, AIRCRAFT</remarks>
+</entry>
+<entry>
+<type>AS    </type>
+<category>NAV</category>
+<function_id>NF----</function_id>
+<remarks>SUBMARINE TENDER</remarks>
+</entry>
+<entry>
+<type>ASL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE TENDER, SMALL</remarks>
+</entry>
+<entry>
+<type>ASR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE RESCUE SHIP</remarks>
+</entry>
+<entry>
+<type>ASVR  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SPACE VEHICLE RECOVERY SHIP</remarks>
+</entry>
+<entry>
+<type>AT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TUG, OCEAN-GOING</remarks>
+</entry>
+<entry>
+<type>ATC</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINI-ARMORED TROOP CARRIER</remarks>
+</entry>
+<entry>
+<type>AU</type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHING VESSEL, TRAWLER OR JUNK, GENERAL</remarks>
+</entry>
+<entry>
+<type>AV    </type>
+<category>NAV</category>
+<function_id>NF----</function_id>
+<remarks>SEAPLANE TENDER</remarks>
+</entry>
+<entry>
+<type>AVB</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUPPORT SHIP, AVIATION LOGISTIC</remarks>
+</entry>
+<entry>
+<type>AVM   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>GUIDED MISSILE SHIP</remarks>
+</entry>
+<entry>
+<type>AVR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AIRCRAFT RESCUE VESSEL</remarks>
+</entry>
+<entry>
+<type>AVS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AVIATION SUPPLY SHIP</remarks>
+</entry>
+<entry>
+<type>AVT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AUXILIARY AIRCRAFT LANDING TRAINING SHIP</remarks>
+</entry>
+<entry>
+<type>AWT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>WATER TENDER, NAVAL</remarks>
+</entry>
+<entry>
+<type>AX</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRAINING SHIP, NAVAL</remarks>
+</entry>
+<entry>
+<type>AXL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRAINING SHIP, NAVAL, SMALL</remarks>
+</entry>
+<entry>
+<type>AXS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRAINING SHIP, NAVAL, SAIL</remarks>
+</entry>
+<entry>
+<type>AXT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRAINING SHIP</remarks>
+</entry>
+<entry>
+<type>AY</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>HYDROGRAPHIC / OCEANOGRAPHIC VESSEL</remarks>
+</entry>
+<entry>
+<type>BB    </type>
+<category>NAV</category>
+<function_id>CLBB--</function_id>
+<remarks>BATTLESHIP, GENERAL</remarks>
+</entry>
+<entry>
+<type>BLK   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CARGO, BULK</remarks>
+</entry>
+<entry>
+<type>BM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MONITOR, RIVER PATROL</remarks>
+</entry>
+<entry>
+<type>BMR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MONITOR, RIVER</remarks>
+</entry>
+<entry>
+<type>CA    </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>HEAVY CRUISER, GUN</remarks>
+</entry>
+<entry>
+<type>CAT</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>CATAMARAN (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>CATBOA</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>CATBOAT (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>CC    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRUISER, GENERAL</remarks>
+</entry>
+<entry>
+<type>CG    </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>CGF   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FISHING SHIP, CARGO</remarks>
+</entry>
+<entry>
+<type>CGN   </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, GUIDED MISSILE, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>CGO   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CARGO, DRY BULK</remarks>
+</entry>
+<entry>
+<type>CHG   </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, AVIATION, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>CHGN  </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, AVIATION, GUIDED MISSILE, NUCLEAR</remarks>
+</entry>
+<entry>
+<type>CHH</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRUISER, HELICOPTER</remarks>
+</entry>
+<entry>
+<type>CHN   </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, AVIATION, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>CL    </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, LIGHT</remarks>
+</entry>
+<entry>
+<type>CLAA  </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, LIGHT, ANTI-AIRCRAFT</remarks>
+</entry>
+<entry>
+<type>CLC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TACTICAL COMMAND SHIP</remarks>
+</entry>
+<entry>
+<type>CLH   </type>
+<category>NAV</category>
+<function_id>CLCC--</function_id>
+<remarks>CRUISER, LIGHT,  AVIATION</remarks>
+</entry>
+<entry>
+<type>CS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRUISER, SMALL</remarks>
+</entry>
+<entry>
+<type>CT    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRUISER, TRAINING</remarks>
+</entry>
+<entry>
+<type>CTH   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRUISER, TRAINING, AVIATION</remarks>
+</entry>
+<entry>
+<type>CUTTER</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>CUTTER (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>CV    </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, GENERAL</remarks>
+</entry>
+<entry>
+<type>CVA   </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, ATTACK</remarks>
+</entry>
+<entry>
+<type>CVG   </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>CVGN  </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CAR., GUIDED MIS., NUCLEAR </remarks>
+</entry>
+<entry>
+<type>CVH   </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, VSTOL / HELICOPTER</remarks>
+</entry>
+<entry>
+<type>CVHG  </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, VSTOL, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>CVHGN</type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARR, VSTOL, GUIDED MSL, NUCLEAR</remarks>
+</entry>
+<entry>
+<type>CVHN  </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CAR., VSTOL, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>CVL   </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, LIGHT</remarks>
+</entry>
+<entry>
+<type>CVLG  </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, LIGHT, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>CVLGN </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CAR., LIGHT, GUIDED MIS., NUCLEAR</remarks>
+</entry>
+<entry>
+<type>CVLN  </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, LIGHT, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>CVN   </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>CVS   </type>
+<category>NAV</category>
+<function_id>CLCV--</function_id>
+<remarks>AIRCRAFT CARRIER, ASW SUPPORT</remarks>
+</entry>
+<entry>
+<type>CVT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AIRCRAFT CARRIER, TRAINING</remarks>
+</entry>
+<entry>
+<type>DD    </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, GENERAL</remarks>
+</entry>
+<entry>
+<type>DDE</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DESTROYER ESCORT</remarks>
+</entry>
+<entry>
+<type>DDG   </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>DDGN  </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, GUIDED MISSILE, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>DDH   </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, AVIATION</remarks>
+</entry>
+<entry>
+<type>DDHG  </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, AVIATION, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>DDHGN </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, AVIATION, GUIDED MIS., NUCLEAR</remarks>
+</entry>
+<entry>
+<type>DDHN  </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, AVIATION, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>DDM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DESTROYER, MINELAYING</remarks>
+</entry>
+<entry>
+<type>DDR   </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, RADAR PICKET</remarks>
+</entry>
+<entry>
+<type>DDT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DESTROYER, TRAINING</remarks>
+</entry>
+<entry>
+<type>DER</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DESTROYER ESCORT, RADAR PICKET</remarks>
+</entry>
+<entry>
+<type>DSRV</type>
+<category>SUB</category>
+<function_id>------</function_id>
+<remarks>DEEP SUBMERGENCE RESCUE VEHICLE, COMMERCIAL</remarks>
+</entry>
+<entry>
+<type>DSV</type>
+<category>SUB</category>
+<function_id>------</function_id>
+<remarks>DEEP SUBMERGENCE VEHICLE, COMMERCIAL</remarks>
+</entry>
+<entry>
+<type>FF    </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE</remarks>
+</entry>
+<entry>
+<type>FFG   </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>FFGH  </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, GUIDED MISSILE, AVIATION</remarks>
+</entry>
+<entry>
+<type>FFGN  </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, GUIDED MISSILE, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>FFH   </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, AVIATION</remarks>
+</entry>
+<entry>
+<type>FFHGN </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, AVIATION, GUIDED MIS., NUCLEAR</remarks>
+</entry>
+<entry>
+<type>FFHN  </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, AVIATION, NUCLEAR POWERED</remarks>
+</entry>
+<entry>
+<type>FFL   </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>CORVETTE</remarks>
+</entry>
+<entry>
+<type>FFLG  </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>CORVETTE, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>FFR   </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, RADAR PICKET</remarks>
+</entry>
+<entry>
+<type>FFS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FRIGATE, SMALL, CORVETTE</remarks>
+</entry>
+<entry>
+<type>FFT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FRIGATE, TRAINING</remarks>
+</entry>
+<entry>
+<type>FSH   </type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHING VESSEL</remarks>
+</entry>
+<entry>
+<type>HH</type>
+<category>NAV</category>
+<function_id>-----</function_id>
+<remarks>HOVERCRAFT, GENERAL</remarks>
+</entry>
+<entry>
+<type>HL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>HOVERCRAFT, LARGE</remarks>
+</entry>
+<entry>
+<type>HOUSBO</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>HOUSEBOAT (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>HP</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>HOVERCRAFT, PERSONNEL</remarks>
+</entry>
+<entry>
+<type>HS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>HOVERCRAFT, SMALL</remarks>
+</entry>
+<entry>
+<type>IX</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>MISCELLANEOUS UNIT, UNCLASSIFIED</remarks>
+</entry>
+<entry>
+<type>KETCH</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>KETCH (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>LB</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSUALT VESSEL, BEACHING</remarks>
+</entry>
+<entry>
+<type>LC</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT CRAFT</remarks>
+</entry>
+<entry>
+<type>LCAC  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>LCC   </type>
+<category>NAV</category>
+<function_id>CA----</function_id>
+<remarks>AMPHIBIOUS COMMAND SHIP</remarks>
+</entry>
+<entry>
+<type>LCFS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LANDING CRAFT, FIRE SUPPORT</remarks>
+</entry>
+<entry>
+<type>LCM   </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, MECHANIZED</remarks>
+</entry>
+<entry>
+<type>LCMA  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, MEDIUM, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>LCP   </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, PERSONNEL</remarks>
+</entry>
+<entry>
+<type>LCPA  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, PERSONNEL, ARMORED</remarks>
+</entry>
+<entry>
+<type>LCPL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LANDING CRAFT, PERSONNEL, LARGE</remarks>
+</entry>
+<entry>
+<type>LCU   </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, UTILITY</remarks>
+</entry>
+<entry>
+<type>LCUA  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, UTILITY, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>LCVP  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, VEHICLE / PERSONNEL</remarks>
+</entry>
+<entry>
+<type>LCW   </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, SWIMMER SUPPORT</remarks>
+</entry>
+<entry>
+<type>LFS   </type>
+<category>NAV</category>
+<function_id>CA----</function_id>
+<remarks>AMPHIBIOUS FIRE SUPPORT SHIP</remarks>
+</entry>
+<entry>
+<type>LG</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT CRAFT, GUN-EQUIPPED</remarks>
+</entry>
+<entry>
+<type>LHA   </type>
+<category>NAV</category>
+<function_id>CALS--</function_id>
+<remarks>AMPHIBIOUS ASSAULT SHIP, GENERAL</remarks>
+</entry>
+<entry>
+<type>LHD   </type>
+<category>NAV</category>
+<function_id>CALS--</function_id>
+<remarks>AMPHIBIOUS ASSAULT SHIP, MULTI-PURPOSE</remarks>
+</entry>
+<entry>
+<type>LKA   </type>
+<category>NAV</category>
+<function_id>CA----</function_id>
+<remarks>AMPHIBIOUS CARGO SHIP</remarks>
+</entry>
+<entry>
+<type>LL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AMPHIBIOUS ASSAULT, GENERAL</remarks>
+</entry>
+<entry>
+<type>LM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT CRAFT, MISSILE EQUIPPED</remarks>
+</entry>
+<entry>
+<type>LO</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT SHIP, NON-BEACHING</remarks>
+</entry>
+<entry>
+<type>LP</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT SHIP, PERSONNEL</remarks>
+</entry>
+<entry>
+<type>LPA   </type>
+<category>NAV</category>
+<function_id>CA----</function_id>
+<remarks>AMPHIBIOUS TRANSPORT, PERSONNEL</remarks>
+</entry>
+<entry>
+<type>LPD   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AMPHIBIOUS TRANSPORT, DOCK</remarks>
+</entry>
+<entry>
+<type>LPH   </type>
+<category>NAV</category>
+<function_id>CA----</function_id>
+<remarks>AMPHIBIOUS ASSAULT SHIP, HELICOPTER</remarks>
+</entry>
+<entry>
+<type>LR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT SHIP, ROCKET-FIRING</remarks>
+</entry>
+<entry>
+<type>LSD   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LANDING SHIP, DOCK</remarks>
+</entry>
+<entry>
+<type>LSDV  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SWIMMER DELIVERY VEHICLE</remarks>
+</entry>
+<entry>
+<type>LSL</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LANDING SHIP, LOGISTICS</remarks>
+</entry>
+<entry>
+<type>LSM   </type>
+<category>NAV</category>
+<function_id>CALS--</function_id>
+<remarks>LANDING SHIP, MEDIUM</remarks>
+</entry>
+<entry>
+<type>LSSC  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHT SEAL SUPPORT CRAFT</remarks>
+</entry>
+<entry>
+<type>LST   </type>
+<category>NAV</category>
+<function_id>CALS--</function_id>
+<remarks>LANDING SHIP, TANK</remarks>
+</entry>
+<entry>
+<type>LSV   </type>
+<category>NAV</category>
+<function_id>CALS--</function_id>
+<remarks>LANDING SHIP, VEHICLE</remarks>
+</entry>
+<entry>
+<type>LT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT SHIP, TANK</remarks>
+</entry>
+<entry>
+<type>LV</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ASSAULT VEHICLE, AMPHIBIOUS</remarks>
+</entry>
+<entry>
+<type>MCCS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES COMMAND AND SUPPORT</remarks>
+</entry>
+<entry>
+<type>MCD</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES, DIVING</remarks>
+</entry>
+<entry>
+<type>MCJ</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES, HOVERCRAFT</remarks>
+</entry>
+<entry>
+<type>MCM   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES SHIP, GENERAL</remarks>
+</entry>
+<entry>
+<type>MCMV</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES VESSEL, GENERAL</remarks>
+</entry>
+<entry>
+<type>MCS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES SUPPORT SHIP</remarks>
+</entry>
+<entry>
+<type>MCSL  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES SHIP, GENERAL, SMALL</remarks>
+</entry>
+<entry>
+<type>MCT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINE COUNTERMEASURES, TRAINING</remarks>
+</entry>
+<entry>
+<type>MF</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINESWEEPER, FAST</remarks>
+</entry>
+<entry>
+<type>MH</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER, GENERAL</remarks>
+</entry>
+<entry>
+<type>MHA</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER, AUXILIARY</remarks>
+</entry>
+<entry>
+<type>MHC   </type>
+<category>NAV</category>
+<function_id>CMMH--</function_id>
+<remarks>MINEHUNTER, COASTAL</remarks>
+</entry>
+<entry>
+<type>MHI</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER, INSHORE</remarks>
+</entry>
+<entry>
+<type>MHO</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER, OCEAN</remarks>
+</entry>
+<entry>
+<type>MHS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER/SWEEPER, GENERAL</remarks>
+</entry>
+<entry>
+<type>MHSC</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER/SWEEPER, COASTAL</remarks>
+</entry>
+<entry>
+<type>MHSD</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER/SWEEPER, WITH DRONE</remarks>
+</entry>
+<entry>
+<type>MHSO</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINEHUNTER/SWEEPER, OCEAN</remarks>
+</entry>
+<entry>
+<type>MIS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MISCELLANEOUS MINE WARFARE VESSEL</remarks>
+</entry>
+<entry>
+<type>ML</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, GENERAL</remarks>
+</entry>
+<entry>
+<type>MLA</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, AUXILIARY</remarks>
+</entry>
+<entry>
+<type>MLC</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, COASTAL</remarks>
+</entry>
+<entry>
+<type>MLD</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, FAST</remarks>
+</entry>
+<entry>
+<type>MLI</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, INSHORE</remarks>
+</entry>
+<entry>
+<type>MLO</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, OCEAN</remarks>
+</entry>
+<entry>
+<type>MLR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, RIVER</remarks>
+</entry>
+<entry>
+<type>MLS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINELAYER, SUPPPORT</remarks>
+</entry>
+<entry>
+<type>MM    </type>
+<category>NAV</category>
+<function_id>CMML--</function_id>
+<remarks>MINE WARFARE VESSEL</remarks>
+</entry>
+<entry>
+<type>MMF   </type>
+<category>NAV</category>
+<function_id>CMML--</function_id>
+<remarks>MINELAYER, FLEET</remarks>
+</entry>
+<entry>
+<type>MON   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RIVER MONITOR, ASSAULT</remarks>
+</entry>
+<entry>
+<type>MS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINESWEEPER, SMALL, GENERAL</remarks>
+</entry>
+<entry>
+<type>MSA</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINESWEEPER, AUXILIARY</remarks>
+</entry>
+<entry>
+<type>MSB   </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, BOAT</remarks>
+</entry>
+<entry>
+<type>MSC   </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, COASTAL</remarks>
+</entry>
+<entry>
+<type>MSD   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINESWEEPER, DRONE</remarks>
+</entry>
+<entry>
+<type>MSF   </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, FLEET</remarks>
+</entry>
+<entry>
+<type>MSH   </type>
+<category>NAV</category>
+<function_id>CMMH--</function_id>
+<remarks>MINEHUNTER</remarks>
+</entry>
+<entry>
+<type>MSI   </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, INSHORE</remarks>
+</entry>
+<entry>
+<type>MSIA  </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, INSHORE, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>MSL   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MINESWEEPING LAUNCH</remarks>
+</entry>
+<entry>
+<type>MSO   </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, OCEAN</remarks>
+</entry>
+<entry>
+<type>MSR   </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, RIVER</remarks>
+</entry>
+<entry>
+<type>MSS   </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, SPECIAL DEVICE</remarks>
+</entry>
+<entry>
+<type>MSSC  </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, SPECIAL DEVICE, COASTAL</remarks>
+</entry>
+<entry>
+<type>MTRYAC</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>MOTOR YACHT (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>NR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMERSIBLE RESEARCH VEHICLE</remarks>
+</entry>
+<entry>
+<type>PAX   </type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>PASSENGER, MERCHANT SHIP</remarks>
+</entry>
+<entry>
+<type>PB    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT</remarks>
+</entry>
+<entry>
+<type>PBA   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>PBD   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, DRONE</remarks>
+</entry>
+<entry>
+<type>PBF</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, FAST</remarks>
+</entry>
+<entry>
+<type>PBR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, RIVER / ROADSTEAD</remarks>
+</entry>
+<entry>
+<type>PBS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, FIRE SUPPORT</remarks>
+</entry>
+<entry>
+<type>PC    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE CHASER/ESCORT, GENERAL</remarks>
+</entry>
+<entry>
+<type>PCE</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL, COASTAL, ESCORT</remarks>
+</entry>
+<entry>
+<type>PCF   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL SUBCHASER, FAST</remarks>
+</entry>
+<entry>
+<type>PCFA  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, FAST, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>PCFH  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, FAST, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PCFS  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, FIRE SUPPORT</remarks>
+</entry>
+<entry>
+<type>PCH   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PCS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE CHASER</remarks>
+</entry>
+<entry>
+<type>PCSA  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE CHASER, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>PCSH  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE CHASER, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PCT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, TRAINING</remarks>
+</entry>
+<entry>
+<type>PF    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL FRIGATE</remarks>
+</entry>
+<entry>
+<type>PFR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL FRIGATE, RADAR PICKET</remarks>
+</entry>
+<entry>
+<type>PG    </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL CRAFT, GUN EQUIPPED, GENERAL</remarks>
+</entry>
+<entry>
+<type>PGA   </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL COMBATANT, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>PGB   </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL SHIP, ICEBREAKER</remarks>
+</entry>
+<entry>
+<type>PGF   </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL SHIP, FAST</remarks>
+</entry>
+<entry>
+<type>PGG   </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL COMBATANT, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>PGGA  </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL COMBATANT, GUIDED MIS., AIR CUSH.</remarks>
+</entry>
+<entry>
+<type>PGGH  </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL COMBATANT, GUIDED MISSILE, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PGH   </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL COMBATANT, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PGM   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MOTOR GUNBOAT</remarks>
+</entry>
+<entry>
+<type>PGR   </type>
+<category>NAV</category>
+<function_id>CP----</function_id>
+<remarks>PATROL COMBATANT, RECONNAISSANCE</remarks>
+</entry>
+<entry>
+<type>PGS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL SHIP, ASW</remarks>
+</entry>
+<entry>
+<type>PM    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RIVER MONITOR</remarks>
+</entry>
+<entry>
+<type>PP</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, FAST, GENERAL</remarks>
+</entry>
+<entry>
+<type>PR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, RESCUE</remarks>
+</entry>
+<entry>
+<type>PS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL SHIP, LARGE</remarks>
+</entry>
+<entry>
+<type>PT    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, MOTOR TORPEDO</remarks>
+</entry>
+<entry>
+<type>PTA   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO BOAT, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>PTG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ATTACK BOAT, GUIDED MISSILE</remarks>
+</entry>
+<entry>
+<type>PTGA  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ATTACK BOAT, GUIDED MISSILE, AIR CUSHION</remarks>
+</entry>
+<entry>
+<type>PTGH  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ATTACK BOAT, GUIDED MISSILE, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PTGT  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ATTACK BOAT, GUIDED MISSILE, TRAINING</remarks>
+</entry>
+<entry>
+<type>PTH   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO BOAT, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PTL   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO BOAT, SMALL</remarks>
+</entry>
+<entry>
+<type>PTLH  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO BOAT, SMALL, HYDROFOIL</remarks>
+</entry>
+<entry>
+<type>PTT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO BOAT, TRAINING</remarks>
+</entry>
+<entry>
+<type>QM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MOTOR BOAT, LAUNCH</remarks>
+</entry>
+<entry>
+<type>QQ</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BOAT, GENERAL</remarks>
+</entry>
+<entry>
+<type>QR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ROWBOAT</remarks>
+</entry>
+<entry>
+<type>QW</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SAILBOAT</remarks>
+</entry>
+<entry>
+<type>RACCRU</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>RACING CRUISER (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>REF   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REFRIGERATOR</remarks>
+</entry>
+<entry>
+<type>RIV   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RIVER-SEA</remarks>
+</entry>
+<entry>
+<type>RUNABO</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>RUNABOUT (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>SCHOON</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>SCHOONER (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>SHIP</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>GENERIC SHIP</remarks>
+</entry>
+<entry>
+<type>SLOOP</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>SLOOP (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>SPA   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SPACE EVENT SUPPORT</remarks>
+</entry>
+<entry>
+<type>SS    </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, GENERAL</remarks>
+</entry>
+<entry>
+<type>SSA   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>AUXILIARY SUB, DIESEL</remarks>
+</entry>
+<entry>
+<type>SSAN  </type>
+<category>SUB</category>
+<function_id>SN----</function_id>
+<remarks>AUXILIARY SUB, NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>SSB   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>BALLISTIC MISSILE SUBMARINE</remarks>
+</entry>
+<entry>
+<type>SSBN  </type>
+<category>SUB</category>
+<function_id>SN----</function_id>
+<remarks>BALLISTIC MISSILE SUB NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>SSC   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, COASTAL</remarks>
+</entry>
+<entry>
+<type>SSG   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, ATTACK SURFACE MISSILE </remarks>
+</entry>
+<entry>
+<type>SSGN  </type>
+<category>SUB</category>
+<function_id>SN----</function_id>
+<remarks>SUBMARINE, ATTACK SURF MSL, NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>SSK   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, PATROL </remarks>
+</entry>
+<entry>
+<type>SSLP  </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, TRANSPORT </remarks>
+</entry>
+<entry>
+<type>SSN   </type>
+<category>SUB</category>
+<function_id>SN----</function_id>
+<remarks>SUBMARINE, ATTACK, NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>SSQ   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, AUXILIARY, COMMUNICATIONS</remarks>
+</entry>
+<entry>
+<type>SSQN  </type>
+<category>SUB</category>
+<function_id>SN----</function_id>
+<remarks>SUBMARINE, AUX, COMMS, NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>SSR   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, RADAR PICKET </remarks>
+</entry>
+<entry>
+<type>SST   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, TRAINING </remarks>
+</entry>
+<entry>
+<type>SSU   </type>
+<category>SUB</category>
+<function_id>SC----</function_id>
+<remarks>SUBMARINE, MILCAP UNKNOWN</remarks>
+</entry>
+<entry>
+<type>SSUN  </type>
+<category>NAV</category>
+<function_id>SN----</function_id>
+<remarks>SUBMARINE, MILCAP UNKNOWN, NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>SSW</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE, MIDGET</remarks>
+</entry>
+<entry>
+<type>SUB</type>
+<category>SUB</category>
+<function_id>S-----</function_id>
+<remarks>SUBMARINE</remarks>
+</entry>
+<entry>
+<type>SVC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SERVICE CRAFT</remarks>
+</entry>
+<entry>
+<type>SWCL  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SPECIAL WARFARE CRAFT, LIGHT</remarks>
+</entry>
+<entry>
+<type>SWCM  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SPECIAL WARFARE CRAFT, MEDIUM</remarks>
+</entry>
+<entry>
+<type>TJ</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>HOVERCRAFT, GENERAL</remarks>
+</entry>
+<entry>
+<type>TJC</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>HOVERCRAFT, TRANSPORT/CARGO</remarks>
+</entry>
+<entry>
+<type>TJF</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>HOVERCRAFT, FERRY</remarks>
+</entry>
+<entry>
+<type>TKR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIQUID CARGO</remarks>
+</entry>
+<entry>
+<type>TM</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, GENERAL</remarks>
+</entry>
+<entry>
+<type>TMA</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, DRY CARGO, BREAK BULK</remarks>
+</entry>
+<entry>
+<type>TMB</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, BULK</remarks>
+</entry>
+<entry>
+<type>TMC</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT, CONTAINER, NON-SELF SUSTAINED</remarks>
+</entry>
+<entry>
+<type>TMD</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, DREDGER</remarks>
+</entry>
+<entry>
+<type>TME</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, RO/RO</remarks>
+</entry>
+<entry>
+<type>TMF</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, CAR/PASSENGER FERRY</remarks>
+</entry>
+<entry>
+<type>TMH</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, HEAVY LIFTING</remarks>
+</entry>
+<entry>
+<type>TMI</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, INLAND WATERWAY</remarks>
+</entry>
+<entry>
+<type>TMK</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, CABLE LAYER</remarks>
+</entry>
+<entry>
+<type>TML</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, LASH</remarks>
+</entry>
+<entry>
+<type>TMM</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, METEOROLOGICAL</remarks>
+</entry>
+<entry>
+<type>TMO</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, TANKER</remarks>
+</entry>
+<entry>
+<type>TMOS</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, SPECIAL LIQUIDS</remarks>
+</entry>
+<entry>
+<type>TMP</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, PASSENGER</remarks>
+</entry>
+<entry>
+<type>TMR</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, REFRIGERATED</remarks>
+</entry>
+<entry>
+<type>TMS</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, SPACE/MISSILE ASSOCIATED</remarks>
+</entry>
+<entry>
+<type>TMT</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT TUG</remarks>
+</entry>
+<entry>
+<type>TMX</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>MERCHANT SHIP, TRAINING</remarks>
+</entry>
+<entry>
+<type>TRIHUL</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>TRIMARAN (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>TS</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>SUBMERSIBLE, GENERAL, COMMERCIAL</remarks>
+</entry>
+<entry>
+<type>TSG</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>SUBMERSIBLE, RESEARCH, COMMERCIAL</remarks>
+</entry>
+<entry>
+<type>TSR</type>
+<category>MER</category>
+<function_id>------</function_id>
+<remarks>SUBMERSIBLE, RESCUE, COMMERCIAL</remarks>
+</entry>
+<entry>
+<type>TU</type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHING VESSEL, GENERAL</remarks>
+</entry>
+<entry>
+<type>TUC</type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHING VESSEL, WHALE CATCHER</remarks>
+</entry>
+<entry>
+<type>TUF</type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHING FACTORY SHIP</remarks>
+</entry>
+<entry>
+<type>TUG   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>TUG</remarks>
+</entry>
+<entry>
+<type>TUI</type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHING VESSEL, INSPECTION</remarks>
+</entry>
+<entry>
+<type>TUR</type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHING VESSEL, REFRIGERATED</remarks>
+</entry>
+<entry>
+<type>TUS</type>
+<category>FSH</category>
+<function_id>------</function_id>
+<remarks>FISHERIES RESEARCH SHIP</remarks>
+</entry>
+<entry>
+<type>UNK   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>UNKNOWN</remarks>
+</entry>
+<entry>
+<type>WAG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MISCELLANEOUS AUXILIARY, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAGB  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ICEBREAKER,COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAGE  </type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>RESEARCH SHIP, EXPERIMENTAL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAGL  </type>
+<category>NAV</category>
+<function_id>NF----</function_id>
+<remarks>BUOY TENDER</remarks>
+</entry>
+<entry>
+<type>WAGOR </type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>OCEANOGRAPHIC RESEARCH SHIP, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAGS  </type>
+<category>NAV</category>
+<function_id>NI----</function_id>
+<remarks>SURVEY SHIP, HYDROGRAPHIC, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAK   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CARGO SHIP, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAO   </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAOT  </type>
+<category>NAV</category>
+<function_id>NR----</function_id>
+<remarks>OILER, TRANSPORT, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WARC  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CABLE REPAIR SHIP, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WARS  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SALVAGE AND RESCUE SHIP, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WATA  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>OCEAN TUG, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WAXT  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRAINING SHIP, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WDD   </type>
+<category>NAV</category>
+<function_id>CLDD--</function_id>
+<remarks>DESTROYER, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WFF   </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>FRIGATE, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WFFL  </type>
+<category>NAV</category>
+<function_id>CLFF--</function_id>
+<remarks>CORVETTE, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WLCM  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, MEDIUM, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WLCP  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, PERSONNEL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WLCU  </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>LANDING CRAFT, UTILITY, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WLCVP </type>
+<category>NAV</category>
+<function_id>CALC--</function_id>
+<remarks>VEHICLE/PASNGER LANDING CRAFT, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WLSM  </type>
+<category>NAV</category>
+<function_id>CALS--</function_id>
+<remarks>LANDING SHIP, MEDIUM, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WLST  </type>
+<category>NAV</category>
+<function_id>CALS--</function_id>
+<remarks>LANDING SHIP, TANK, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WMM   </type>
+<category>NAV</category>
+<function_id>CMML--</function_id>
+<remarks>MINELAYER, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WMSB  </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPING BOAT, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WMSF  </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, FLEET, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WMSI  </type>
+<category>NAV</category>
+<function_id>CMMS--</function_id>
+<remarks>MINESWEEPER, INSHORE, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPB   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPBA  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, AIR CUSHION, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPBH  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, HYDROFOIL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPBR  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, RIVER/ROADSTEAD, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPCF  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, FAST, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPCS  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMARINE CHASER, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPCT  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL CRAFT, TRAINING, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL COMBATANT, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPGF  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL SHIP, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPM   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RIVER MONITOR, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPSB  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>PATROL BOAT, HARBOR, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO BOAT, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPTG  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>ATTACK BOAT, GUIDED MISSILE, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WPTL  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO BOAT, SMALL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYAG  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SERVICE CRAFT, MISCELLANEOUS, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, OPEN, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYDT  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DIVING TENDER, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYF   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, COVERED, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYFB  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FERRY, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYFDL </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BOATING DRY DOCK, SMALL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYFL  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LAUNCH, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYFU  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRANSPORT, UTILITY, HARBOR, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYGS  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRAFT, SURVEY, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYH   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRAFT, AMBULANCE, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYO   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, FUEL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYON  </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, FUEL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYPL  </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, BARRACKS, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYR   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, FLOATING, WORKSHOP, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYTB  </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>TUG, HARBOR, LARGE, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYTL  </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>TUG, HARBOR, SMALL, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYTM  </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>TUG, HARBOR, MEDIUM, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYTS  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRAFT, SAIL, TRAINING, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYW   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, WATER, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>WYXT  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CRAFT, TRAINING, COAST GUARD</remarks>
+</entry>
+<entry>
+<type>YAG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>MISCELLANEOUS SERVICE CRAFT</remarks>
+</entry>
+<entry>
+<type>YAGT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TARGET  SERVICE CRAFT</remarks>
+</entry>
+<entry>
+<type>YAMM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUPPORT BARGE, MISSILE</remarks>
+</entry>
+<entry>
+<type>YAWL</type>
+<category>SUR</category>
+<function_id>------</function_id>
+<remarks>YAWL (PLEASURE CRAFT)</remarks>
+</entry>
+<entry>
+<type>YBD   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BOW DOCK</remarks>
+</entry>
+<entry>
+<type>YC    </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>LIGHTER, OPEN</remarks>
+</entry>
+<entry>
+<type>YCF   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, CARGO</remarks>
+</entry>
+<entry>
+<type>YCK   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, OPEN, CARGO</remarks>
+</entry>
+<entry>
+<type>YCV   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, AIRCRAFT TRANSPORT</remarks>
+</entry>
+<entry>
+<type>YD    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FLOATING CRANE</remarks>
+</entry>
+<entry>
+<type>YDG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>VESSEL, DEGAUSSING</remarks>
+</entry>
+<entry>
+<type>YDT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DIVING TENDER</remarks>
+</entry>
+<entry>
+<type>YE    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, AMMUNITION</remarks>
+</entry>
+<entry>
+<type>YEN   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, AMMUNITION </remarks>
+</entry>
+<entry>
+<type>YF    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FERRY, LIGHTER, COVERED </remarks>
+</entry>
+<entry>
+<type>YFB   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FERRY BOAT</remarks>
+</entry>
+<entry>
+<type>YFDL  </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DRY DOCK, FLOATING, SMALL</remarks>
+</entry>
+<entry>
+<type>YFL   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LAUNCH</remarks>
+</entry>
+<entry>
+<type>YFN   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LAUNCH, COVERED</remarks>
+</entry>
+<entry>
+<type>YFP   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>FLOATING POWER BARGE</remarks>
+</entry>
+<entry>
+<type>YFR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, COVERED, REFRIGERATED</remarks>
+</entry>
+<entry>
+<type>YFT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, TORPEDO TRANSPORT </remarks>
+</entry>
+<entry>
+<type>YFU   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>HARBOR UTILITY CRAFT</remarks>
+</entry>
+<entry>
+<type>YG    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>LIGHTER, GARBAGE</remarks>
+</entry>
+<entry>
+<type>YGN   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, GARBAGE</remarks>
+</entry>
+<entry>
+<type>YGS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SURVEY CRAFT</remarks>
+</entry>
+<entry>
+<type>YGT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FLOATING TARGET</remarks>
+</entry>
+<entry>
+<type>YH    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>AMBULANCE BOAT</remarks>
+</entry>
+<entry>
+<type>YHT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, HEATING </remarks>
+</entry>
+<entry>
+<type>YLC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SALVAGE LIFT CRAFT</remarks>
+</entry>
+<entry>
+<type>YM    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FLOATING DREDGE</remarks>
+</entry>
+<entry>
+<type>YMN   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DREDGE, NON-SELF-PROPELLED </remarks>
+</entry>
+<entry>
+<type>YNC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>NET CARGO CRAFT</remarks>
+</entry>
+<entry>
+<type>YNG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>GATE CRAFT</remarks>
+</entry>
+<entry>
+<type>YNR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>RESEARCH VEHICLE, NUCLEAR-POWERED</remarks>
+</entry>
+<entry>
+<type>YNT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>NET TENDER, BOOM</remarks>
+</entry>
+<entry>
+<type>YO    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FUEL LIGHTER</remarks>
+</entry>
+<entry>
+<type>YOG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, GASOLINE </remarks>
+</entry>
+<entry>
+<type>YOM</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, SPECIAL LIQUID</remarks>
+</entry>
+<entry>
+<type>YON   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, FUEL </remarks>
+</entry>
+<entry>
+<type>YOS   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, OIL STORAGE </remarks>
+</entry>
+<entry>
+<type>YP    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>HARBOR PATROL CRAFT</remarks>
+</entry>
+<entry>
+<type>YPD   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FLOATING PILE DRIVER</remarks>
+</entry>
+<entry>
+<type>YPK</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, PONTOON STORAGE</remarks>
+</entry>
+<entry>
+<type>YPL   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, BARRACKS </remarks>
+</entry>
+<entry>
+<type>YPT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO RETRIEVER CRAFT</remarks>
+</entry>
+<entry>
+<type>YR    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>REPAIR, FLOATING WORKSHOP</remarks>
+</entry>
+<entry>
+<type>YRB</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, REPAIR AND BERTHING</remarks>
+</entry>
+<entry>
+<type>YRBM</type>
+<category>AIR</category>
+<function_id>------</function_id>
+<remarks>BARGE, REPAIR, BERTHING AND MESSING</remarks>
+</entry>
+<entry>
+<type>YRC   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>CABLE TENDER YARD CRAFT</remarks>
+</entry>
+<entry>
+<type>YRD   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DRY DOCK, FLOATING  WORKSHOP</remarks>
+</entry>
+<entry>
+<type>YRG   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TANK CLEANING CRAFT</remarks>
+</entry>
+<entry>
+<type>YRNS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, NUCLEAR SHIP SUPPORT</remarks>
+</entry>
+<entry>
+<type>YRR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, RADIOLOGICAL REPAIR</remarks>
+</entry>
+<entry>
+<type>YRRN</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, REPAIR, NUCLEAR PROPULSION</remarks>
+</entry>
+<entry>
+<type>YRST</type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>BARGE, SALVAGE </remarks>
+</entry>
+<entry>
+<type>YS</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, SELF-PROPELLED</remarks>
+</entry>
+<entry>
+<type>YSG</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMERSIBLE, RESEARCH, MILITARY</remarks>
+</entry>
+<entry>
+<type>YSR</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMERSIBLE, RESCUE, MILITARY</remarks>
+</entry>
+<entry>
+<type>YSRV</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DEEP SUBMERSIBLE, RESCUE VEHICLE, MILITARY</remarks>
+</entry>
+<entry>
+<type>YSS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SUBMERSIBLE, SERVICE, MILITARY</remarks>
+</entry>
+<entry>
+<type>YSV</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DEEP SUBMERSIBLE VEHICLE, MILITARY</remarks>
+</entry>
+<entry>
+<type>YT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TUG, HARBOR</remarks>
+</entry>
+<entry>
+<type>YTB   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>TUG, HARBOR, LARGE  </remarks>
+</entry>
+<entry>
+<type>YTL   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>TUG, HARBOR, SMALL  </remarks>
+</entry>
+<entry>
+<type>YTM   </type>
+<category>NAV</category>
+<function_id>NS----</function_id>
+<remarks>TUG, HARBOR, MEDIUM  </remarks>
+</entry>
+<entry>
+<type>YTR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>FIRE BOAT</remarks>
+</entry>
+<entry>
+<type>YTS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRAINING CRAFT, SAIL</remarks>
+</entry>
+<entry>
+<type>YTT</type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TORPEDO TRIALS CRAFT</remarks>
+</entry>
+<entry>
+<type>YV    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>DRONE AIRCRAFT, CATAPULT CONTROL CRAFT</remarks>
+</entry>
+<entry>
+<type>YVS   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>SEAPLANE SERVICE CRAFT</remarks>
+</entry>
+<entry>
+<type>YW    </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>BARGE, WATER</remarks>
+</entry>
+<entry>
+<type>YXR   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>HULK OR RELIC</remarks>
+</entry>
+<entry>
+<type>YXT   </type>
+<category>NAV</category>
+<function_id>------</function_id>
+<remarks>TRAINING CRAFT</remarks>
+</entry>
+</VtShipTypeTable>

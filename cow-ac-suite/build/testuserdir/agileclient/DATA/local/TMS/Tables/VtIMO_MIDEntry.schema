@@ -1,0 +1,3 @@
+imo_mid:char@4
+flag:char@4
+name:char@64

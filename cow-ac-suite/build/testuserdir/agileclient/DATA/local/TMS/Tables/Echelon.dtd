@@ -1,0 +1,7 @@
+	<!ELEMENT Echelon (body)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (echelonAbbr, echelonType)>
+
+	<!ELEMENT echelonAbbr (#PCDATA)>
+	<!ELEMENT echelonType (#PCDATA)>

@@ -1,0 +1,28 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT MppCtrls (header, body)>
+	<!ELEMENT header (description?, remark*)>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (msl_correlation, msl_kinematic_correlation, fused_scope, unit_creation, unit_scope,
+			expire, time_to_expire, e2w_uid1, e2w_uid2, e2w_uid3, e2w_uid4, time_out, correlator_installed,
+			msl_radar_correlation, time_to_stale, msl_debris)*>
+
+	<!ELEMENT msl_correlation (#PCDATA)>
+	<!ELEMENT msl_kinematic_correlation (#PCDATA)>
+	<!ELEMENT fused_scope (#PCDATA)>
+	<!ELEMENT unit_creation (#PCDATA)>
+	<!ELEMENT unit_scope (#PCDATA)>
+	<!ELEMENT expire (#PCDATA)>
+	<!ELEMENT time_to_expire (#PCDATA)>
+	<!ELEMENT e2w_uid1 (#PCDATA)>
+	<!ELEMENT e2w_uid2 (#PCDATA)>
+	<!ELEMENT e2w_uid3 (#PCDATA)>
+	<!ELEMENT e2w_uid4 (#PCDATA)>
+	<!ELEMENT time_out (#PCDATA)>
+	<!ELEMENT correlator_installed (#PCDATA)>
+	<!ELEMENT msl_radar_correlation (#PCDATA)>
+	<!ELEMENT time_to_stale (#PCDATA)>
+	<!ELEMENT msl_debris (#PCDATA)>

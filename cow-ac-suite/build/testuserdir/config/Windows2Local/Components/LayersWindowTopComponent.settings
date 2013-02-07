@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <module name="com.ngc.worldwind/3" spec="1.4"/>
+    <instanceof class="com.ngc.worldwind.editor.PersistenceListener"/>
+    <instanceof class="com.ngc.worldwind.layers.LayersWindowTopComponent"/>
+    <instanceof class="java.awt.Component"/>
+    <instanceof class="java.awt.Container"/>
+    <instanceof class="java.awt.MenuContainer"/>
+    <instanceof class="java.awt.image.ImageObserver"/>
+    <instanceof class="java.beans.PropertyChangeListener"/>
+    <instanceof class="java.io.Externalizable"/>
+    <instanceof class="java.io.Serializable"/>
+    <instanceof class="java.lang.Object"/>
+    <instanceof class="java.util.EventListener"/>
+    <instanceof class="javax.accessibility.Accessible"/>
+    <instanceof class="javax.swing.JComponent"/>
+    <instanceof class="javax.swing.TransferHandler$HasGetTransferHandler"/>
+    <instanceof class="org.openide.explorer.ExplorerManager$Provider"/>
+    <instanceof class="org.openide.util.HelpCtx$Provider"/>
+    <instanceof class="org.openide.util.Lookup$Provider"/>
+    <instanceof class="org.openide.windows.TopComponent"/>
+    <serialdata class="com.ngc.worldwind.layers.LayersWindowTopComponent">
+        ACED000573720042636F6D2E6E67632E776F726C6477696E642E6C61796572732E4C617965727357696E646F77546F70436F
+        6D706F6E656E74245265736F6C7661626C6548656C70657200000000000000010200007870
+    </serialdata>
+</settings>

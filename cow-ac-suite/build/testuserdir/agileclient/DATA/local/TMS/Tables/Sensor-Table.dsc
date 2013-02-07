@@ -1,0 +1,19 @@
+Sensor-Table.xml
+Sensor Table
+5
+Sensor
+Remarks
+SMJR
+SMNR
+PC
+entry
+sensor
+remarks
+smjr
+smnr
+containment
+4
+num
+maxnum
+size
+version

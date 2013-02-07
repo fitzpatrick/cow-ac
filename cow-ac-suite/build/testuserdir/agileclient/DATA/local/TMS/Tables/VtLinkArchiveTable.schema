@@ -1,0 +1,4 @@
+force_defaults:LinkCtrlAttributeRec@1000
+Pifs:int@20
+Ntds:int@20
+Ctsx:int@20

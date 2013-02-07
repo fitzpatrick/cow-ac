@@ -1,0 +1,41 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT AenTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			name CDATA #REQUIRED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (mask, keytype1, key1, keytype2, key2, filter, correlate,
+				    type, alert, category, threat, (class | unit_class),
+					remarks, ci, vehicle)*>
+	<!ELEMENT vehicle (DryMass, FuelMass, SepcificImpulse, Thrust, Area, 
+				       DragCoefficient, FlowRate, BurnTime, BurnoutAltitude)>
+        
+	<!ELEMENT mask (#PCDATA)>
+	<!ELEMENT keytype1 (#PCDATA)>
+	<!ELEMENT key1 (#PCDATA)>
+	<!ELEMENT keytype2 (#PCDATA)>
+	<!ELEMENT key2 (#PCDATA)>
+	<!ELEMENT filter (#PCDATA)>
+	<!ELEMENT correlate (#PCDATA)>
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT alert (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT threat (#PCDATA)>
+	<!ELEMENT class (#PCDATA)>
+	<!ELEMENT unit_class (#PCDATA)>
+	<!ELEMENT ci (#PCDATA)>
+
+	<!ELEMENT DryMass (#PCDATA)>
+	<!ELEMENT FuelMass (#PCDATA)>
+	<!ELEMENT SpecificImpulse (#PCDATA)>
+	<!ELEMENT Thrust (#PCDATA)>
+	<!ELEMENT Area (#PCDATA)>
+	<!ELEMENT DragCoefficient (#PCDATA)>
+	<!ELEMENT FlowRate (#PCDATA)>
+	<!ELEMENT BurnTime (#PCDATA)>
+	<!ELEMENT BurnoutAltitue (#PCDATA)>

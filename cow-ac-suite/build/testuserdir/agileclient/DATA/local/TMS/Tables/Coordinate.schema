@@ -1,0 +1,4 @@
+ilat:int
+ilon:int
+coord_datetime:char@14
+pad3:char@2

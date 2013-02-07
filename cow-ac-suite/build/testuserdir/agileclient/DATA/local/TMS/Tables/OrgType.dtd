@@ -1,0 +1,7 @@
+	<!ELEMENT OrgType (body)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (orgAbbr, orgType)>
+
+	<!ELEMENT orgAbbr (#PCDATA)>
+	<!ELEMENT orgType (#PCDATA)>

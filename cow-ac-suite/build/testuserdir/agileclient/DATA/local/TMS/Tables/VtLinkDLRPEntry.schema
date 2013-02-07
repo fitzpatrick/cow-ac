@@ -1,0 +1,8 @@
+lat:double
+lng:double
+padx:int
+pady:int
+tkno:int
+padtgl:int
+tgl:int
+dont_edit:int

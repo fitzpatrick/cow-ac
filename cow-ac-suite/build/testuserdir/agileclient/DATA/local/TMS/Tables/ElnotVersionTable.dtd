@@ -1,0 +1,68 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT ElnotVersionTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (crystal_pri, cystal_count, def_pri_tolerance, def_scan_tolerance, 
+					 del_rf_tolerance, disregard_time, autopurge_time, autopurge_nrpts, 
+					 geo_density, alert_message, unk_equivalence, crystal_bb, 
+					 scan_processing, scan_range_bb, scan_adaptive_bb, rf_processing, 
+					 emitter, function_code, shortprefix, elnot, category, threat, spare, 
+					 pri_rng_table, scan_rng_table, elnot_tol_table)*>
+
+	<!ELEMENT pri_rng_table(pri_rnge_entry)*>
+	<!ELEMENT pri_rng_entry(low, high, factor)>
+	
+	<!ELEMENT scan_rng_table(scan_rnge_entry)*>
+	<!ELEMENT scan_rng_entry(low, high, factor)>
+	
+	<!ELEMENT elnot_tol_table(elnot_tol_entry)*>
+	<!ELEMENT scan_rng_entry(pri_low, pri_high, scan_low, scan_high, rf_low, rf_high)>
+        
+	<!ELEMENT crystal_pri (#PCDATA)>
+	<!ELEMENT crystal_count (#PCDATA)>
+	<!ELEMENT def_pri_tolerance (#PCDATA)>
+	<!ELEMENT def_scan_tolerance (#PCDATA)>
+	<!ELEMENT def_rf_tolerance (#PCDATA)>
+	<!ELEMENT disergard_time (#PCDATA)>
+	<!ELEMENT autopurge_time (#PCDATA)>
+	<!ELEMENT autopurge_nrpts (#PCDATA)>
+	<!ELEMENT geo_density (#PCDATA)>
+	<!ELEMENT alert_message (#PCDATA)>
+	<!ELEMENT unk_equivalence (#PCDATA)>
+	<!ELEMENT other_equivalence (#PCDATA)>
+	<!ELEMENT crystal_bb (#PCDATA)>
+	<!ELEMENT pri_range_bb (#PCDATA)>
+	<!ELEMENT pri_adaptive_bb (#PCDATA)>
+	<!ELEMENT scan_adaptive_bb (#PCDATA)>
+	<!ELEMENT rf_processing (#PCDATA)>
+	<!ELEMENT emitter (#PCDATA)>
+	<!ELEMENT function_code (#PCDATA)>
+	<!ELEMENT shortprefix (#PCDATA)>
+	<!ELEMENT elnot (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT threat (#PCDATA)>
+	<!ELEMENT land_mobile (#PCDATA)>
+	<!ELEMENT pri_mod_tol (#PCDATA)>
+	<!ELEMENT spare (#PCDATA)>
+
+	<!ELEMENT low (#PCDATA)>
+	<!ELEMENT high (#PCDATA)>
+	<!ELEMENT factor (#PCDATA)>
+
+	<!ELEMENT pri_low (#PCDATA)>
+	<!ELEMENT pri_high (#PCDATA)>
+	<!ELEMENT scan_low (#PCDATA)>
+	<!ELEMENT scan_high (#PCDATA)>
+	<!ELEMENT rf_low (#PCDATA)>
+	<!ELEMENT rf_high (#PCDATA)>

@@ -1,0 +1,7 @@
+trajectory:double
+euclid:double
+velocity:double
+course:double
+pos_vel_1:double
+pos_vel_2:double
+pos_vel_3:double

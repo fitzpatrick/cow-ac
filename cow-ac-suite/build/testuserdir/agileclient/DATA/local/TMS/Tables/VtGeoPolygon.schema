@@ -1,0 +1,4 @@
+lat:double@32
+lng:double@32
+npts:int
+pad:int:omit

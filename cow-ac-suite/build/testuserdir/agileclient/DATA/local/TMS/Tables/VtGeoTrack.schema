@@ -1,0 +1,5 @@
+tkno:int
+serial:char@20
+trange:float
+tname:char@32
+pad:int:omit

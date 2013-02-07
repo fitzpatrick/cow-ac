@@ -1,0 +1,86 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT TdbmCtrls (header, body)>
+	<!ELEMENT header (description?, remark*)>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (InitFotc, threshold, lowerbound, autonewtrack, autoupdate,
+				    automerge, geo_test, future_rpts, fotc_mode, fotc_sid,
+					pu_bcst_sid, fotc_ctrl_cmd, fotc_bcst_cmd, twcs_mode,
+					use_stn, scores, speeds, ave_speeds, atol, Redundant_Interval, 
+					Elint_Correlation, Elnot_Correction, KOP_Equivalence, 
+					JN_Equivalence, L0000_Equivalence, Other_Equivalence, CostOfAmbiguity, 
+					CostOfFragmentation, CostOfMissedInitiation, CostOfMissedUpdate, 
+					Elint_Correlation_Method, Elint_Estimation_Method, Elnot_Processing, 
+					Elint_Ambiguity_Delete, Elint_Ambiguity_Timelate,
+                              CostOfNewTrackGivenUpdate, CostOfUpdateGivenNewTrack, 
+					AdditiveUpdateCost, iabbck, nabbRpts, useSei, SeiUmopThreshold, SeiPriTolerance)*>
+
+    <!ELEMENT scores (rtn, name, shipclass, trademark, type, category, hull, flag, 
+					 sconum, pif, threat, callsign)>
+
+    <!ELEMENT speeds (nav, mer, fsh, air, sub, lnd, stm, unk)>
+	<!ELEMENT ave_speeds (nav, mer, fsh, air, sub, lnd, stm, unk)>
+	<!ELEMENT atol (nav, mer, fsh, air, sub, lnd, stm, unk)>
+
+	<!ELEMENT InitFotc (#PCDATA)>
+	<!ELEMENT threshold (#PCDATA)>
+	<!ELEMENT lowerbound (#PCDATA)>
+	<!ELEMENT autonewtrack (#PCDATA)>
+	<!ELEMENT autoupdate (#PCDATA)>
+	<!ELEMENT automerge (#PCDATA)>
+	<!ELEMENT geo_test (#PCDATA)>
+	<!ELEMENT future_rpts (#PCDATA)>
+	<!ELEMENT fotc_mode (#PCDATA)>
+	<!ELEMENT fotc_sid (#PCDATA)>
+	<!ELEMENT pu_bcst_sid (#PCDATA)>
+	<!ELEMENT fotc_ctrl_cmd (#PCDATA)>
+	<!ELEMENT fotc_bcst_cmd (#PCDATA)>
+	<!ELEMENT twcs_mode (#PCDATA)>
+	<!ELEMENT use_stn (#PCDATA)>
+	<!ELEMENT Redundant_Interval (#PCDATA)>
+	<!ELEMENT Elint_Correlation (#PCDATA)>
+	<!ELEMENT Elnot_Correction (#PCDATA)>
+	<!ELEMENT KOP_Equivalence (#PCDATA)>
+	<!ELEMENT JN_Equivalence (#PCDATA)>
+	<!ELEMENT L0000_Equivalence (#PCDATA)>
+	<!ELEMENT Other_Equivalence (#PCDATA)>
+	<!ELEMENT CostOfAmbiguity (#PCDATA)>
+	<!ELEMENT CostOfFragmentation (#PCDATA)>
+	<!ELEMENT CostOfMissedInitiation (#PCDATA)>
+	<!ELEMENT CostOfMissedUpdate (#PCDATA)>
+	<!ELEMENT Elint_Correlation_Method (#PCDATA)>
+	<!ELEMENT Elint_Estimation_Method (#PCDATA)>
+	<!ELEMENT Elnot_Processing (#PCDATA)>
+      <!ELEMENT Elint_Ambiguity_Delete (#PCDATA)>
+      <!ELEMENT Elint_Ambiguity_Timelate (#PCDATA)>
+	<!ELEMENT CostOfNewTrackGivenUpdate (#PCDATA)>
+	<!ELEMENT CostOfUpdateGivenNewTrack (#PCDATA)>
+	<!ELEMENT AdditiveUpdateCost (#PCDATA)>
+	<!ELEMENT useSei (#PCDATA)>
+	<!ELEMENT SeiUmopThreshold (#PCDATA)>
+	<!ELEMENT SeiPriTolerance (#PCDATA)>
+
+	<!ELEMENT rtn (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT shipclass (#PCDATA)>
+	<!ELEMENT trademark (#PCDATA)>
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT hull (#PCDATA)>
+	<!ELEMENT flag (#PCDATA)>
+	<!ELEMENT sconum (#PCDATA)>
+	<!ELEMENT pif (#PCDATA)>
+	<!ELEMENT threat (#PCDATA)>
+	<!ELEMENT callsign (#PCDATA)>
+
+	<!ELEMENT nav (#PCDATA)>
+	<!ELEMENT mer (#PCDATA)>
+	<!ELEMENT fsh (#PCDATA)>
+	<!ELEMENT air (#PCDATA)>
+	<!ELEMENT sub (#PCDATA)>
+	<!ELEMENT lnd (#PCDATA)>
+	<!ELEMENT stm (#PCDATA)>
+	<!ELEMENT unk (#PCDATA)>

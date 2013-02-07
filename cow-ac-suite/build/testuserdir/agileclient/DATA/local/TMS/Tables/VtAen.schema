@@ -1,0 +1,17 @@
+ma:short
+kt1:byte
+aen:char@6
+kt2:byte
+k2:char@6
+fi:byte
+co:byte
+na:char@15
+ty:char@7
+al:char@4
+ca:char@4
+th:char@4
+uc:char@12
+re:char@56
+ci:char@3
+pad:char:omit
+ve:VtVehicle

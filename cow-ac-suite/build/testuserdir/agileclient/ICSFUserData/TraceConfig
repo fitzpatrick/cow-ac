@@ -1,0 +1,25 @@
+# The preceding character is the comment char.
+# Trace Levels include NORMAL, CLASS_PREFIX, CLASS_PACKAGE, CLASS_STACK and OFF
+Trace.enabled OFF
+Trace.debug.level: OFF
+# Trace.out and Trace.err can be directed a file or not:
+#   If there is a filename present output is directed to it
+#   otherwise it is directed to the application term window.
+# Examples: "Trace.out.file: /tmp/Trace.out.txt" (UNIX)
+#           "Trace.err.file: c:\\tmp\\Trace.err.txt" (Windows) 
+# Remember to delimit backslash on Windows (\\)
+#Trace.out.file /tmp/Trace.out.txt
+#Trace.err.file c:\\tmp\\Trace.err.txt
+#   Default File size = 1 Mbyte: Modify filesize by changing value.
+#Trace.file.length 1000000
+# If CLASS_PACKAGE is selected, a package path is required.
+# Enter the package path: e.g. 'disa.ifl.ui.printer' or 'navy.cce.routes'.
+# All classes in that package will be traced.
+#Trace.package: disa.afw.chart
+# The classes we would like to see output from
+# should be listed as class0, class1, class2 ... classn.  Also, 
+# ALL_CLASSES can be used, however, an excessive amount of info may be 
+# generated depending on the system being debugged.
+#class0: ALL_CLASSES
+#class0: disa.afw.chart.AfwChartWindow
+#class1: disa.ifl.ui.IflMenuBuilder

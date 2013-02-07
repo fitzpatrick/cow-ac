@@ -1,0 +1,4 @@
+num:int
+maxnum:int
+version:int
+entry:TMSMissileProducerEntry@100

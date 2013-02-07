@@ -1,0 +1,21 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT IADSTemplateTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			name CDATA #REQUIRED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (num, max, (entry)*)>
+        
+	<!ELEMENT num (#PCDATA)>
+	<!ELEMENT max (#PCDATA)>
+	<!ELEMENT entry (elnot, system_name, threat_range, time_late, comments)>
+	<!ELEMENT elnot (#PCDATA)>
+	<!ELEMENT system_name (#PCDATA)>
+	<!ELEMENT threat_range (#PCDATA)>
+	<!ELEMENT time_late (#PCDATA)>
+	<!ELEMENT comments (#PCDATA)>

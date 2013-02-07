@@ -1,0 +1,7 @@
+corr_idx:char@4
+pri_abs:float
+scan_abs:float
+rf_abs:float
+pri_rel:float
+scan_rel:float
+rf_rel:float

@@ -1,0 +1,4 @@
+sid:int
+fotc:int
+command:char@15
+xref:char@5

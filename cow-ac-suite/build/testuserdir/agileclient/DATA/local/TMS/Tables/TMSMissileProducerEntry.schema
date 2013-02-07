@@ -1,0 +1,8 @@
+msl_prod_source_name:char@32
+msl_prod_type:char@4
+ibss_min_trk_block:int
+ibss_max_trk_block:int
+ibsi_src_id:char@16
+link_ju:char@8
+link_min_trk_block:char@8
+link_max_trk_block:char@8

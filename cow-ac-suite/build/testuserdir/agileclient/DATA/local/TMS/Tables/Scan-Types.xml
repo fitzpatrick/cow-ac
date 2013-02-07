@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VtScanTypeTable>
+<num>24</num>
+<maxnum>100</maxnum>
+<size>4816</size>
+<version>0</version>
+<entry>
+<radcode>A</radcode>
+<radbcode>CIRC</radbcode>
+<remarks>CIRCULAR OR ROTATING</remarks>
+</entry>
+<entry>
+<radcode>B</radcode>
+<radbcode>HBI</radbcode>
+<remarks>HORIZONTAL SECTOR, BI-DIRECTIONAL</remarks>
+</entry>
+<entry>
+<radcode>C</radcode>
+<radbcode>VBI</radbcode>
+<remarks>VERTICAL SECTOR, BI-DIRECTIONAL</remarks>
+</entry>
+<entry>
+<radcode>D</radcode>
+<radbcode>STDY</radbcode>
+<remarks>STEADY</remarks>
+</entry>
+<entry>
+<radcode>E</radcode>
+<radbcode>IRR</radbcode>
+<remarks>IRREGULAR, UNSTEADY, OR MANUAL</remarks>
+</entry>
+<entry>
+<radcode>F</radcode>
+<radbcode>CONC</radbcode>
+<remarks>CONICAL</remarks>
+</entry>
+<entry>
+<radcode>G</radcode>
+<radbcode>LOBE</radbcode>
+<remarks>LOBE SWITCHING</remarks>
+</entry>
+<entry>
+<radcode>H</radcode>
+<radbcode>TRCK</radbcode>
+<remarks>TRACKING (OTHER THAN CONC. OR LOBE.)</remarks>
+</entry>
+<entry>
+<radcode>I</radcode>
+<radbcode>PCON</radbcode>
+<remarks>PALMER RASTER AND CONICAL</remarks>
+</entry>
+<entry>
+<radcode>J</radcode>
+<radbcode>RAST</radbcode>
+<remarks>RASTER</remarks>
+</entry>
+<entry>
+<radcode>K</radcode>
+<radbcode>SPIR</radbcode>
+<remarks>SPIRAL</remarks>
+</entry>
+<entry>
+<radcode>L</radcode>
+<radbcode>HELI</radbcode>
+<remarks>HELICAL</remarks>
+</entry>
+<entry>
+<radcode>M</radcode>
+<radbcode>CNOD</radbcode>
+<remarks>CIRCULAR AND NODDING</remarks>
+</entry>
+<entry>
+<radcode>N</radcode>
+<radbcode>CCON</radbcode>
+<remarks>CIRCULAR AND CONICAL</remarks>
+</entry>
+<entry>
+<radcode>O</radcode>
+<radbcode>SCON</radbcode>
+<remarks>SECTOR AND CONICAL</remarks>
+</entry>
+<entry>
+<radcode>P</radcode>
+<radbcode>SPCN</radbcode>
+<remarks>SPIRAL AND CONICAL</remarks>
+</entry>
+<entry>
+<radcode>Q</radcode>
+<radbcode>HLCN</radbcode>
+<remarks>HELICAL AND CONICAL</remarks>
+</entry>
+<entry>
+<radcode>R</radcode>
+<radbcode>OTR</radbcode>
+<remarks>OTHER COMBINATIONS</remarks>
+</entry>
+<entry>
+<radcode>S</radcode>
+<radbcode>VUNI</radbcode>
+<remarks>VERTICAL SECTOR, UNI-DIRECTIONAL</remarks>
+</entry>
+<entry>
+<radcode>T</radcode>
+<radbcode>HUNI</radbcode>
+<remarks>HORIZONTAL SECTOR, UNI-DIRECTIONAL</remarks>
+</entry>
+<entry>
+<radcode>U</radcode>
+<radbcode>UNI</radbcode>
+<remarks>UNI-DIRECTIONAL (PLANE UNDETERMINED)</remarks>
+</entry>
+<entry>
+<radcode>V</radcode>
+<radbcode>BI</radbcode>
+<remarks>BI-DIRECTIONAL (PLANE UNDETERMINED)</remarks>
+</entry>
+<entry>
+<radcode>W</radcode>
+<radbcode>WDIR</radbcode>
+<remarks>WITH DIRECTOR</remarks>
+</entry>
+<entry>
+<radcode>Z</radcode>
+<radbcode>UNK</radbcode>
+<remarks>UNDETERMINED</remarks>
+</entry>
+</VtScanTypeTable>

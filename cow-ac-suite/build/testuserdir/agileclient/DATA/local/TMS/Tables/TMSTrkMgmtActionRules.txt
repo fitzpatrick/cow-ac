@@ -1,0 +1,42 @@
+################################################################################
+# This file allows for stricter control on track management actions, DELETE,
+# MERGE, ASSOCIATE, and DISASSOCIATE.  Currently, if an action's label
+# (e.g. SECRET) dominates the maximum label of data received on a track or
+# tracks, the action is allowed.  For example, if a DELETE action is received at
+# label SECRET for a track with the maximum label of data CONFIDENTIAL, the
+# action is performed.  For actions, MERGE, ASSOCIATE, and DISASSOCIATE, the
+# action label must dominate the maximum label of data for both tracks specified
+# in the action.
+#
+# It should be noted that the same track could exist in TMS databases at
+# different labels and the maxiumum label of the data for the track in those
+# databases could be different.
+#
+# The following format is used to specify stricter controls on a per label basis
+# for track management actions:
+#
+# ACTION:LABEL=RULE:LABEL=RULE:
+# ...
+#
+# Valid ACTION values are DELETE, MERGE, ASSOC, and DISASSOC and must only be
+# specified once if at all.
+#
+# Valid rules are ONLY or BELOW.  ONLY means the action will take place only in
+# the TMS Db of the LABEL the action is received.  BELOW mean the action will
+# take place only in the TMS Dbs at the LABEL of the action and below.
+#
+# Valid LABEL values are defined in the label encodings file
+# (/etc/security/tsol/label_encodings).
+#
+# Example
+#
+# DELETE:SECRET=BELOW:CONFIDENTIAL=ONLY:
+# MERGE:TOP SECRET=ONLY:
+# ASSOC:
+# DISASSOC:
+#
+################################################################################
+DELETE:
+MERGE:
+ASSOC:
+DISASSOC:

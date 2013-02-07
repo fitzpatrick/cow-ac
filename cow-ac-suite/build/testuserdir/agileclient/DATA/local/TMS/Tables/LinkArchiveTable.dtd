@@ -1,0 +1,17 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT LinkArchiveTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (force_defaults, Pifs, Ntds, Ctsx)*>
+	<!ELEMENT force_defaults (toggle, gap_time)>
+
+	<!ELEMENT Pifs (#PCDATA)>
+	<!ELEMENT Ntds (#PCDATA)>
+	<!ELEMENT Ctsx (#PCDATA)>
+
+	<!ELEMENT toggle (#PCDATA)>
+	<!ELEMENT gap_time (#PCDATA)>

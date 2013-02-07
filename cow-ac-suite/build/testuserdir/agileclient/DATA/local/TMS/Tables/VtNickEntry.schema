@@ -1,0 +1,8 @@
+nlow:short
+nhigh:short
+fcode:short
+nickname:char@11
+bytealign1:char@3:omit
+starttime:int
+stoptime:int
+bytealign2:char@8:omit

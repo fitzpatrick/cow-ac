@@ -1,0 +1,24 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT ElintSigTable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum	CDATA #REQUIRED
+			num		CDATA #IMPLIED
+			size	CDATA #IMPLIED
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (entry)*>
+	<!ELEMENT entry (corr_idx, pri_abs, scan_abs, rf_abs, pri_rel, scan_rel, rf_rel)>
+
+	<!ELEMENT corr_idx (#PCDATA)>
+	<!ELEMENT pri_abs (#PCDATA)>
+	<!ELEMENT scan_abs (#PCDATA)>
+	<!ELEMENT rf_abs (#PCDATA)>
+	<!ELEMENT pri_rel (#PCDATA)>
+	<!ELEMENT scan_rel (#PCDATA)>
+	<!ELEMENT rf_rel (#PCDATA)>

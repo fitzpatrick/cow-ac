@@ -1,0 +1,8 @@
+nav:int
+mer:int
+fsh:int
+air:int
+sub:int
+lnd:int
+stm:int
+unk:int

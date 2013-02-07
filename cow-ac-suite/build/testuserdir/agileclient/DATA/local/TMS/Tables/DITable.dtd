@@ -1,0 +1,24 @@
+<?xml encoding="US-ASCII"?>
+
+	<!ELEMENT DITable (header, body)>
+	<!ELEMENT header (description?, remark*)>
+	<!ATTLIST header
+			version CDATA #REQUIRED
+			maxnum  CDATA #REQUIRED
+			num     CDATA #IMPLIED
+			size	CDATA #IMPLIED
+
+	>
+
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT remark (#PCDATA)>
+
+	<!ELEMENT body (bound, entry, index)*>
+	<!ELEMENT bound (low, high)>
+	<!ELEMENT entry (low, high, fcode, nickname)>
+	<!ELEMENT index (high, high)>
+
+	<!ELEMENT low (#PCDATA)>
+	<!ELEMENT high (#PCDATA)>
+	<!ELEMENT fcode (#PCDATA)>
+	<!ELEMENT nickname (#PCDATA)>

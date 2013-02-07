@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.wiredwigets.cow.ac.libs">
+    <module_version install_time="1359655693447" last="true" origin="installer" specification_version="0.5.2">
+        <file crc="3823203383" name="config/Modules/org-wiredwigets-cow-ac-libs.xml"/>
+        <file crc="1046939494" name="modules/ext/jms-1.1.jar"/>
+        <file crc="4230116339" name="modules/ext/mina-core-1.0.1.jar"/>
+        <file crc="542115766" name="modules/ext/mina-filter-ssl-1.0.1.jar"/>
+        <file crc="522694201" name="modules/ext/qpid-client-0.12.jar"/>
+        <file crc="2009985144" name="modules/ext/qpid-common-0.12.jar"/>
+        <file crc="446027275" name="modules/ext/slf4j-api-1.6.1.jar"/>
+        <file crc="4108451782" name="modules/ext/spring-asm-3.1.0.RELEASE.jar"/>
+        <file crc="3862187291" name="modules/ext/spring-beans-3.1.0.RELEASE.jar"/>
+        <file crc="2709999296" name="modules/ext/spring-context-3.1.0.RELEASE.jar"/>
+        <file crc="1371771944" name="modules/ext/spring-core-3.1.0.RELEASE.jar"/>
+        <file crc="1986259285" name="modules/ext/spring-expression-3.1.0.RELEASE.jar"/>
+        <file crc="681955375" name="modules/ext/spring-oxm-3.1.0.RELEASE.jar"/>
+        <file crc="576159965" name="modules/ext/spring-web-3.1.0.RELEASE.jar"/>
+        <file crc="3421188039" name="modules/org-wiredwigets-cow-ac-libs.jar"/>
+    </module_version>
+</module>
